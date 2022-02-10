@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Size of input form text inside the contact editor -->
+    <!--Unisoc add for bug 1288945 :Set the display the largest , font is the largest, Phonetic middle name display is not complete-->
+    <dimen name="editor_form_text_size">16sp</dimen>
+</resources>

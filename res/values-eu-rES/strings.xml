@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applicationLabel">Kontaktuak</string>
+<string name="contactsList">Kontaktuak</string>
+<string name="shortcut_add_contact">Gehitu kontaktua</string>
+<string name="shortcutContact">Kontaktua</string>
+<string name="shortcutDialContact">Zuzeneko markatzea</string>
+<string name="shortcutMessageContact">Zuzendu mezua</string>
+<string name="shortcutActivityTitle">"Aukeratu kontaktua"</string>
+<string name="contactInsertOrEditActivityTitle">Gehitu kontaktuari</string>
+<string name="contactPickerActivityTitle">Aukeratu kontaktu bat</string>
+<string name="groupMemberPickerActivityTitle">hautatu</string>
+<string name="header_entry_contact_list_adapter_header_title">Sortu kontaktu berria</string>
+<string name="searchHint">Bilatu kontaktuak</string>
+<string name="menu_addStar">Gehitu gogokoetara</string>
+<string name="menu_removeStar">Kendu gogokoetatik</string>
+<string name="description_action_menu_remove_star">Gogokoetatik ezabatuta</string>
+<string name="description_action_menu_add_star">Gogokoetara gehitua</string>
+<string name="menu_editContact">Editatu</string>
+<string name="menu_deleteContact">Ezabatu</string>
+<string name="menu_change_photo">"Aldatu argazkia"</string>
+<string name="menu_create_contact_shortcut">"Sortu lastermarka"</string>
+<string name="menu_splitAggregate">"Banandu"</string>
+<string name="menu_editGroup">"Ezabatu kontaktuak"</string>
+<string name="menu_renameGroup">"Izendatu berriro etiketa"</string>
+<string name="menu_deleteGroup">"Ezabatu etiketa"</string>
+<string name="menu_addToGroup">Gehitu kontaktua</string>
+<string name="menu_selectForGroup">"Hautatu kontaktuak"</string>
+<string name="menu_addContactsToGroup">Gehitu Kontaktuak</string>
+<string name="menu_removeFromGroup">"Kendu etiketatik"</string>
+<string name="menu_new_group_action_bar">"Sortu etiketa"</string>
+<string name="splitConfirmation">"Kontaktuaren loturak desegin eta hainbat kontaktutan banandu nahi duzu?"</string>
+<string name="splitConfirmation_positive_button">"Banandu"</string>
+<string name="splitConfirmationWithPendingChanges">"Egin dituzun aldaketak gorde, eta hautatutako kontaktua hainbat kontaktutan banandu nahi duzu?"</string>
+<string name="splitConfirmationWithPendingChanges_positive_button">"Gorde eta banandu"</string>
+<string name="joinConfirmation">"Egin dituzun aldaketak gorde, eta hautatutako kontaktuarekin lotu nahi duzu?"</string>
+<string name="joinConfirmation_positive_button">"Gorde eta lotu"</string>
+<string name="contacts_linking_progress_bar">"Estekatzen"</string>
+<string name="contacts_unlinking_progress_bar">"Esteka kentzen"</string>
+<string name="menu_joinAggregate">esteka</string>
+<string name="menu_linkedContacts">"Ikusi lotutako kontaktuak"</string>
+<string name="menu_save">Gorde</string>
+<string name="titleJoinContactDataWith">"LOTU KONTAKTUAK"</string>
+<string name="blurbJoinContactDataWith">"Aukeratu <xliff:g id="name">%s</xliff:g> erabiltzailearekin lotu nahi duzun kontaktua:"</string>
+<string name="separatorJoinAggregateSuggestions">Iradokitako kontaktuak</string>
+<string name="separatorJoinAggregateAll">Kontaktu guztiak</string>
+<string name="contactsJoinedNamedMessage">"<xliff:g id="name">%s</xliff:g> lotuta"</string>
+<string name="contactsJoinedMessage">"Estekatu dira kontaktuak"</string>
+<string name="contacts_deleted_one_named_toast">"<xliff:g id="name">%1$s</xliff:g> ezabatuta"</string>
+<string name="contacts_deleted_two_named_toast">"<xliff:g id="name">%1$s</xliff:g> eta <xliff:g id="name">%2$s</xliff:g> ezabatu dira"</string>
+<string name="contacts_deleted_many_named_toast">"<xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>\u2026 ezabatu dira"</string>
+<plurals name="contacts_deleted_toast">
+<item quantity="one">"Kontaktua ezabatuta"</item>
+<item quantity="other">"Kontaktuak ezabatu dira"</item>
+</plurals>
+<plurals name="contacts_count">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> kontaktu"</item>
+<item quantity="other"><xliff:g id="count">%d</xliff:g> contaktuak</item>
+</plurals>
+<plurals name="contacts_count_with_account">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> kontaktu · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> kontaktu · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<plurals name="contacts_count_match">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> kontaktu datoz bat"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> kontaktu datoz bat"</item>
+</plurals>
+<plurals name="contacts_count_with_account_match">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> kontaktu datoz bat · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> kontaktu datoz bat · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<string name="title_from_google">"Google-etik"</string>
+<string name="title_from_custom">"Pertsonalizatuetatik"</string>
+<string name="title_from_other_accounts">"<xliff:g id="account">%s</xliff:g> kontutik"</string>
+<string name="menu_set_ring_tone">Ezarri dei tonua</string>
+<string name="menu_redirect_calls_to_vm">"Bideratu ahots-postara"</string>
+<string name="menu_unredirect_calls_to_vm">"Ez bideratu ahots-postara"</string>
+<string name="readOnlyContactWarning">"Irakurtzeko soilik da kontaktua. Ezin da ezabatu, baina ezkutatu dezakezu."</string>
+<string name="readOnlyContactWarning_positive_button">"Ezkutatu kontaktua"</string>
+<string name="readOnlyContactDeleteConfirmation">"Kontaktu honen irakurtzeko soilik diren kontuak ezkutatuko dira, ezabatu gabe."</string>
+<string name="single_delete_confirmation">"Kontaktua ezabatu nahi duzu?"</string>
+<string name="batch_delete_confirmation">"Hautatutako kontaktuak ezabatu nahi dituzu?"</string>
+<string name="batch_delete_read_only_contact_confirmation">"Irakurtzeko soilik diren kontuetako kontaktuak ezin dira ezabatu, baina ezkutatu egin daitezke."</string>
+<string name="batch_delete_multiple_accounts_confirmation">"Ezabatzeko hautatu dituzun kontaktuek hainbat kontutako informazioa dute. Irakurtzeko soilik diren kontuetako informazioa kontaktuen zerrendatik ezkutatuko da, baina ez da ezabatuko."</string>
+<string name="multipleContactDeleteConfirmation">"Kontaktua ezabatzen baduzu, hainbat kontutatik ezabatuko da informazioa."</string>
+<string name="deleteConfirmation">"Kontaktua ezabatu nahi duzu?"</string>
+<string name="deleteConfirmation_positive_button">Ezabatu</string>
+<string name="invalidContactMessage">Kontaktua ez dago.</string>
+<string name="createContactShortcutSuccessful_NoName">"Hasierako pantailan gehitu da kontaktua."</string>
+<string name="createContactShortcutSuccessful">"<xliff:g id="name">%s</xliff:g> gehitu da hasierako pantailan."</string>
+<string name="photoPickerNotFoundText">"Ez dago irudi erabilgarririk gailuan."</string>
+<string name="attach_photo_dialog_title">Kontaktuaren argazkia</string>
+<string name="customLabelPickerTitle">Etiketa izen pertsonalizatua</string>
+<string name="removePhoto">Kendu argazkia</string>
+<string name="noContacts">"Zure kontaktuen zerrenda hutsik dago"</string>
+<string name="emptyGroup">"Ez dago etiketa hau duen kontakturik"</string>
+<string name="emptyAccount">"Ez dago kontakturik kontu honetan"</string>
+<string name="emptyMainList">"Zure kontaktuen zerrenda hutsik dago"</string>
+<string name="contactSavedNamedToast">"<xliff:g id="display_name">%s</xliff:g> gordeta"</string>
+<string name="contactSavedToast">"Gorde da kontaktua"</string>
+<string name="contactUnlinkedToast">"Kendu da kontaktuen lotura"</string>
+<string name="contactSavedErrorToast">"Ezin izan dira gorde kontaktuaren aldaketak"</string>
+<string name="contactUnlinkErrorToast">"Ezin izan da deslotu kontaktua"</string>
+<string name="contactJoinErrorToast">"Ezin izan da lotu kontaktua"</string>
+<string name="contactGenericErrorToast">"Errorea kontaktua gordetzean"</string>
+<string name="contactPhotoSavedErrorToast">"Ezin izan dira gorde kontaktuaren argazkiaren aldaketak"</string>
+<string name="groupLoadErrorToast">"Ezin izan da kargatu etiketa"</string>
+<string name="groupDeletedToast">"Etiketa ezabatu da"</string>
+<string name="groupCreatedToast">"Etiketa sortu da"</string>
+<string name="groupCreateFailedToast">"Ezin da sortu etiketa"</string>
+<string name="groupUpdatedToast">"Etiketa eguneratu da"</string>
+<string name="groupMembersRemovedToast">"Kendu etiketatik"</string>
+<string name="groupMembersAddedToast">"Etiketari gehitu zaio"</string>
+<string name="groupSavedErrorToast">"Ezin izan dira gorde etiketaren aldaketak"</string>
+<string name="groupExistsErrorMessage">"Etiketa hori dagoeneko existitzen da"</string>
+<string name="groupSomeContactsNoEmailsToast">"Kontaktu batzuek ez dute helbide elektronikorik."</string>
+<string name="groupSomeContactsNoPhonesToast">"Kontaktu batzuek ez dute telefono-zenbakirik."</string>
+<string name="menu_sendEmailOption">Bidali posta-elektronikoa</string>
+<string name="menu_sendMessageOption">Bidali mezua</string>
+<string name="pickerSelectContactsActivityTitle">Aukeratu kontaktuak</string>
+<string name="send_to_selection">Bidali</string>
+<string name="listFoundAllContactsZero">Kontakturik ez</string>
+<string name="add_contact_dlg_message_fmt">Gehitu \"<xliff:g id="email">%s</xliff:g>\"kontaktuetara</string>
+<string name="search_settings_description">Zure kontaktuen izenak</string>
+<string name="quickcontact_transparent_view_description">Egin klik aurreko pantailara bueltatzeko</string>
+<string name="quickcontact_add_phone_number">Gehitu telefono zenbakia</string>
+<string name="quickcontact_add_email">Gehitu posta elektronikoa</string>
+<string name="missing_app">Ez da  ekintza hau burutzeko aplikaziorik aurkitu.</string>
+<string name="menu_share">Partekatu</string>
+<string name="menu_add_contact">Gehitu kontaktuetara</string>
+<string name="menu_add_contacts">Gehitu</string>
+<plurals name="title_share_via">
+<item quantity="one">Nola partekatu kontaktua:</item>
+<item quantity="other">"Partekatu kontaktuak honela:"</item>
+</plurals>
+<string name="dialog_new_group_account">Aukeratu kontua</string>
+<string name="group_name_dialog_insert_title">"Sortu etiketa"</string>
+<string name="group_name_dialog_update_title">"Izendatu berriro etiketa"</string>
+<string name="group_name_dialog_hint">"Etiketa izena"</string>
+<string name="label_name_dialog_hint">"Etiketa izena"</string>
+<string name="audio_chat">Ahots txatak</string>
+<string name="video_chat">Bideo txata</string>
+<string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> kontaktua</string>
+<string name="google_account_type_format">"<xliff:g id="source" example="Google">%1$s</xliff:g> kontua"</string>
+<string name="take_photo">Atera argazkia</string>
+<string name="take_new_photo">Argazki berria atera</string>
+<string name="pick_photo">Aukeratu argazkia</string>
+<string name="pick_new_photo">Hautatu argzaki berria</string>
+<string name="search_results_searching">Bilatzen…</string>
+<string name="event_edit_field_hint_text">Data</string>
+<string name="group_edit_field_hint_text">"Etiketa"</string>
+<string name="cancel_button_content_description">Utzi</string>
+<string name="back_arrow_content_description">Atzera</string>
+<string name="action_menu_back_from_edit_select">Itxi</string>
+<string name="aggregation_suggestion_edit_dialog_message">Aldatu editatzera hautatuko kontaktua? Dagoeneko sartu duzun informazioa kopiatuko da.</string>
+<string name="contact_directory_description">Direktorioa <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g></string>
+<string name="activity_title_settings">"Ezarpenak"</string>
+<string name="menu_settings">"Ezarpenak"</string>
+<string name="menu_help">"Laguntza eta iritziak"</string>
+<string name="organization_company_and_title"><xliff:g id="company" example="Technical Program Manager">%2$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%1$s</xliff:g></string>
+<string name="non_phone_caption">Telefono zenbakia</string>
+<string name="non_phone_add_to_contacts">Gehitu kontaktuetara</string>
+<string name="non_phone_close">Itxi</string>
+<string name="date_year_toggle">"Sartu urtea"</string>
+<string name="contacts_unavailable_add_account">Gehitu kontua</string>
+<string name="contacts_unavailable_import_contacts">Inportatu</string>
+<string name="create_group_item_label">"Sortu berria&#8230;"</string>
+<string name="delete_group_dialog_message">"<xliff:g id="group_label" example="Friends">%1$s</xliff:g> etiketa ezabatu nahi duzu? (kontaktuak ez dira ezabatuko.) ""</string>
+<string name="toast_join_with_empty_contact">"Idatzi kontaktuaren izena beste batekin lotu baino lehen. ""</string>
+<string name="copy_text">Kopiatu arbelean</string>
+<string name="set_default">Ezarri lehenespenak</string>
+<string name="clear_default">Modu lehenetsian garbitu</string>
+<string name="toast_text_copied">Testua kopiatuta</string>
+<string name="cancel_confirmation_dialog_message">Aldaketak baztertu?</string>
+<string name="cancel_confirmation_dialog_cancel_editing_button">Baztertu</string>
+<string name="cancel_confirmation_dialog_keep_editing_button">Utzi</string>
+<string name="leave_customize_confirmation_dialog_message">"Baztertu pertsonalizazioak?"</string>
+<string name="enter_contact_name">Bilatu kontaktuak</string>
+<string name="title_edit_group">"Ezabatu kontaktuak"</string>
+<string name="local_profile_title">Nire profil lokala</string>
+<string name="external_profile_title">Nire <xliff:g id="external_source">%1$s</xliff:g> profila</string>
+<string name="contact_editor_prompt_zero_accounts">Zure kontaktu berriaren babeskopia ez da egingo. Gehitu kontaktuen babeskopia linean egiten duen kontu bat?</string>
+<string name="contact_editor_prompt_one_account">"Kontaktu berriak gordeko dira <xliff:g id="account_name">%1$s</xliff:g> kontuan."</string>
+<string name="contact_editor_prompt_multiple_accounts">"Aukeratu kontaktu berriak gordetzeko erabili nahi duzun kontua:"</string>
+<string name="contact_editor_title_new_contact">Sortu kontaktu berria</string>
+<string name="contact_editor_title_existing_contact">Editatu kontaktua</string>
+<string name="contact_editor_title_read_only_contact">"Ikusteko soilik"</string>
+<string name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Aukeratu zein kontaktu editatu"</string>
+<string name="contact_editor_pick_linked_contact_dialog_title">"Estekatutako kontaktuak"</string>
+<string name="contact_editor_add_linked_contact">Gehitu</string>
+<string name="contact_editor_unlink_contacts">"Banandu"</string>
+<string name="add_account">Gehitu kontua</string>
+<string name="add_new_account">Gehitu kontu berria</string>
+<string name="menu_export_database">Esportatu datu-baseko fitxategiak</string>
+<string name="action_menu_add_new_contact_button">Sortu kontaktu berria</string>
+<string name="expanding_entry_card_view_see_more">Gehiago ikusi</string>
+<string name="expanding_entry_card_view_see_less">Gutxiago ikusi</string>
+<string name="recent_card_title">Azkena</string>
+<string name="about_card_title">(r)i buruz</string>
+<string name="toast_making_personal_copy">"Kopia pertsonal bat sortzen&#8230;"</string>
+<string name="tomorrow">bihar</string>
+<string name="today">"Gaur"</string>
+<string name="untitled_event">(Izenbururik gabeko hitzordua)</string>
+<string name="date_time_set">Ezarri</string>
+<string name="header_im_entry">IM</string>
+<string name="header_organization_entry">Erakundea</string>
+<string name="header_nickname_entry">Goitizena</string>
+<string name="header_note_entry">Oharra</string>
+<string name="header_website_entry">Web-horria</string>
+<string name="header_event_entry">Gertaera</string>
+<string name="header_relation_entry">Erlazioa</string>
+<string name="header_name_entry">Izena</string>
+<string name="header_email_entry">Posta elektronikoa</string>
+<string name="header_phone_entry">"Telefonoa"</string>
+<string name="content_description_directions">Kokapenerako argibideak</string>
+<string name="editor_more_fields">"Eremu gehiago"</string>
+<string name="editor_change_photo_content_description">"Aldatu kontaktuaren argazkia"</string>
+<string name="editor_add_photo_content_description">"Gehitu kontaktuaren argazkia"</string>
+<string name="editor_contact_photo_content_description">Kontaktuaren argazkia</string>
+<string name="editor_failed_to_load">"Ezin izan da ireki editorea."</string>
+<string name="editor_account_selector_title">"Gorde hemen:"</string>
+<string name="editor_account_selector_read_only_title">"<xliff:g id="account">%s</xliff:g> kontuaren harremanetarako informazioa ez da editagarria"</string>
+<string name="quickcontact_suggestion_link_button">"LOTU KONTAKTUAK"</string>
+<string name="quickcontact_suggestion_cancel_button">Utzi</string>
+<string name="suggestion_card_this_contact_title">"Kontaktu hau"</string>
+<string name="suggestion_card_duplicates_title">"Baliteke bikoiztuak egotea"</string>
+<string name="suggestion_card_help_message">"Kontaktu hauek pertsona bera izan daitezke. Lotu egin ditzakezu, informazioa kontaktu bakarrean bilduta izateko."</string>
+<string name="editor_delete_view_description">"Ezabatu <xliff:g id="data_type">%1$s </xliff:g><xliff:g id="data_kind">%2$s</xliff:g>"</string>
+<string name="editor_delete_view_description_short">"Ezabatu <xliff:g id="data_kind">%s</xliff:g>"</string>
+<string name="menu_assistant">"Iradokizunak (<xliff:g id="ID_1">%1$d</xliff:g>)"</string>
+<string name="menu_assistant_new_badge">Berria</string>
+<string name="navigation_drawer_open">Ireki nabigazio tiradera</string>
+<string name="navigation_drawer_close">Itxi nabiazioaren tirader</string>
+<string name="navigation_drawer_label">"<xliff:g id="label_name">%s</xliff:g> etiketa"</string>
+<string name="menu_title_groups">"Etiketak"</string>
+<string name="menu_title_filters">Kontuak</string>
+<string name="permission_explanation_header">"Ikusi zuen historia partekatua"</string>
+<string name="permission_explanation_subheader_calendar_and_SMS">"Gertaerak eta mezuak"</string>
+<string name="permission_explanation_subheader_calendar">"Gertaerak"</string>
+<string name="permission_explanation_subheader_SMS">Mezua</string>
+<string name="hamburger_feature_highlight_header">"Iradokizunak (<xliff:g id="ID_1">%1$d</xliff:g>)"</string>
+<string name="hamburger_feature_highlight_body">"Eduki zure kontaktuak antolatuta eta erabilgarri"</string>
+<string name="undo">DESEGIN</string>
+<string name="call_custom">"Deitu honi: <xliff:g id="custom_label" example="business">%s</xliff:g>"</string>
+<string name="call_home">Deitu etxera</string>
+<string name="call_mobile">Mobilera deitu</string>
+<string name="call_work">Lanera deitu</string>
+<string name="call_fax_work">Faxera deitu</string>
+<string name="call_fax_home">Deitu etxeko faxera</string>
+<string name="call_pager">Lokalizatzailera deitu</string>
+<string name="call_other">Deitu</string>
+<string name="call_callback">Atzera deia deitu</string>
+<string name="call_car">Kotxeari deitu</string>
+<string name="call_company_main">Deitu konpania nagusia</string>
+<string name="call_isdn">Deitu ISDN</string>
+<string name="call_main">Deitu nagusia</string>
+<string name="call_other_fax">Faxera deitu</string>
+<string name="call_radio">Irratira deitu</string>
+<string name="call_telex">Telex-era deitu</string>
+<string name="call_tty_tdd">TTY/TDD deitu</string>
+<string name="call_work_mobile">Laneko mobilera deitu</string>
+<string name="call_work_pager">Laneko lokalizatzailera deitu</string>
+<string name="call_assistant">"Deitu honi: <xliff:g id="custom_label" example="assistant">%s</xliff:g>"</string>
+<string name="call_mms">MMSra deitu</string>
+<string name="call_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (Deia)"</string>
+<string name="sms_custom">"Testua: <xliff:g id="custom_label" example="business">%s</xliff:g>"</string>
+<string name="sms_home">Etxearen testua</string>
+<string name="sms_mobile">Mugikorraren testua</string>
+<string name="sms_work">Laneko testua</string>
+<string name="sms_fax_work">Laneko faxeko testua</string>
+<string name="sms_fax_home">Etxeko faxaren testua</string>
+<string name="sms_pager">Testu bilagailua</string>
+<string name="sms_other">Testua</string>
+<string name="sms_callback">Testuaren atzeradeia</string>
+<string name="sms_car">Kotxearen telefono zenbakia mezuak bidaltzeko</string>
+<string name="sms_company_main">Enpresa nagusiaren testua</string>
+<string name="sms_isdn">Testuaren ISDNa</string>
+<string name="sms_main">Testu nagusia</string>
+<string name="sms_other_fax">Faxaren testua</string>
+<string name="sms_radio">Irratiaren testua</string>
+<string name="sms_telex">Telexaren testua</string>
+<string name="sms_tty_tdd">TTY/TDD testua</string>
+<string name="sms_work_mobile">Laneko mugikorreko testua</string>
+<string name="sms_work_pager">Laneko bilatzailearen testua</string>
+<string name="sms_assistant">Testuaren
+
+        <xliff:g id="assistant">%s</xliff:g>   </string>
+<string name="sms_mms">MMS mezua</string>
+<string name="sms_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (Mezua)"</string>
+<string name="description_video_call">Bidio-deia egin</string>
+<string name="clearFrequentsConfirmation_title">Garbitu maizen kontaktatutakoak?</string>
+<string name="clearFrequentsConfirmation">"Maizen kontaktatutakoen zerrenda garbituko duzu Kontaktuak eta Telefonoa aplikazioetan eta posta elektronikoko aplikazioen zure helbide lehenespenak hutsetik ikasaraziko diezu. ""</string>
+<string name="clearFrequentsProgress_title">Kontaktatutako maiztasuna garbitzen…</string>
+<string name="status_available">Erabilgarri</string>
+<string name="status_away">Kanpoan</string>
+<string name="status_busy">Lanpetuta</string>
+<string name="local_invisible_directory">Bestelako</string>
+<string name="directory_search_label">Direktorioa</string>
+<string name="directory_search_label_work">"Laneko kontaktuak"</string>
+<string name="local_search_label">Kontaktu guztiak</string>
+<string name="description_quick_contact_for"><xliff:g id="name">%1$s</xliff:g>-(r)en kontaktu azkarra</string>
+<string name="missing_name">(Izenik ez)</string>
+<string name="favoritesFrequentContacted">Sarri kontaktatutakoak</string>
+<string name="list_filter_phones">Telefono zenbakia duten kontaktu guztiak</string>
+<string name="list_filter_phones_work">"Laneko profileko kontaktuak"</string>
+<string name="view_updates_from_group">Ikusi eguneraketak</string>
+<string name="account_phone">gailua</string>
+<string name="account_sim">"SIM"</string>
+<string name="nameLabelsGroup">Izena</string>
+<string name="nicknameLabelsGroup">Goitizena</string>
+<string name="name_given">Izena</string>
+<string name="name_family">Abizena</string>
+<string name="name_prefix">Izenaren aurrizkia</string>
+<string name="name_middle">Erdiko izena</string>
+<string name="name_suffix">Izenaren atzizkia</string>
+<string name="name_phonetic">Izen fonetikoa</string>
+<string name="name_phonetic_given">Izenaren fonetika</string>
+<string name="name_phonetic_middle">Bigarren izenaren fonetika</string>
+<string name="name_phonetic_family">Abizenaren fonetika</string>
+<string name="phoneLabelsGroup">"Telefonoa"</string>
+<string name="emailLabelsGroup">Posta elektronikoa</string>
+<string name="postalLabelsGroup">Helbidea</string>
+<string name="imLabelsGroup">IM</string>
+<string name="organizationLabelsGroup">Erakundea</string>
+<string name="relationLabelsGroup">Harremana</string>
+<string name="eventLabelsGroup">"Data berezia"</string>
+<string name="sms">Testu mezuak</string>
+<string name="postal_address">Helbidea</string>
+<string name="ghostData_company">Enpresa</string>
+<string name="ghostData_title">Izenburua</string>
+<string name="label_notes">Oharrak</string>
+<string name="label_custom_field">Pertsonalizatuta</string>
+<string name="websiteLabelsGroup">Web-horria</string>
+<string name="groupsLabel">"Etiketak"</string>
+<string name="email_home">Posta elektronikaoaren hasierako pantaila</string>
+<string name="email_mobile">Bidali posta elektronikoa mugikorrera</string>
+<string name="email_work">Bidali posta elektronikoa lanera</string>
+<string name="email_other">Posta elektronikoa</string>
+<string name="email_custom">"Bidali mezu elektronikoa honi: <xliff:g id="custom_label" example="business">%s</xliff:g>"</string>
+<string name="email">Posta elektronikoa</string>
+<string name="postal_street">Kalea</string>
+<string name="postal_city">Hiria</string>
+<string name="postal_region">Estatua</string>
+<string name="postal_postcode">Posta-kodea</string>
+<string name="postal_country">Herrialdea</string>
+<string name="map_home">Ikusi etxeko helbidea</string>
+<string name="map_work">Ikusi laneko helbidea</string>
+<string name="map_other">Ikusi helbideak</string>
+<string name="map_custom">"Ikusi <xliff:g id="custom_label" example="vacation">%s</xliff:g> helbidea"</string>
+<string name="chat_aim">AIM bidezko txata</string>
+<string name="chat_msn">Windows Live bidezko txata</string>
+<string name="chat_yahoo">Yahoo bidezko txata</string>
+<string name="chat_skype">Skype bidezko txata</string>
+<string name="chat_qq">QQ bidezko txata</string>
+<string name="chat_gtalk">Google Talk bidezko txata</string>
+<string name="chat_icq">ICQ bidezko txata</string>
+<string name="chat_jabber">Jabber bidezko txata</string>
+<string name="chat">Txat</string>
+<string name="description_minus_button">Ezabatu</string>
+<string name="expand_name_fields_description">"Erakutsi izen-eremu gehiago"</string>
+<string name="collapse_name_fields_description">"Itxi izen-eremuak"</string>
+<string name="expand_phonetic_name_fields_description">"Erakutsi izen-eremu fonetiko gehiago"</string>
+<string name="collapse_phonetic_name_fields_description">"Itxi izen-eremu fonetikoak"</string>
+<string name="expand_fields_description">"Zabaldu"</string>
+<string name="collapse_fields_description">Tolestu</string>
+<string name="announce_expanded_fields">"Hedatuta"</string>
+<string name="announce_collapsed_fields">"Itxita"</string>
+<string name="list_filter_all_accounts">Kontaktu guztiak</string>
+<string name="list_filter_all_starred">Kontaktu izardunak</string>
+<string name="list_filter_customize">Pertsonalizatu</string>
+<string name="list_filter_single">Kontaktua</string>
+<string name="display_ungrouped">Beste kontaktu guztiak</string>
+<string name="display_all_contacts">Kontaktu guztiak</string>
+<string name="menu_sync_remove">Kendu sinkronizatutako taldea</string>
+<string name="dialog_sync_add">Gehitu taldeko sinkronizazioa</string>
+<string name="display_more_groups">Talde gehiago…</string>
+<string name="display_warn_remove_ungrouped">\"<xliff:g id="group" example="Starred">%s</xliff:g>\" sinkronizaziotik ezabatzen, taldekatuta ez dauden kontaktuak ere ezabatuko dira sinkronizaziotik.</string>
+<string name="savingDisplayGroups">Bistaratze aukerak gordetzen\u2026</string>
+<string name="listCustomView">"Ikuspegi pertsonalizatua"</string>
+<string name="dialog_new_contact_account">"Gorde inportatutako kontaktuak hemen:"</string>
+<string name="import_from_sim">SIM Txartela</string>
+<string name="import_from_sim_summary_fmt">"SIM <xliff:g id="sim_name">%1$s</xliff:g>"</string>
+<plurals name="import_from_sim_secondary_contact_count_fmt">
+<item quantity="one">1 kontaktu</item>
+<item quantity="other">"%1$d kontaktu"</item>
+</plurals>
+<plurals name="import_from_sim_secondary_template">
+<item quantity="one">"<xliff:g id="count">^1</xliff:g> kontaktu • <xliff:g id="phone_number">^2</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">^1</xliff:g> kontaktu • <xliff:g id="phone_number">^2</xliff:g>"</item>
+</plurals>
+<string name="import_from_vcf_file">"Inportatu .vcf fitxategitik"</string>
+<string name="copy_to">Nori kopiatu:</string>
+<string name="import_export_contacts">Kontaktuak inportatu/esportatu</string>
+<string name="share_visible_contacts">Partekatu ikusgai dauden kontaktuak</string>
+<string name="dialog_import_export">Kontaktuak inportatu/esportatu</string>
+<string name="dialog_import">Inportatu kontaktuak</string>
+<string name="nothing_to_import_message">"Ez dago inportatzeko ezer"</string>
+<string name="import_from_vcf_file_confirmation_message">"Inportatu kontaktuak vCardetik?"</string>
+<string name="cancel_import_confirmation_message">Bertan behera utzi <xliff:g id="filename" example="import.vcf">%s</xliff:g>-(r)en inportazioa?</string>
+<string name="cancel_export_confirmation_message">Bertan behera utzi <xliff:g id="filename" example="export.vcf">%s</xliff:g>-(r)en esportazioa?</string>
+<string name="cancel_vcard_import_or_export_failed">Ezin izan da bertan behera utzi vCard-aren inportazioa/esportazioa</string>
+<string name="fail_reason_unknown">Errore ezezaguna.</string>
+<string name="fail_reason_could_not_open_file">"Ezin izan da ireki <xliff:g id="file_name">%1$s</xliff:g> fitxategia: <xliff:g id="exact_reason">%2$s</xliff:g>."</string>
+<string name="fail_reason_could_not_initialize_exporter">Ezin izan da esportatzailea abiarazi: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+<string name="fail_reason_no_exportable_contact">Ez dago esportatu daitekeen kontakturik.</string>
+<string name="missing_required_permission">"Desgaitu egin duzu beharrezko baimena."</string>
+<string name="fail_reason_error_occurred_during_export">Exportazio prozesuan errore bat gertatu da: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+<string name="fail_reason_io_error">I/O errorea</string>
+<string name="fail_reason_low_memory_during_import">Ez dago memoria nahikorik. Fitxategia handiegia izan daiteke.</string>
+<string name="fail_reason_not_supported">Formatua ez da onartzen.</string>
+<string name="exporting_vcard_finished_title"><xliff:g id="filename" example="export.vcf">%s</xliff:g> esportazen amaitu da.</string>
+<string name="exporting_vcard_finished_title_fallback">"Esportatu dira kontaktuak."</string>
+<string name="exporting_vcard_finished_toast">"Esportatu dira kontaktuak. Haiek partekatzeko, sakatu jakinarazpena."</string>
+<string name="touch_to_share_contacts">"Sakatu kontaktuak partekatzeko."</string>
+<string name="exporting_vcard_canceled_title"><xliff:g id="filename" example="export.vcf">%s</xliff:g> esportatzea bertan behera utzi da.</string>
+<string name="exporting_contact_list_title">Kontaktuen datuak esportatzen</string>
+<string name="exporting_contact_list_message">"Kontaktuen datuak esportatzen ari gara."</string>
+<string name="composer_failed_to_get_database_infomation">Couldnot get database information.</string>
+<string name="composer_has_no_exportable_contact">"Ez dago esporta daitekeen kontakturik."</string>
+<string name="composer_not_initialized">vCard mezu-prestatzailea ez da ondo abiarazi.</string>
+<string name="exporting_contact_failed_title">Ezin izan da esportatu</string>
+<string name="exporting_contact_failed_message">Kontaktuaren datuak ez dira esportatu.\nArrazoia: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+<string name="importing_vcard_description">Inportatzen <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
+<string name="reading_vcard_failed_title">Ezin izan dira vCard datuak irakurri</string>
+<string name="importing_vcard_finished_title">vCard <xliff:g id="filename" example="import.vcf">%s</xliff:g> inportazen amaitu da.</string>
+<string name="importing_vcard_canceled_title"><xliff:g id="filename" example="import.vcf">%s</xliff:g> inportatzea bertan behera utzi da</string>
+<string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> laster inportatuko da.</string>
+<string name="vcard_import_will_start_message_with_default_name">Fitxategia laster inportatuko da.</string>
+<string name="vcard_import_request_rejected_message">vCard inportatzeko eskaera ukatu da. Saiatu berriro beranduago.</string>
+<string name="contacts_export_will_start_message">"Laster esportatuko dira kontaktuak."</string>
+<string name="vcard_export_request_rejected_message">vCard esportatzeko eskaera ukatu da. Saiatu berriro beranduago.</string>
+<string name="vcard_unknown_filename">Kontaktua</string>
+<string name="caching_vcard_message">vCard cachea(k) aldi baterako memoria lokalean. Benetazko inportazioa laster hasiko da.</string>
+<string name="vcard_import_failed">Ezin izan da vCard inportatu.</string>
+<string name="nfc_vcard_file_name">Kontaktua NFC bidez jaso da</string>
+<string name="caching_vcard_title">Cachea</string>
+<string name="progress_notifier_message">"<xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g> inportatzen: <xliff:g id="name" example="Joe Due">%3$s</xliff:g>"</string>
+<string name="export_to_vcf_file">"Esportatu .vcf fitxategira"</string>
+<string name="display_options_sort_list_by">Ordenatzeko irizpidea</string>
+<string name="display_options_phonetic_name_fields">Izen fonetikoa</string>
+<string name="editor_options_always_show_phonetic_names">Beti erakutsi</string>
+<string name="editor_options_hide_phonetic_names_if_empty">"Ezkutatu, hutsik badago"</string>
+<string name="display_options_sort_by_given_name">Izena</string>
+<string name="display_options_sort_by_family_name">Abizena</string>
+<string name="display_options_view_names_as">Izenaren formatua</string>
+<string name="display_options_view_given_name_first">Izena lehenbizi</string>
+<string name="display_options_view_family_name_first">Abizena lehenbizi</string>
+<string name="settings_accounts">Kontuak</string>
+<string name="default_editor_account">"Kontaktu berriak gordetzeko kontu lehenetsia"</string>
+<string name="settings_my_info_title">"Nire informazioa"</string>
+<string name="set_up_profile">Konfiguratu zure gailua</string>
+<string name="setting_about">"Kontaktuak zerbitzuari buruz"</string>
+<string name="share_favorite_contacts">"Partekatu gogoko kontaktuak"</string>
+<string name="share_contacts">"Partekatu kontaktu guztiak"</string>
+<string name="share_contacts_failure">"Ezin izan dira partekatu kontaktuak."</string>
+<string name="dialog_export">Kontaktuak esportatu</string>
+<string name="share_error">Kontaktu hau ezin da partekatu</string>
+<string name="no_contact_to_share">"Ez dago parteka daitekeen kontakturik."</string>
+<string name="menu_contacts_filter">Bistaratzeko konaktuak</string>
+<string name="activity_title_contacts_filter">Bistaratzeko konaktuak</string>
+<string name="custom_list_filter">"Pertsonalizatu ikuspegia"</string>
+<string name="menu_custom_filter_save">Gorde</string>
+<string name="hint_findContacts">Bilatu kontaktuak</string>
+<string name="contactsFavoritesLabel">Gogokoak</string>
+<string name="menu_import">Inportatu</string>
+<string name="menu_export">Esportatu</string>
+<string name="menu_blocked_numbers">"Blokeatutako zenbakiak"</string>
+<string name="contact_status_update_attribution"><xliff:g id="source" example="Google Talk">%1$s</xliff:g> bidez</string>
+<string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> zeren bidez: <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+<string name="action_menu_back_from_search">bilatzeari utzi</string>
+<string name="description_clear_search">Garbitu bilaketa</string>
+<string name="select_account_dialog_title">Kontua</string>
+<string name="set_default_account">Beti erabili hau deiak egiteko</string>
+<string name="call_with_a_note">"Egin deia oharrarekin"</string>
+<string name="call_subject_hint">"Idatzi ohar bat deiarekin batera bidaltzeko&#8230;"</string>
+<string name="send_and_call_button">"BIDALI ETA DEITU"</string>
+<string name="call_subject_limit">"<xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g>"</string>
+<string name="call_subject_type_and_number">"<xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g>"</string>
+<string name="about_build_version">Eraikitze bertsioa</string>
+<string name="about_open_source_licenses">Ireki iturburu lizentziak</string>
+<string name="about_open_source_licenses_summary">"Kode irekiko softwarerako lizentziaren xehetasunak"</string>
+<string name="about_privacy_policy">Pribatutasun-politika</string>
+<string name="about_terms_of_service">"Zerbitzu-baldintzak"</string>
+<string name="activity_title_licenses">Ireki iturburu lizentziak</string>
+<string name="url_open_error_toast">"Ezin izan da ireki URLa."</string>
+<string name="account_filter_view_checked">"<xliff:g id="account_info">%s</xliff:g> egiaztatu da"</string>
+<string name="account_filter_view_not_checked">"<xliff:g id="account_info">%s</xliff:g> ez da egiaztatu"</string>
+<string name="description_search_video_call">"Egin bideo-deia"</string>
+<string name="description_delete_contact">Ezabatu</string>
+<string name="description_no_name_header">"Elipsia"</string>
+<string name="dynamic_shortcut_disabled_message">"Lasterbide hau desgaitu da"</string>
+<string name="dynamic_shortcut_contact_removed_message">"Kontaktua kendu da"</string>
+<string name="sim_import_button_text">Inportatu</string>
+<string name="sim_import_title_none_selected">"Hautatu kontaktuak"</string>
+<string name="sim_import_empty_message">"Kontakturik ez zure SIM txartelean"</string>
+<string name="sim_import_contact_exists_toast">"Kontaktua dagoeneko zure zerrendan existitzen da"</string>
+<plurals name="sim_import_success_toast_fmt">
+<item quantity="one">"1 SIM kontaktu inportatu da"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> SIM kontaktu inportatu dira"</item>
+</plurals>
+<string name="sim_import_failed_toast">"Ezin izan dira SIM kontaktuak inportatu"</string>
+<string name="sim_import_title">"Inportatu SIMetik"</string>
+<string name="sim_import_cancel_content_description">Utzi</string>
+<string name="auto_sync_off">"Sinkronizazio automatikoa desaktibatuta dago. Ukitu aktibatzeko."</string>
+<string name="dismiss_sync_alert">Baztertu</string>
+<string name="account_sync_off">"Kontu-sinkronizazioa desaktibatuta dago. Ukitu aktibatzeko."</string>
+<string name="turn_auto_sync_on_dialog_title">"Sinkronizazio automatikoa aktibatu nahi duzu?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Aplikazio eta kontu guztietan egiten dituzun aldaketak, ez bakarrik Google Kontaktuetan egindakoak, eguneratu egingo dira webean eta zure gailuetan."</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">Gaitu</string>
+<string name="connection_error_message">Konexiorik gabe</string>
+<string name="single_sim_display_label">"SIM"</string>
+<string name="show_more_content_description">"Erakutsi gehiago"</string>
+<string name="importing_sim_finished_title">"Amaitu da SIM txartelaren inportazioa"</string>
+<string name="importing_sim_failed_title">"Inportazioak huts egin du"</string>
+<string name="importing_sim_failed_message">"Ezin izan dira kontaktuak inportatu SIM txarteletik"</string>
+<string name="importing_sim_in_progress_title">"SIMa inportatzen"</string>
+<string name="contacts_default_notification_channel">Jakinarazpenak</string>
+<string name="listTotalAllContactsZeroGroup">Ez dago kontakturik <xliff:g id="name" example="Friends">%s</xliff:g>(a)n</string>
+<string name="listTotalPhoneContactsZero">Ez dago kontakturik telefeno zenbakiarekin</string>
+<string name="listTotalAllContactsZeroStarred">Gogokoak ez.</string>
+<string name="listTotalAllContactsZeroCustom">Ez dago kontaktu ikusgairik.</string>
+<string name="listTotalAllContactsZero">Kontakturik ez.</string>
+<string name="foundTooManyContacts"><xliff:g id="count">%d</xliff:g> baino gehiago aurkitu dira.</string>
+<plurals name="searchMatchContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> kontaktu datoz bat"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> kontaktu datoz bat"</item>
+</plurals>
+<plurals name="listContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> kontaktu"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> kontaktu"</item>
+</plurals>
+<string name="contacts_select_all">Guztia hautatu</string>
+<string name="contacts_cancel_all">"Utzi dena"</string>
+<string name="toast_no_contact_selected">"Ezetz Aukeratutako kontaktuak"</string>
+<string name="list_filter_emails">Posta helbidea duten kontaktu guztiak</string>
+<string name="listTotalEmailContactsZero">Ez dago kontakturik helbide elektronikoarekin</string>
+<string name="toast_batchoperation_is_running">"Batch eragiketa martxan dago, saiatu berriro geroago."</string>
+<string name="contacts_selection_for_mms_limit">"Gehienez <xliff:g id="COUNT">%d</xliff:g> elementu hautatu daitezke."</string>
+<string name="no_match_contact">Ez dago parekatzen den kontakturik</string>
+<string name="list_filter_all_in_one">Datuak dituzten kontaktu guztiak</string>
+<string name="contacts_selection_too_more">Partekatu kontaktuen gehienezko zenbakia <xliff:g id="COUNT">%d</xliff:g> da.</string>
+<string name="res_name">Izena</string>
+<string name="res_phone">"Telefonoa"</string>
+<string name="res_email">Posta elektronikoa</string>
+<string name="res_field">Eremua</string>
+<plurals name="listSelectedContacts">
+<item quantity="one">"Hautatua(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+<item quantity="other">"Hautatua(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+</plurals>
+<string name="re_add_contact">"Baimena aldatu denez, gehitu kontaktua berriro."</string>
+<string name="transaction_too_large">"Hautatutako kontaktuen kopuruak muga gainditu du, hautatu kontaktu gutxiago. ""</string>
+<string name="menu_doNotSave">Utzi</string>
+<string name="menu_done">Eginda</string>
+<string name="batch_delete_confim_title">"Ezabatu kontaktuak"</string>
+<string name="batch_delete_confim_message">"Ziur hautatutako kontaktuak ezabatu nahi dituzula?"</string>
+<string name="menu_share_by_sms">"Bidali kontaktuak mezu bidez"</string>
+<string name="menu_batch_delete">Batch ezabatu</string>
+<string name="working_batch_delete">Batch ezabatzen</string>
+<string name="batch_operation_canceled">Eragiketa bertan behera utzi da</string>
+<string name="delete_done">Ezabatu da</string>
+<string name="sqlite_full">Kotaktuen datu-basea edo diskoa beteta daude</string>
+<string name="beyond_sim_card_capacity">"SIM txartelaren edukiera gorabehera, kontaktu batzuk ez dira gordeko."</string>
+<string name="working_batch_import">Batch inportatzen</string>
+<string name="import_failed_tmp">"<xliff:g id="count">%d</xliff:g> ondo burutu da, <xliff:g id="count">%d</xliff:g> huts egin du"</string>
+<string name="import_done">Inportazioa eginda</string>
+<string name="violate_capacity">SIMaren ahalmena hautsi</string>
+<string name="anr_is_full">"SIM-eko zenbaki finkoak luzeegiak dira"</string>
+<string name="import_failed">Kontaktuaren inportazioa/esportazioa ez da ondo burutu</string>
+<string name="cancel_batch_import_confirmation">Bertan behera utzi kontaktuaren inportazioa?</string>
+<string name="cancel_batch_delete_confirmation">Bertan behera utzi kontaktua ezabatzea?</string>
+<string name="menu_multi_select_contacts">"Hautapen anitza"</string>
+<string name="join_fail_for_usim">"USIM kontaktuak ezin dira batu"</string>
+<string name="join_fail_for_sim">"SIM kontaktuak ezin dira batu"</string>
+<string name="over_max_join_number">"Ezin zaio kontaktuei batu, <xliff:g id="count">%d</xliff:g> kontaktu batzea hautatu duzu, batu daitezkeen gehieneko kontaktuak baino gehiago (10)."</string>
+<string name="delete_read_only_contact">"Irakurtzeko soilik diren kontaktuak ezin dira ezabatu!"</string>
+<string name="join_fail_for_sim_or_read_only">"SIM kontaktuak eta irakurtzeko soilik diren kontaktuak ez dute batzea onartzen!"</string>
+<string name="contactSavedErrorToastUsimEmailFull">USIM posta txartela beteta dago</string>
+<string name="contactSavedErrorToastNameLength">Kontaktuaren izena gordetzeko luzeegia da</string>
+<string name="over_phone_length_limit">Zenbaki luzeegia</string>
+<string name="contactSavedErrorToastSimEmailFull">SIM txartelaren posta elektronikoa beteta dago</string>
+<string name="contactSavedErrorToastEmailFull">Posta elektronikoa beteta dago</string>
+<string name="noGroups">"Ez dago talderik"</string>
+<plurals name="group_list_num_contacts_in_group">
+<item quantity="one"><xliff:g id="count">%1$d</xliff:g> pertsona</item>
+<item quantity="other"><xliff:g id="count">%1$d</xliff:g> jendea</item>
+</plurals>
+<string name="contactsGroupsLabel">Taldeak</string>
+<string name="people">Jendea</string>
+<string name="recentCallsIconLabel">Dei erregistroa</string>
+<string name="contacts_in_conference_reselect">"Aukeratu dena konferentzia deian dago, beste bat aukeratu."</string>
+<string name="contacts_in_conference">"Hautatutako zenbaki batzuk errepikatuta daude eta horiek ez dira gehituko."</string>
+<string name="conferenceCallPartyCountLimit">"Gutxienez <xliff:g id="COUNT">%d</xliff:g> parte-hartzaile desberdin behar dira bilera-dei bat egiteko."</string>
+<string name="label_phone">"Telefonoa"</string>
+<string name="label_sim">SIM Txartela</string>
+<string name="label_usim">SIM Txartela</string>
+<string name="call_fixed_number">"Deitu finkatutako zenbakira"</string>
+<string name="field_too_long"><xliff:g id="field">%s</xliff:g> luzeegia</string>
+<string name="email_format_fail">Mesedez sartu posta helbide egokia!</string>
+<string name="only_fixed_number_type">"Ez dago izenik edo telefono-zenbaki motarik, sartu berriro."</string>
+<string name="dup_phone_number_type">"Berdinak diren zenbakiak ezin dira gorde, mesedez egiaztatu."</string>
+<string name="sim_capacity">SIM edukiera</string>
+<string name="noSimCard">Ez dago SIM txartelik erabilgarri</string>
+<string name="group_insert_error">"Kontu hori ez da existitzen, egiaztatu kontua"</string>
+<string name="sim_disabled">"SIM desgaituta dago, ezin da kontaktua gorde"</string>
+<string name="overGroupNameLength">Talde izena luzeegia da</string>
+<string name="overGroupCountLimit">Talde kopuruaren mugatik gora</string>
+<string name="list_contact_phone">Telefono zenbakiekin kontaktatu</string>
+<string name="clearup_contacts">"Ezabatu kontaktuak"</string>
+<string name="menu_select_all">Guztia hautatu</string>
+<string name="menu_select_none">Desautatu dena</string>
+<string name="no_duplicate_contact">"Ez bikoiztu kontaktuak"</string>
+<string name="merge_contact">"Bateratu"</string>
+<string name="merge_inprocess">"batzen, itxaron mesedez"</string>
+<string name="merge_loading">Kargatzen…</string>
+<string name="description_contact_photo">Kontaktuaren argazkia</string>
+<string name="exporting_vcard_finished_title_storage_full">"Biltegiratze memoria beteta dago"</string>
+<string name="account_deleted">"Kontua ezabatu da, inportazio-esportazioa bertan behera utzi da"</string>
+<string name="vcfdata_change_toast">"Datuak aldatu dira, mesedez errepikatu."</string>
+<string name="alert_maybe_lost_info">"SIM-era kopiatzeak informazioa galtzea ekar dezake."</string>
+<string name="fail_occurred_during_export">"Errorea gertatu da esportatzean"</string>
+<string name="vcard_file_temp_name">"vCard fitxategia"</string>
+<string name="voice_mail_permission_request">"Lehenik, ireki baimena, telefonoaren funtzioa erabili nahi baduzu."</string>
+<string name="menu_moveGroupMember">Mugitu taldeko kideak</string>
+<string name="menu_deleteAllContacts">Kendu Guztia</string>
+<string name="menu_move">Mugitu</string>
+<string name="delete_group_memeber_dialog_message">"Kontaktu guztiak ezabatu nahi dituzu?"</string>
+<string name="moveGroupMemberDialogTitle">eraman kontaktuak, nora:</string>
+<string name="editing_group_done">Taldearen aldatzea burutu da</string>
+<string name="working_editing_group">Taldea aldatzen</string>
+<string name="editing_group_failed">Taldearen aldatzeak huts egin du</string>
+<string name="delete">Ezabatu</string>
+<string name="close">Itxi</string>
+<string name="selectAll">"Hautatu guztiak"</string>
+<string name="insert">"txertatu"</string>
+<string name="aasfull">"aas beteta dago"</string>
+<string name="aas_maxlength">"aas-aren gehienezko luzerara heldu zara"</string>
+<string name="aas_in_contacts">"kontaktuak aas(<xliff:g id="aas_str">%1$s</xliff:g>) du, kendu kontaktuak eta saiatu beranduago"</string>
+<string name="editing_aas">Itxaron mesedez…</string>
+<string name="copy">Kopiatu</string>
+<string name="sim_is_full">SIMa beteta dago</string>
+<string name="replaceSelected">"Hautatu ordezkatu nahi duzuna"</string>
+<string name="replace_data_error">"Errorea kontaktuen datuak ordeztean"</string>
+<string name="groupCreatedErrorToast">"Ezin da etiketa sortu txartelaren errore batengatik"</string>
+<string name="settings_accounts_category">Kontuak</string>
+<string name="settings_general_category">Orokorra</string>
+<string name="no_contact_can_be_linked">"Ez dago lotu daitekeen kontakturik"</string>
+<string name="beyond_query_character_limit">"Bilatu nahi duzun esaldia luzeegia da, 100era mugatuko da."</string>
+<string name="listFoundAllCallLogZero">"Ez dago deien historiarik"</string>
+<string name="groupUndoErrorToast">"Ezin da desegin txartelaren errore batengatik"</string>
+<string name="struct_name_length_max">"Izen-abizenen gehieneko luzerara iritsi zara!""</string>
+<string name="sim_loading">"SIM kargatzen ari da, sartu SIM kontaktua geroago!""</string>
+<string name="warn_location_title">Abisua</string>
+<string name="warn_location_message">"Kokapen-zerbitzua aktibatzea onartu nahi duzu?"</string>
+</resources>

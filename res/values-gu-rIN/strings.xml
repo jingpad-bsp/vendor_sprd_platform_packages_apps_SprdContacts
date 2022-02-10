@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applicationLabel">સંપર્કો</string>
+<string name="contactsList">સંપર્કો</string>
+<string name="shortcut_add_contact">સંપર્ક ઉમેરો</string>
+<string name="shortcutContact">"સંપર્ક"</string>
+<string name="shortcutDialContact">પ્રત્યક્ષ ડાયલ</string>
+<string name="shortcutMessageContact">પ્રત્યક્ષ સંદેશ</string>
+<string name="shortcutActivityTitle">"સંપર્ક પસંદ કરો"</string>
+<string name="contactInsertOrEditActivityTitle">સંપર્કોમાં ઉમેરો</string>
+<string name="contactPickerActivityTitle">સંપર્ક પસંદ કરો</string>
+<string name="groupMemberPickerActivityTitle">સિલેક્ટ</string>
+<string name="header_entry_contact_list_adapter_header_title">નવો સંપર્ક તૈયાર કરો</string>
+<string name="searchHint">સંપર્કો શોધો</string>
+<string name="menu_addStar">ફેવરીટમાં ઉમેરો</string>
+<string name="menu_removeStar">પસંદગીઓમાંથી દૂર કરો</string>
+<string name="description_action_menu_remove_star">"ખાસમાથી દૂર કરવામાં આવ્યું"</string>
+<string name="description_action_menu_add_star">"મનપસંદો પર ઉમેર્યુ"</string>
+<string name="menu_editContact">"ફેરફાર"</string>
+<string name="menu_deleteContact">"ભૂંસો"</string>
+<string name="menu_change_photo">"ફોટો બદલો"</string>
+<string name="menu_create_contact_shortcut">"શોર્ટકટની રચના કરો"</string>
+<string name="menu_splitAggregate">"લીંક મિટાવો"</string>
+<string name="menu_editGroup">"સંપર્કોને બદલો"</string>
+<string name="menu_renameGroup">"લેબલને ફરી નામ આપો"</string>
+<string name="menu_deleteGroup">"લેબલ નાબૂદ કરો"</string>
+<string name="menu_addToGroup">સંપર્ક ઉમેરો</string>
+<string name="menu_selectForGroup">"સંપર્કો ઉમેરો"</string>
+<string name="menu_addContactsToGroup">"સંપર્કો ઉમેરો"</string>
+<string name="menu_removeFromGroup">"લેબલમાંથી દૂર કરો"</string>
+<string name="menu_new_group_action_bar">"લેબલ રચના"</string>
+<string name="splitConfirmation">"શું આ બહુવિધ સંપર્કોમાં આ સંપર્ક અનલિંક થશે?"</string>
+<string name="splitConfirmation_positive_button">"લીંક મિટાવો"</string>
+<string name="splitConfirmationWithPendingChanges">"શું તમને ફેરફારો સાથે બચાવ માટે ગમશે અને બહુવિધ સંપર્કોમાં આ સંપર્કથી અનલિન્ક છે?"</string>
+<string name="splitConfirmationWithPendingChanges_positive_button">"બચાવો અને અનલિંક કરો"</string>
+<string name="joinConfirmation">"તમારા દ્વારા કરવામાં આવેલા ફેરફારોને બચાવવાનું તમને ગમશે અને શું પસંદ કરેલ સંપર્ક સાથે લિંક કરશે?"</string>
+<string name="joinConfirmation_positive_button">"બચાવો અને લીંક કરો"</string>
+<string name="contacts_linking_progress_bar">"લિંકીંગ"</string>
+<string name="contacts_unlinking_progress_bar">"અનલિંકીંગ"</string>
+<string name="menu_joinAggregate">"લિંક"</string>
+<string name="menu_linkedContacts">"જોડવામાં આવેલા સંપર્કોને જુઓ"</string>
+<string name="menu_save">"બચાવો"</string>
+<string name="titleJoinContactDataWith">"લીંક સંપર્કો"</string>
+<string name="blurbJoinContactDataWith">"<xliff:g id="name">%s</xliff:g> સાથે જોડવા તમને સંપર્ક કરવા પસંદ કરો:"</string>
+<string name="separatorJoinAggregateSuggestions">સૂચિત સંપર્કો</string>
+<string name="separatorJoinAggregateAll">તમામ સંપર્કો</string>
+<string name="contactsJoinedNamedMessage">"<xliff:g id="name">%s</xliff:g> જોડવામાં આવેલ છે"</string>
+<string name="contactsJoinedMessage">"સંપર્કો જોડવામાં આવેલ છે"</string>
+<string name="contacts_deleted_one_named_toast">"<xliff:g id="name">%1$s</xliff:g> નાબૂદ કરવામાં આવેલ છે"</string>
+<string name="contacts_deleted_two_named_toast">"<xliff:g id="name">%1$s</xliff:g> અને <xliff:g id="name">%2$s</xliff:g> નાબૂદ કરવામાં આવેલ છે"</string>
+<string name="contacts_deleted_many_named_toast">"<xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>... નાબૂદ કરવામાં આવેલ છે"</string>
+<plurals name="contacts_deleted_toast">
+<item quantity="one">"સંપર્ક કાઢી નાંખેલ છે"</item>
+<item quantity="other">"સંપર્કો નાબૂદ કરવામાં આવેલ છે"</item>
+</plurals>
+<plurals name="contacts_count">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> સંપર્ક"</item>
+<item quantity="other"><xliff:g id="count">%d</xliff:g> સંપર્કો</item>
+</plurals>
+<plurals name="contacts_count_with_account">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> સંપર્ક· <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> સંપર્કો · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<plurals name="contacts_count_match">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g>સંપર્કનો તાલમેલ"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> સંપર્કોનો તાલમેલ"</item>
+</plurals>
+<plurals name="contacts_count_with_account_match">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> સંપર્કનો તાલમેલ · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> સંપર્કોનો તાલમેલ · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<string name="title_from_google">"Google થી"</string>
+<string name="title_from_custom">"કસ્ટમ થી"</string>
+<string name="title_from_other_accounts">"<xliff:g id="account">%s</xliff:g> થી"</string>
+<string name="menu_set_ring_tone">રીંગટોન ગોઠવો</string>
+<string name="menu_redirect_calls_to_vm">"વોઈસમેલનો રુટ"</string>
+<string name="menu_unredirect_calls_to_vm">"વોઈસમેલને અનરુટ કરવું"</string>
+<string name="readOnlyContactWarning">"આ સંપર્ક વાંચો ફક્ત.તે નાબૂદ કરી શકાય નહીં,પરંતુ તમે તેને છૂપાવી શકો નહીં."</string>
+<string name="readOnlyContactWarning_positive_button">"સંપર્ક છૂપાવો"</string>
+<string name="readOnlyContactDeleteConfirmation">"આ સંપર્કમાં ફક્ત વાંચી શકાતા ખાતા છૂપાવવામાં આવશે, નાબૂદ કરવામાં આવેલ નથી."</string>
+<string name="single_delete_confirmation">"શું આ સંપર્ક નાબૂદ કરવામાં આવ્યો?"</string>
+<string name="batch_delete_confirmation">"શું પસંદ કરવામાં આવેલ સંપર્કોને નાબૂદ કરવામાં આવેલ છે?"</string>
+<string name="batch_delete_read_only_contact_confirmation">"ફક્ત વાંચી શકાતા ખાતામાંથી સંપર્કોને નાબૂદ કરી શકાય નહીં,પરંતુ તેને છૂપાવી શકાય."</string>
+<string name="batch_delete_multiple_accounts_confirmation">"નાબૂદ કરવામાં આવેલા સંપર્કોને લગતી વિગતો ફક્ત મલ્ટીપલ એકાઉન્ટ્સમાંથી મળે છે.ફક્ત વાંચી શકાતા ખાતામાંથી વિગતોને છૂપાવવામાં આવશે, નાબૂદ કરવામાં આવ્યા નથી."</string>
+<string name="multipleContactDeleteConfirmation">"આ સંપર્કોને નાબૂદ કરવાથી મલ્ટીપલ એકાઉન્ટ્સમાંથી નાબૂદ કરસે."</string>
+<string name="deleteConfirmation">"શું આ સંપર્ક નાબૂદ કરવામાં આવ્યો?"</string>
+<string name="deleteConfirmation_positive_button">"ભૂંસો"</string>
+<string name="invalidContactMessage">સંપર્ક અસ્તિત્વ ધરાવતો નથી.</string>
+<string name="createContactShortcutSuccessful_NoName">"હોમ સ્ક્રીનમાં સંપર્ક ઉમેરવામાં આવ્યા છે."</string>
+<string name="createContactShortcutSuccessful">"<xliff:g id="name">%s</xliff:g> હોમ સ્ક્રીનમાં ઉમેરવામાં આવેલ છે."</string>
+<string name="photoPickerNotFoundText">"ઉપકરણ પર કોઈ ચિત્ર ઉપલબ્ધ નથી."</string>
+<string name="attach_photo_dialog_title">સંપર્ક ફોટો</string>
+<string name="customLabelPickerTitle">અનુકૂળ લેબલ નામ</string>
+<string name="removePhoto">ફોટ દૂર કરો</string>
+<string name="noContacts">"તમારા સંપર્કોની યાદી ખાલી છે"</string>
+<string name="emptyGroup">"આ લેબલ સાથે કોઈ સંપર્કો નહી"</string>
+<string name="emptyAccount">"આ ખાતામાં કોઈ ખાતા નહીં"</string>
+<string name="emptyMainList">"તમારા સંપર્કોની યાદી ખાલી છે"</string>
+<string name="contactSavedNamedToast">"<xliff:g id="display_name">%s</xliff:g> બચાવવામાં આવેલ છે"</string>
+<string name="contactSavedToast">"સંપર્ક બચાવવામાં આવેલ છે"</string>
+<string name="contactUnlinkedToast">"સંપર્કો અનલિંક્ડ"</string>
+<string name="contactSavedErrorToast">"સંપર્ક ફેરફારો બચાવી શકાય નહીં"</string>
+<string name="contactUnlinkErrorToast">"અનલિન્ક્ડ સંપર્ક કરી શકાય નહીં"</string>
+<string name="contactJoinErrorToast">"લિંક સંપર્ક કરી શકાય નહીં"</string>
+<string name="contactGenericErrorToast">"ખામી બચત સંપર્ક"</string>
+<string name="contactPhotoSavedErrorToast">"સંપર્ક ફોટો ફેરફારો બચાવી શકાય નહીં"</string>
+<string name="groupLoadErrorToast">"લોડ લેબલ માટે નિષ્ફળ ગયેલ છે"</string>
+<string name="groupDeletedToast">"લેબલ નાબૂદ કરવામાં આવેલ છે"</string>
+<string name="groupCreatedToast">"લેબલ સર્જવામાં આવેલ છે"</string>
+<string name="groupCreateFailedToast">"લેબલ સર્જન કરી શકાય નહીં"</string>
+<string name="groupUpdatedToast">"લેબલ અપડેટેડ છે"</string>
+<string name="groupMembersRemovedToast">" લેબલમાંથી નાબૂદ કરવામાં આવેલ છે""</string>
+<string name="groupMembersAddedToast">"લેબલમાં ઉમેરવામાં આવેલ છે"</string>
+<string name="groupSavedErrorToast">"લેબલ ફેરફારો બચાવી શકાય નહીં"</string>
+<string name="groupExistsErrorMessage">"આ લેબલ અત્યારે અસ્થિત્વ ધરાવે છે"</string>
+<string name="groupSomeContactsNoEmailsToast">"કેટલાક સંપર્કો ઈમેઈલો ધરાવતા નથી."</string>
+<string name="groupSomeContactsNoPhonesToast">"કેટલાક સંપર્કો ફોન નંબરો ધરાવતા નથી."</string>
+<string name="menu_sendEmailOption">ઇમેઇલ મોકલો</string>
+<string name="menu_sendMessageOption">સંદેશો મોકલો</string>
+<string name="pickerSelectContactsActivityTitle">"સંપર્કો પસંદ કરો"</string>
+<string name="send_to_selection">મોકલવું</string>
+<string name="listFoundAllContactsZero">સંપર્કો નથી</string>
+<string name="add_contact_dlg_message_fmt">\"<xliff:g id="email">%s</xliff:g>\" માં સંપર્કો ઉમેરવા છે?</string>
+<string name="search_settings_description">તમારા સંપર્કના નામો</string>
+<string name="quickcontact_transparent_view_description">"આગળની સ્ક્રીન પર પરત આવવા ક્લિક કરો"</string>
+<string name="quickcontact_add_phone_number">"ફોન નંબર ઉમેરો"</string>
+<string name="quickcontact_add_email">"ઇમેલ ઉમેરો"</string>
+<string name="missing_app">આ ક્રિયાને હેન્ડલ કરવા માટે કોઇ એપ્લિકેશન મળી ન હતી.</string>
+<string name="menu_share">"આપલે કરો"</string>
+<string name="menu_add_contact">"સંપર્કોમાં ઉમેરો"</string>
+<string name="menu_add_contacts">ઉમેરો</string>
+<plurals name="title_share_via">
+<item quantity="one">સંપર્ક મારફતે સહિયારું કરો</item>
+<item quantity="other">" મારફતે સંપર્કોની આપ-લે કરો"</item>
+</plurals>
+<string name="dialog_new_group_account">એકાઉન્ટ પસંદકરો</string>
+<string name="group_name_dialog_insert_title">"લેબલ રચના"</string>
+<string name="group_name_dialog_update_title">"લેબલને ફરી નામ આપો"</string>
+<string name="group_name_dialog_hint">"લેબલનું નામ"</string>
+<string name="label_name_dialog_hint">"લેબલનું નામ"</string>
+<string name="audio_chat">વોઇસ ચેટ</string>
+<string name="video_chat">વિડીયો ચેટ</string>
+<string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> સંપર્કો</string>
+<string name="google_account_type_format">"<xliff:g id="source" example="Google">%1$s</xliff:g> એકાઉન્ટ"</string>
+<string name="take_photo">"ફોટો લો"</string>
+<string name="take_new_photo">નવો ફોટો લો.</string>
+<string name="pick_photo">"ફોટો પસંદ કરો"</string>
+<string name="pick_new_photo">"એક ફોટો પસંદ કરો"</string>
+<string name="search_results_searching">શોધ\u2026</string>
+<string name="event_edit_field_hint_text">તારીખ</string>
+<string name="group_edit_field_hint_text">લેબલ</string>
+<string name="cancel_button_content_description">"રદ્દ"</string>
+<string name="back_arrow_content_description">પાછળ</string>
+<string name="action_menu_back_from_edit_select">"બંધ"</string>
+<string name="aggregation_suggestion_edit_dialog_message">"શું પસંદ કરેલા સંપર્કના સંપાદનને બદલવા માગો છો? અત્યાર સુધીમાં તમે દાખલ કરેલી માહિતીની નકલ કરવામાં આવશે."</string>
+<string name="contact_directory_description">ડિરેક્ટરી <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g> </string>
+<string name="activity_title_settings">"ગોઠવણી"</string>
+<string name="menu_settings">"ગોઠવણી"</string>
+<string name="menu_help">"મદદ &amp; પ્રતિસાદ"</string>
+<string name="organization_company_and_title">"<xliff:g id="company" example="Technical Program Manager">%2$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%1$s</xliff:g>"</string>
+<string name="non_phone_caption">ફોન નંબર</string>
+<string name="non_phone_add_to_contacts">"સંપર્કોમાં ઉમેરો"</string>
+<string name="non_phone_close">"બંધ"</string>
+<string name="date_year_toggle">"વર્ષ સમાવિષ્ઠ"</string>
+<string name="contacts_unavailable_add_account">ખાતુ ઉમેરો</string>
+<string name="contacts_unavailable_import_contacts">આયાત</string>
+<string name="create_group_item_label">"નવું સર્જન..."</string>
+<string name="delete_group_dialog_message">"લેબલ નાબૂદ કરો\"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\"? સંપર્કો તેમની રીતે નાબૂદ કરવામાં આવશે નહીં.) "</string>
+<string name="toast_join_with_empty_contact">"અન્યો સાથે જોડતા પહેલા સંપર્ક નામ ટાઈપ કરો. "</string>
+<string name="copy_text">ક્લિપબોર્ડમાં કોપી કરો</string>
+<string name="set_default">ડિફોલ્ટ નિશ્ચિત કરો</string>
+<string name="clear_default">ડિફોલ્ટ ક્લિયર કરો</string>
+<string name="toast_text_copied">ટેક્સ્ટ કોપી થઇ ગઇ છે.</string>
+<string name="cancel_confirmation_dialog_message">"બદલાવો કાઢી નાખીએ?"</string>
+<string name="cancel_confirmation_dialog_cancel_editing_button">કાઢી નાંખો</string>
+<string name="cancel_confirmation_dialog_keep_editing_button">"રદ્દ"</string>
+<string name="leave_customize_confirmation_dialog_message">"કસ્ટમાઈઝેશન ડિસ્કાર્ડ?"</string>
+<string name="enter_contact_name">સંપર્કો શોધો</string>
+<string name="title_edit_group">"સંપર્કોને બદલો"</string>
+<string name="local_profile_title">મારો લોકલ પ્રોફાઇલ</string>
+<string name="external_profile_title">મારો <xliff:g id="external_source">%1$s</xliff:g> પ્રોફાઇલ</string>
+<string name="contact_editor_prompt_zero_accounts">તમારો નવો સંપર્ક બેક અપ થશે નહી. ઓનલાઇ સંપર્ક બેક અપ કરે તેવા એકાઉન્ટમાં ઉમેરવું છે?</string>
+<string name="contact_editor_prompt_one_account">"નવા સંપર્કો <xliff:g id="account_name">%1$s</xliff:g> માં બચાવ(સેવ) કરવામાં આવશે ."</string>
+<string name="contact_editor_prompt_multiple_accounts">"નવા સંપર્કો માટે ડિફોલ્ટ એકાઉન્ટ પસંદ કરો:"</string>
+<string name="contact_editor_title_new_contact">નવો સંપર્ક તૈયાર કરો</string>
+<string name="contact_editor_title_existing_contact">સંપર્ક સંપાદિત કરો</string>
+<string name="contact_editor_title_read_only_contact">"ફક્ત જુઓ"</string>
+<string name="contact_editor_pick_raw_contact_to_edit_dialog_title">"સંપાદન માટે સંપર્ક પસંદ કરો"</string>
+<string name="contact_editor_pick_linked_contact_dialog_title">"સંપર્કોને જોડવામાં આવેલ છે"</string>
+<string name="contact_editor_add_linked_contact">ઉમેરો</string>
+<string name="contact_editor_unlink_contacts">"લીંક મિટાવો"</string>
+<string name="add_account">ખાતુ ઉમેરો</string>
+<string name="add_new_account">નવું એકાઉન્ટ ઉમેરો</string>
+<string name="menu_export_database">ડેટાબેઝ ફાઇલોની નિકાસ કરો</string>
+<string name="action_menu_add_new_contact_button">નવો સંપર્ક તૈયાર કરો</string>
+<string name="expanding_entry_card_view_see_more">"વધુ જુઓ"</string>
+<string name="expanding_entry_card_view_see_less">"ઓછું જુઓ"</string>
+<string name="recent_card_title">તાજેતરનું</string>
+<string name="about_card_title">વિશે</string>
+<string name="toast_making_personal_copy">"વ્યક્તિગત નકલનું સર્જન કરવામાં આવી છે..."</string>
+<string name="tomorrow">આવતીકાલ</string>
+<string name="today">આજે</string>
+<string name="untitled_event">"(શીર્ષક વગરનો પ્રસંગ)"</string>
+<string name="date_time_set">સેટ કરવું</string>
+<string name="header_im_entry">"IM"</string>
+<string name="header_organization_entry">સંસ્થા</string>
+<string name="header_nickname_entry">"હૂલામણું નામ"</string>
+<string name="header_note_entry">"નોંધ"</string>
+<string name="header_website_entry">"વેબસાઇટ"</string>
+<string name="header_event_entry">"કાર્યક્રમ"</string>
+<string name="header_relation_entry">"સંબંધ"</string>
+<string name="header_name_entry">"નામ"</string>
+<string name="header_email_entry">ઇમેઇલ</string>
+<string name="header_phone_entry">"ફોન"</string>
+<string name="content_description_directions">"સ્થાન પરના દિશાસૂચનો"</string>
+<string name="editor_more_fields">"વધારે ક્ષેત્રો"</string>
+<string name="editor_change_photo_content_description">"સંપર્ક ફોટો બદલો"</string>
+<string name="editor_add_photo_content_description">"સંપર્ક ફોટો ઉમેરો"</string>
+<string name="editor_contact_photo_content_description">સંપર્ક ફોટો</string>
+<string name="editor_failed_to_load">"એડિટરને ખોલવા નિષ્ફળ."</string>
+<string name="editor_account_selector_title">"માં બચાવવામાં આવેલ છે"</string>
+<string name="editor_account_selector_read_only_title">"સંપર્ક માહિતી <xliff:g id="account">%s</xliff:g> સંપાદિત કરી શકાય નહીં"</string>
+<string name="quickcontact_suggestion_link_button">"લીંક સંપર્કો"</string>
+<string name="quickcontact_suggestion_cancel_button">"રદ્દ"</string>
+<string name="suggestion_card_this_contact_title">"આ સંપર્ક"</string>
+<string name="suggestion_card_duplicates_title">"સંભવિત ડુપ્લિકેટ્સ"</string>
+<string name="suggestion_card_help_message">"આ સંપર્કો એક સમાન વ્યક્તિ કરી શકાય છે.એક સંપર્ક તરીકે સંયુક્ત રીતે તમે જોડી શકો છો."</string>
+<string name="editor_delete_view_description">"નાબૂદ <xliff:g id="data_type">%1$s </xliff:g><xliff:g id="data_kind">%2$s</xliff:g>"</string>
+<string name="editor_delete_view_description_short">"નાબૂદ <xliff:g id="data_kind">%s</xliff:g>"</string>
+<string name="menu_assistant">"સૂચનો"</string>
+<string name="menu_assistant_new_badge">"નવું"</string>
+<string name="navigation_drawer_open">નેવિગેશન ડ્રોવર ખોલો</string>
+<string name="navigation_drawer_close">નેવિગેશન ડ્રોવર બંધ કરો</string>
+<string name="navigation_drawer_label">"<xliff:g id="label_name">%s</xliff:g> લેબલ"</string>
+<string name="menu_title_groups">"લેબલ્સ"</string>
+<string name="menu_title_filters">ખાતા</string>
+<string name="permission_explanation_header">"તમારા ઈતિહાસને સંયુક્ત રીતે જુઓ"</string>
+<string name="permission_explanation_subheader_calendar_and_SMS">"ઈવેન્ટ્સ અને સંદેશા"</string>
+<string name="permission_explanation_subheader_calendar">ઘટનાઓ</string>
+<string name="permission_explanation_subheader_SMS">"સંદેશાઓ"</string>
+<string name="hamburger_feature_highlight_header">"સૂચનો"</string>
+<string name="hamburger_feature_highlight_body">"તમારા સંપર્કોને સંગઠીત અને ઉપયોગી રાખે છે"</string>
+<string name="undo">UNDO</string>
+<string name="call_custom">"કોલ <xliff:g id="custom_label" example="business">%s</xliff:g> "</string>
+<string name="call_home">ઘરે ફોન કરો</string>
+<string name="call_mobile">મોબાઇલ પર ફોન કરો</string>
+<string name="call_work">કામના સ્થળે કોલ કરો</string>
+<string name="call_fax_work">કાર્યના સ્થળે ફેક્સ કોલ કરો</string>
+<string name="call_fax_home">ઘરે ફેક્સ પર કોલ કરો</string>
+<string name="call_pager">પેજર પર કોલ કરો</string>
+<string name="call_other">"કોલ કરો"</string>
+<string name="call_callback">કોલબેક કોલ કરો</string>
+<string name="call_car">કાર માટે કોલ કરો</string>
+<string name="call_company_main">મુખ્ય કંપનીમાં કોલ કરો</string>
+<string name="call_isdn">ISDN કોલ કરો</string>
+<string name="call_main">મુખ્ય કોલ કરો</string>
+<string name="call_other_fax">ફેક્સ કોલ કરો</string>
+<string name="call_radio">રેડીયોમાં કોલ કરો</string>
+<string name="call_telex">ટેલેક્સમાં કોલ કરો</string>
+<string name="call_tty_tdd">TTY/TDD કોલ કરો</string>
+<string name="call_work_mobile">કાર્યનો મોબાઇલ કરો</string>
+<string name="call_work_pager">કાર્યના પેજર પર કોલ કરો</string>
+<string name="call_assistant">"કોલ <xliff:g id="custom_label" example="assistant">%s</xliff:g> "</string>
+<string name="call_mms">MMS કોલ કરો</string>
+<string name="call_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (કોલ)"</string>
+<string name="sms_custom">"પાઠ્ય <xliff:g id="custom_label" example="business">%s</xliff:g> "</string>
+<string name="sms_home">ટેક્સ્ટ ઘર</string>
+<string name="sms_mobile">ટેક્સ્ટ મોબાઇલ</string>
+<string name="sms_work">ટેક્સ્ટ કામ</string>
+<string name="sms_fax_work">ટેક્ટ્સ કાર્ય ફેક્સ</string>
+<string name="sms_fax_home">ટેક્સ્ટ હોમ ફેક્સ</string>
+<string name="sms_pager">ટેક્સ્ટ પેજર</string>
+<string name="sms_other">ટેક્સ્ટ</string>
+<string name="sms_callback">ટેક્સ્ટ કોલબેક</string>
+<string name="sms_car">ટેક્સ્ટ કાર</string>
+<string name="sms_company_main">ટેક્સ્ટ કંપની મુખ્ય</string>
+<string name="sms_isdn">ટેક્સ્ટ ISDN</string>
+<string name="sms_main">ટેક્સ્ટ મુખ્ય</string>
+<string name="sms_other_fax">ટેક્સ્ટ ફેક્સ</string>
+<string name="sms_radio">ટેક્સ્ટ રેડીયો</string>
+<string name="sms_telex">ટેક્સ્ટ ટેલેક્સ</string>
+<string name="sms_tty_tdd">ટેક્સ્ટ TTY/TDD</string>
+<string name="sms_work_mobile">ટેક્સ્ટ કાર્ય મોબાઇલ</string>
+<string name="sms_work_pager">ટેક્સ્ટ કાર્ય પેજર</string>
+<string name="sms_assistant">"ટેક્સ્ટ <xliff:g id="assistant">%s</xliff:g> "</string>
+<string name="sms_mms">"ટેક્સ્ટ MMS"</string>
+<string name="sms_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (સંદેશ)"</string>
+<string name="description_video_call">"વીડિયો કૉલ કરો"</string>
+<string name="clearFrequentsConfirmation_title">"વારંવારના સંપર્કો ક્લિયર કરવા છે?"</string>
+<string name="clearFrequentsConfirmation">"સંપર્કો અને ફોન એપ્સમાં તમે અવારનવાર સંપર્ક યાદીને ક્લિયર કરશો, અને સ્ક્રેચમાંથી તમારી પસંદગીની બાબત માતે અભ્યાસ કરવા ઈમેલ એપ્સને ફોર્સ કરશો."</string>
+<string name="clearFrequentsProgress_title">વારંવાર સંપર્ક કરેલાઓને ક્લિયર કરે છે\u2026</string>
+<string name="status_available">ઉપલબ્ધ</string>
+<string name="status_away">દૂર</string>
+<string name="status_busy">વ્યસ્ત</string>
+<string name="local_invisible_directory">અન્ય </string>
+<string name="directory_search_label">ડાયરેક્ટરી</string>
+<string name="directory_search_label_work">"કાર્ય નિર્દેશિત"</string>
+<string name="local_search_label">તમામ સંપર્કો</string>
+<string name="description_quick_contact_for">"<xliff:g id="name">%1$s</xliff:g>ના માટે ઝડપી સંપર્ક"</string>
+<string name="missing_name">"(નામ નથી)"</string>
+<string name="favoritesFrequentContacted">"વારંવાર સંપર્ક કરેલ "</string>
+<string name="list_filter_phones">"ફો નંબર્સ સાથેના દરેક સંપર્કો"</string>
+<string name="list_filter_phones_work">"વર્ક પ્રોફાઈલ સંપર્કો"</string>
+<string name="view_updates_from_group">"અપડેટ્સ જુઓ"</string>
+<string name="account_phone">ડિવાઇસ </string>
+<string name="account_sim">"SIM"</string>
+<string name="nameLabelsGroup">"નામ"</string>
+<string name="nicknameLabelsGroup">"હૂલામણું નામ"</string>
+<string name="name_given">"પ્રથમ નામ"</string>
+<string name="name_family">"અટક"</string>
+<string name="name_prefix">"નામની આગળનો ઉપસર્ગ"</string>
+<string name="name_middle">"મધ્યસ્થ નામ"</string>
+<string name="name_suffix">"નામના અંતે લાગતો પ્રત્યય"</string>
+<string name="name_phonetic">"ફોનેટિક નામ"</string>
+<string name="name_phonetic_given">"ધ્વયનાત્મક પ્રથમ નામ"</string>
+<string name="name_phonetic_middle">"ફોનેટિક મધ્યસ્થ નામ "</string>
+<string name="name_phonetic_family">"ધ્વયનાત્મક અંતિમ નામ"</string>
+<string name="phoneLabelsGroup">"ફોન"</string>
+<string name="emailLabelsGroup">ઇમેઇલ</string>
+<string name="postalLabelsGroup">સરનામુ</string>
+<string name="imLabelsGroup">"IM"</string>
+<string name="organizationLabelsGroup">સંસ્થા</string>
+<string name="relationLabelsGroup">"સંબંધ"</string>
+<string name="eventLabelsGroup">"ખાસ તારીખ"</string>
+<string name="sms">પાઠ્ય સંદેશ</string>
+<string name="postal_address">સરનામુ</string>
+<string name="ghostData_company">"કંપની"</string>
+<string name="ghostData_title">શિર્ષક</string>
+<string name="label_notes">"નોંધો"</string>
+<string name="label_custom_field">અનુકૂળ</string>
+<string name="websiteLabelsGroup">"વેબસાઇટ"</string>
+<string name="groupsLabel">"લેબલ્સ"</string>
+<string name="email_home">"ઇમેઇલ હોમ "</string>
+<string name="email_mobile">"ઇમેઇલ મોબાઇલ"</string>
+<string name="email_work">"ઇમેઇલ કાર્ય"</string>
+<string name="email_other">ઇમેઇલ</string>
+<string name="email_custom">"ઈમેલ <xliff:g id="custom_label" example="business">%s</xliff:g>"</string>
+<string name="email">ઇમેઇલ</string>
+<string name="postal_street">"શેરી"</string>
+<string name="postal_city">"શહેર"</string>
+<string name="postal_region">"રાજ્ય"</string>
+<string name="postal_postcode">"ZIP કોડ"</string>
+<string name="postal_country">"દેશ"</string>
+<string name="map_home">"હોમ એડ્રેસ જુઓ"</string>
+<string name="map_work">"કામનું એડ્રેસ જુઓ"</string>
+<string name="map_other">"એડ્રેસ જુઓ"</string>
+<string name="map_custom">"જુઓ <xliff:g id="custom_label" example="vacation">%s</xliff:g> સરનામા"</string>
+<string name="chat_aim">"AIMનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_msn">"વિન્ડોઝ લાઇવન ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_yahoo">"યાહૂનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_skype">"સ્કાયપેનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_qq">"QQનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_gtalk">"ગૂગલ ટોકનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_icq">"ICQનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat_jabber">"જાબરનો ઉપયોગ કરીને ચેટ કરો"</string>
+<string name="chat">"ચેટ"</string>
+<string name="description_minus_button">"ભૂંસો"</string>
+<string name="expand_name_fields_description">"વધુ નામના ક્ષેત્રો દર્શાવો"</string>
+<string name="collapse_name_fields_description">"નામના ક્ષેત્રો સંક્ષિપ્ત"</string>
+<string name="expand_phonetic_name_fields_description">"વધારે ફોનેટીક નામના ક્ષેત્રો દર્શાવો"</string>
+<string name="collapse_phonetic_name_fields_description">"ફોનેટીક નામના ક્ષેત્રોમાં સંક્ષિપ્ત "</string>
+<string name="expand_fields_description">"વિસ્તરણ"</string>
+<string name="collapse_fields_description">"ભંગાણ"</string>
+<string name="announce_expanded_fields">"વિસ્તરણ કરાયેલ"</string>
+<string name="announce_collapsed_fields">"સંક્ષિપ્ત કરેલ"</string>
+<string name="list_filter_all_accounts">તમામ સંપર્કો</string>
+<string name="list_filter_all_starred">તારાંકિત</string>
+<string name="list_filter_customize">"કસ્ટમાઇઝ"</string>
+<string name="list_filter_single">"સંપર્ક"</string>
+<string name="display_ungrouped">"અન્ય દરેક સંપર્કો"</string>
+<string name="display_all_contacts">તમામ સંપર્કો</string>
+<string name="menu_sync_remove">"સિંક જૂથ દૂર કરો "</string>
+<string name="dialog_sync_add">"સિંક જૂથ ઉમેરો"</string>
+<string name="display_more_groups">"વધુ જૂથો \u2026"</string>
+<string name="display_warn_remove_ungrouped">"સિંકમાંથી પણ દૂર કરતા \"<xliff:g id="group" example="Starred">%s</xliff:g>\"જૂથમાં ન હોય તેવા સંપર્કોને પણ દૂર કરશે."</string>
+<string name="savingDisplayGroups">"ડિસ્પ્લે વિકલ્પો સેવ કરે છે \u2026"</string>
+<string name="listCustomView">"કસ્ટમાઈઝ્ડ જુઓ"</string>
+<string name="dialog_new_contact_account">"માં આયાતી સંપર્કોને બચાવો:"</string>
+<string name="import_from_sim">SIM કાર્ડ</string>
+<string name="import_from_sim_summary_fmt">"SIM <xliff:g id="sim_name">%1$s</xliff:g>"</string>
+<plurals name="import_from_sim_secondary_contact_count_fmt">
+<item quantity="one">1 સંપર્ક</item>
+<item quantity="other">"%1$d સંપર્કો"</item>
+</plurals>
+<plurals name="import_from_sim_secondary_template">
+<item quantity="one">"<xliff:g id="count">^1</xliff:g> સંપર્ક • <xliff:g id="phone_number">^2</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">^1</xliff:g> સંપર્કો • <xliff:g id="phone_number">^2</xliff:g>"</item>
+</plurals>
+<string name="import_from_vcf_file">".vcf ફાઈલમાંથી આયાત"</string>
+<string name="copy_to">મા કોપી કરો</string>
+<string name="import_export_contacts">સંપર્કો આયાત/નિકાસ કરો</string>
+<string name="share_visible_contacts">"દેખાય તેવા સંપર્કોની વહેંચણી કરો"</string>
+<string name="dialog_import_export">સંપર્કો આયાત/નિકાસ કરો</string>
+<string name="dialog_import">સંપર્કો યાત કરો</string>
+<string name="nothing_to_import_message">"કંઈજ ઈમ્પોર્ટ કરવાનું નથી"</string>
+<string name="import_from_vcf_file_confirmation_message">"vCard માંથી સંપર્ક ઈમ્પોર્ટ કરો?"</string>
+<string name="cancel_import_confirmation_message">"<xliff:g id="filename" example="import.vcf">%s</xliff:g>ની આયાત રદ કરો?"</string>
+<string name="cancel_export_confirmation_message">" <xliff:g id="filename" example="export.vcf">%s</xliff:g>ની નિકાસ રદ કરો?"</string>
+<string name="cancel_vcard_import_or_export_failed">"વીકાર્ડ આયાત/નિકાસ રદ કરી શકેલ નથી"</string>
+<string name="fail_reason_unknown">અજ્ઞાત ત્રુટિ</string>
+<string name="fail_reason_could_not_open_file">"ખોલી શકાય નહીં \"<xliff:g id="file_name">%1$s</xliff:g>\": <xliff:g id="exact_reason">%2$s</xliff:g>."</string>
+<string name="fail_reason_could_not_initialize_exporter">"નિકાસકર્તાને શરૂ કરી શકેલ નથી: \"<xliff:g id="exact_reason">%s</xliff:g>\"."</string>
+<string name="fail_reason_no_exportable_contact">"નિકાયોગ્ય સંપર્ક કોઇ સંપર્ક નથી."</string>
+<string name="missing_required_permission">"તમે આવશ્યક પરવાનગી અક્ષમ કરી છે."</string>
+<string name="fail_reason_error_occurred_during_export">"નિકાસ કરતી વખતે ભૂલ થઇ હતી: \"<xliff:g id="exact_reason">%s</xliff:g>\"."</string>
+<string name="fail_reason_io_error">"I/O ભૂલ"</string>
+<string name="fail_reason_low_memory_during_import">"પૂરતી મેમરી નથી. ફાઇલ કદાચ ઘણી મોટી હોઇ શકે છે."</string>
+<string name="fail_reason_not_supported">"ફોરમેટ સમર્થિત નથી."</string>
+<string name="exporting_vcard_finished_title">"નિકાસ કરવાનું સમાપ્ત <xliff:g id="filename" example="export.vcf">%s</xliff:g>."</string>
+<string name="exporting_vcard_finished_title_fallback">"નિકાસ કરવામાં આવી રહેલા સંપર્કો પૂર્ણ."</string>
+<string name="exporting_vcard_finished_toast">"તૈયાર નિકાસ કરવામાં આવતા સંપર્કો, સંપર્કોની આપલે કરવા સૂચના પર ક્લિક કરો."</string>
+<string name="touch_to_share_contacts">"સંપર્કોની આપ લે કરવા ટેપ કરો."</string>
+<string name="exporting_vcard_canceled_title">"<xliff:g id="filename" example="export.vcf">%s</xliff:g> નિકાસ રદ થઇ છે. "</string>
+<string name="exporting_contact_list_title">"સંપર્ક ડેટા નિકાસ કરે છે"</string>
+<string name="exporting_contact_list_message">"સંપર્ક ડેટા નિકાસ કરવામાં આવી રહ્યા છે."</string>
+<string name="composer_failed_to_get_database_infomation">"ડેટાબેઝ માહિતી મેળવી શકાઇ નથી.."</string>
+<string name="composer_has_no_exportable_contact">"સંપર્કો નિકાસ કરી શકાય નહીં."</string>
+<string name="composer_not_initialized">"વીકાર્ડ કંપોઝર યોગ્ય રીતે શરૂ થઇ શક્યુ નથી."</string>
+<string name="exporting_contact_failed_title">"નિકાસ કરી શકેલ નથી"</string>
+<string name="exporting_contact_failed_message">"સંપર્ક ડેટાની નિકાસ થઇ શકી નથી.\nકારણ: \"<xliff:g id="fail_reason">%s</xliff:g>\""</string>
+<string name="importing_vcard_description">"આયાત કરે છે <xliff:g id="name" example="Joe Due">%s</xliff:g>"</string>
+<string name="reading_vcard_failed_title">"વીકાર્ડ ડેટા વાંચી શકાયો નથી "</string>
+<string name="importing_vcard_finished_title">"વીકાર્ડ આયાત કરવાનું સમાપ્ત <xliff:g id="filename" example="import.vcf">%s</xliff:g>"</string>
+<string name="importing_vcard_canceled_title">" <xliff:g id="filename" example="import.vcf">%s</xliff:g> આયાત કરવાનું રદ થઇ ગયું"</string>
+<string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g>ને ટૂંક સમયમાં આયાત થશે</string>
+<string name="vcard_import_will_start_message_with_default_name">"ફાઇલ નામ ટૂંક સમયમાં આયાત કરાશે."</string>
+<string name="vcard_import_request_rejected_message">"વીકાર્ડ આયાત કરવાની વિનંતી ફગાવી દેવાઇ છે. બાદમાં પુનઃપ્રયાસ કરો."</string>
+<string name="contacts_export_will_start_message">"સંપર્કો ટૂંક સમયમાં નિકાસ કરવામાં આવશે."</string>
+<string name="vcard_export_request_rejected_message">"વીકાર્ડ નિકાસની વિનંતી ફગાવી દેવાઇ હતી. બાદમાં પુનઃપ્રયાસ કરો."</string>
+<string name="vcard_unknown_filename">"સંપર્ક"</string>
+<string name="caching_vcard_message">"સ્થાનિક હંગામી સ્ટોરેજમાં વીકાર્ડ(સ) કેચ કરે છે. ખરેખર આયાત ટૂંક સમયમાં નક્કી થશે."</string>
+<string name="vcard_import_failed">"વીકાર્ડ આયાત કરી શકાયું નથી."</string>
+<string name="nfc_vcard_file_name">NFC પર સંપર્કો મળી ગયા છે</string>
+<string name="caching_vcard_title">"કેચીંગ"</string>
+<string name="progress_notifier_message">"આયાત કરવામાં આવી રહ્યા છે <xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g>: <xliff:g id="name" example="Joe Due">%3$s</xliff:g>"</string>
+<string name="export_to_vcf_file">" .vcf ફાઈલમાં નિકાસ"</string>
+<string name="display_options_sort_list_by">ના દ્વારા વર્ગીકૃત્ત કરો</string>
+<string name="display_options_phonetic_name_fields">"ફોનેટિક નામ"</string>
+<string name="editor_options_always_show_phonetic_names">હંમેશા દર્શાવો</string>
+<string name="editor_options_hide_phonetic_names_if_empty">"ખાલી હોય તો છૂપાવો"</string>
+<string name="display_options_sort_by_given_name">"પ્રથમ નામ"</string>
+<string name="display_options_sort_by_family_name">"અટક"</string>
+<string name="display_options_view_names_as">"નામ સ્વરૂપ"</string>
+<string name="display_options_view_given_name_first">"પ્રથમ નામ પ્રથમ"</string>
+<string name="display_options_view_family_name_first">"અટક નામ પ્રથમ"</string>
+<string name="settings_accounts">ખાતા</string>
+<string name="default_editor_account">"નવા સંપર્કો માટે ડિફોલ્ટ એકાઉન્ટ"</string>
+<string name="settings_my_info_title">"મારી માહિતી"</string>
+<string name="set_up_profile">"તમારું પ્રોફાઇલ સ્થાપિત કરો"</string>
+<string name="setting_about">"સંપર્કો વિશે"</string>
+<string name="share_favorite_contacts">"મનપસંદ સંપર્કોની આપ-લે"</string>
+<string name="share_contacts">"તમામ સંપર્કોની આપ-લે"</string>
+<string name="share_contacts_failure">"સંપર્કોની આપ લે નિષ્ફળ ગઈ છે."</string>
+<string name="dialog_export">સંપર્કોની નિકાસ કરો</string>
+<string name="share_error">"આ સંપર્કની વહેંચણી થઇ શકે તેમ નથી."</string>
+<string name="no_contact_to_share">"આપ-લે કરવા માટે કોઈ જ સંપર્કો નથી."</string>
+<string name="menu_contacts_filter">"ડિસ્પ્લે કરવાના સંપર્કો"</string>
+<string name="activity_title_contacts_filter">"ડિસ્પ્લે કરવાના સંપર્કો"</string>
+<string name="custom_list_filter">"કસ્ટમાઈઝ વ્યુ"</string>
+<string name="menu_custom_filter_save">"બચાવો"</string>
+<string name="hint_findContacts">સંપર્કો શોધો</string>
+<string name="contactsFavoritesLabel">પસંદગીઓ</string>
+<string name="menu_import">આયાત</string>
+<string name="menu_export">એક્સપોર્ટ</string>
+<string name="menu_blocked_numbers">"બ્લોક કરેલા નંબરો"</string>
+<string name="contact_status_update_attribution">વાયા  <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+<string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> વાયા <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+<string name="action_menu_back_from_search">"શોધ રોકો"</string>
+<string name="description_clear_search">"શોધ સાફ કરો"</string>
+<string name="select_account_dialog_title">ખાતા</string>
+<string name="set_default_account">"હંમેશા કૉલ્સ માટે આનો ઉપયોગ કરો"</string>
+<string name="call_with_a_note">"નોધ સાથે કોલ"</string>
+<string name="call_subject_hint">"કોલ સાથે મોકલવા નોંધ ટાઈપ કરો..."</string>
+<string name="send_and_call_button">"મોકલો અને કોલ કરો"</string>
+<string name="call_subject_limit">"<xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g>"</string>
+<string name="call_subject_type_and_number">"<xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g>"</string>
+<string name="about_build_version">બિલ્ડ નંબર</string>
+<string name="about_open_source_licenses">સોર્સ લાઈસંસ ખોલો</string>
+<string name="about_open_source_licenses_summary">"ખુલ્લા સ્રોત સોફ્ટવેર માટે લાઈસન્સની વિગતો"</string>
+<string name="about_privacy_policy">"ગોપનીયતા નીતિ"</string>
+<string name="about_terms_of_service">"સેવાને લગતી શરતો"</string>
+<string name="activity_title_licenses">સોર્સ લાઈસંસ ખોલો</string>
+<string name="url_open_error_toast">"ખોલવામાં નિષ્ફળ ગયેલ છે."</string>
+<string name="account_filter_view_checked">"<xliff:g id="account_info">%s</xliff:g> તપાસવામાં આવેલ છે"</string>
+<string name="account_filter_view_not_checked">"<xliff:g id="account_info">%s</xliff:g> તપાસવામાં આવેલ નથી"</string>
+<string name="description_search_video_call">"વિડિયો કોલ મુકો"</string>
+<string name="description_delete_contact">"ભૂંસો"</string>
+<string name="description_no_name_header">"એલિપસિસ"</string>
+<string name="dynamic_shortcut_disabled_message">"આ ડિસપ્લે અક્ષમ છે"</string>
+<string name="dynamic_shortcut_contact_removed_message">"સંપર્ક ખસેડવામાં આવ્યો હતો"</string>
+<string name="sim_import_button_text">આયાત</string>
+<string name="sim_import_title_none_selected">"સંપર્કો ઉમેરો"</string>
+<string name="sim_import_empty_message">"તમારા SIM કાર્ડમાં સંપર્કો નથી "</string>
+<string name="sim_import_contact_exists_toast">"તમારી યાદીમાં સંપર્ક છે"</string>
+<plurals name="sim_import_success_toast_fmt">
+<item quantity="one">"1 SIM સંપર્ક આયાત કર્યો છે"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> SIM સંપર્કો આયાત કર્યા છે"</item>
+</plurals>
+<string name="sim_import_failed_toast">"SIM સંપર્કો આયાત માટે ભરો"</string>
+<string name="sim_import_title">"SIM માંથી આયાત "</string>
+<string name="sim_import_cancel_content_description">"રદ્દ"</string>
+<string name="auto_sync_off">"ઓટો-સિંક બંધ છે. ચાલુ કરવા ટેપ કરો."</string>
+<string name="dismiss_sync_alert">બરખાસ્ત કરવું</string>
+<string name="account_sync_off">"એકાઉન્ટ સિંક બંધ છે. ચાલુ કરવા ટેપ કરો."</string>
+<string name="turn_auto_sync_on_dialog_title">"ઓટો-સિંક ચાલુ કરો?"</string>
+<string name="turn_auto_sync_on_dialog_body">"તમામ એપ્સ અને ખાતા કે જેમાં તમે ફેરફારો કર્યા છે તે ફક્ત Google સંપર્કો જ નથી પરંતુ વેબ અને તમારા ઉપકરણો વચ્ચે તારીખને રાખશે."</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">ચાલુ કરો</string>
+<string name="connection_error_message">જોડાણ નથી</string>
+<string name="single_sim_display_label">"SIM"</string>
+<string name="show_more_content_description">"વધારે દર્શાવો"</string>
+<string name="importing_sim_finished_title">"SIM કાર્ડ આયાત કરવાની પ્રક્રિયા પૂર્ણ"</string>
+<string name="importing_sim_failed_title">"ઈમ્પોર્ટ નિષ્ફળ ગયેલ છે"</string>
+<string name="importing_sim_failed_message">"SIM કાર્ડમાંથી સંપર્કો આયાત કરી શકાય નહીં"</string>
+<string name="importing_sim_in_progress_title">"SIM આયાત કરવામાં આવી રહ્યા છે"</string>
+<string name="contacts_default_notification_channel">જાણકારીઓ</string>
+<string name="listTotalAllContactsZeroGroup">" <xliff:g id="name" example="Friends">%s</xliff:g>માં કોઇ સંપર્કો નથી"</string>
+<string name="listTotalPhoneContactsZero">"ફોન નંબરો સાથે કોઇ સંપર્કો નથી."</string>
+<string name="listTotalAllContactsZeroStarred">ખાસ નથી</string>
+<string name="listTotalAllContactsZeroCustom">"દેખાય તેવા કોઇ સંપર્કો નથી."</string>
+<string name="listTotalAllContactsZero">કોઇ સંપર્કો નથી.</string>
+<string name="foundTooManyContacts">"<xliff:g id="count">%d</xliff:g> કરતા વધુ મળ્યા."</string>
+<plurals name="searchMatchContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> સંપર્ક મેળ ધરાવે છે"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> સંપર્ક મેળ ધરાવે છે"</item>
+</plurals>
+<plurals name="listContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> સંપર્કો"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> સંપર્કો"</item>
+</plurals>
+<string name="contacts_select_all">"દરેક સિલેક્ટ કરો"</string>
+<string name="contacts_cancel_all">બધું જ રદ કરો</string>
+<string name="toast_no_contact_selected">કોઇ સંપર્ક સિલેક્ટ થયો નથી</string>
+<string name="list_filter_emails">ઇમેઇલ એડ્રેસ સાથે બધા સંપર્કો</string>
+<string name="listTotalEmailContactsZero">ઇમેઇલ એડ્રેસ સાથે કોઈ સંપર્કો નથી</string>
+<string name="toast_batchoperation_is_running">"બેચ કામગીરી જારી છે, કૃપા કરી બાદમાં ફરી પ્રયાસ કરશો."</string>
+<string name="contacts_selection_for_mms_limit">"પસંદ કરવામાં આવેલી સામગ્રીની સંખ્ય <xliff:g id="COUNT">%d</xliff:g> છે"</string>
+<string name="no_match_contact">"કોઇ સંપર્ક મેળ ખાતો નથી"</string>
+<string name="list_filter_all_in_one">માહિતી સાથે બધા સંપર્કો</string>
+<string name="contacts_selection_too_more">"પસંદ કરવામાં આવેલ સંપર્કોની મહત્તમ સંખ્યા <xliff:g id="COUNT">%d</xliff:g> છે"</string>
+<string name="res_name">"નામ"</string>
+<string name="res_phone">"ફોન"</string>
+<string name="res_email">ઇમેઇલ</string>
+<string name="res_field">ફિલ્ડ</string>
+<plurals name="listSelectedContacts">
+<item quantity="one">"સિલેક્ટ કરે છે(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+<item quantity="other">"સિલેક્ટ કરે છે(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+</plurals>
+<string name="re_add_contact">"પરવાનગી બદલાયેલ હોવાથી,કૃપા કરીને સંપર્ક ફરીથી ઉમેરો."</string>
+<string name="transaction_too_large">"પસંદ કરવામાં આવેલા સંપર્કોનું કદ મર્યાદાથી વધારે છે,કૃપા કરી કેટલાક સંપર્કો જ પસંદ કરો. "</string>
+<string name="menu_doNotSave">"રદ્દ"</string>
+<string name="menu_done">"પૂર્ણ"</string>
+<string name="batch_delete_confim_title">"સંપર્કો નાબૂદ કરો"</string>
+<string name="batch_delete_confim_message">"શું તમે પસંદ કરેલા સંપર્કો નાબૂદ કરવા સુનિશ્ચિત છો?"</string>
+<string name="menu_share_by_sms">"સંદેશા દ્વારા સંપર્કો મોકલો"</string>
+<string name="menu_batch_delete">બેચ ડિલીટ કરો</string>
+<string name="working_batch_delete">બેટ ડિલીટ કરે છે</string>
+<string name="batch_operation_canceled">ઓપરેશન રદ</string>
+<string name="delete_done">ડિલીટ થઇ ગયું છે</string>
+<string name="sqlite_full">સંપર્ક ડેટાબેઝ અથવા ડિસ્ક ભરાઇ ગઇ છે</string>
+<string name="beyond_sim_card_capacity">"SIM કાર્ડની ક્ષમતાથી ઉપર કેટલાક સંપર્કો SIM માં બચાવાશે નહીં."</string>
+<string name="working_batch_import">બેચ આયાત કરે છે</string>
+<string name="import_failed_tmp">"<xliff:g id="count">%d</xliff:g> સફળ, <xliff:g id="count">%d</xliff:g> નિષ્ફળ"</string>
+<string name="import_done">આયાત ઝોન</string>
+<string name="violate_capacity">"SIM ક્ષમતાનું ઉલ્લંઘન કરે છે "</string>
+<string name="anr_is_full">"SIM ના ફિક્સ્ડ ક્રમાંકોનું કદ વધુ મોટું છે"</string>
+<string name="import_failed">"આયાત/ નિકાસ સંપર્ક નિષ્ફળ"</string>
+<string name="cancel_batch_import_confirmation">આયાત સંપર્ક રદ કરીએ?</string>
+<string name="cancel_batch_delete_confirmation">સંપર્ક ડિલીટ કરીએ?</string>
+<string name="menu_multi_select_contacts">"બહુવિધ પસંદગી"</string>
+<string name="join_fail_for_usim">"USIM સંપર્કો જોડાવા માટે સમર્થન આપતાં નથી"</string>
+<string name="join_fail_for_sim">"SIM સંપર્કો જોડાવા માટે સમર્થન આપતાં નથી "</string>
+<string name="over_max_join_number">"તમે પસંદ કરેલા આ જોડાણ સાથે સંપર્કને જોડવામાં અક્ષમ છે<xliff:g id="count">%d</xliff:g> સંપર્કો, સાથે સંપર્કો સાથે મહત્તમ સંખ્યામાં જોડાઈ શકે છે (10)."</string>
+<string name="delete_read_only_contact">"ફક્ત સંપર્કો વાંચો નાબૂદ કરી શકાય નહીં!"</string>
+<string name="join_fail_for_sim_or_read_only">"SIM સંપર્કો અને ફક્ત સંપર્કો વાંચો સંયુક્ત રીતે SIM ને સપોર્ટ કરશો નહીં"</string>
+<string name="contactSavedErrorToastUsimEmailFull">"USIM કાર્ડ ઇમેઇલ ભરાઇ ગયું છે"</string>
+<string name="contactSavedErrorToastNameLength">સંપર્ક નામ સેવ કરવા માટે ઘણું લાંબુ છે.</string>
+<string name="over_phone_length_limit">"સંખ્યા વધુ લાંબી છે"</string>
+<string name="contactSavedErrorToastSimEmailFull">"SIM કાર્ડ ઇમેઇલ ભરાઇ ગયું છે"</string>
+<string name="contactSavedErrorToastEmailFull">ઇમેઇલ ભરાઇ ગયો છે.</string>
+<string name="noGroups">"કોઈ ગ્રુપ નહીં"</string>
+<plurals name="group_list_num_contacts_in_group">
+<item quantity="one"><xliff:g id="count">%1$d</xliff:g> વ્યક્તિ</item>
+<item quantity="other"><xliff:g id="count">%1$d</xliff:g> વ્યક્તિ</item>
+</plurals>
+<string name="contactsGroupsLabel">જૂથો </string>
+<string name="people">લોકો </string>
+<string name="recentCallsIconLabel">કોલ લોગ</string>
+<string name="contacts_in_conference_reselect">"કોન્ફરન્સ કોલમાં પસંદગી છે, કૃપા કરી ફરી પસંદ કરો."</string>
+<string name="contacts_in_conference">"પસંદ કરાયેલ પુનરાવર્તિત નંબરો,જે ઉમેરવામાં આવશે નહીં."</string>
+<string name="conferenceCallPartyCountLimit">"છેવટે <xliff:g id="COUNT">%d</xliff:g>કોન્ફરન્સ કોલ માટે વિવિધ ભાગલેનારાની જરૂર છે."</string>
+<string name="label_phone">"ફોન"</string>
+<string name="label_sim">SIM કાર્ડ</string>
+<string name="label_usim">SIM કાર્ડ</string>
+<string name="call_fixed_number">"સ્થિર નંબર પર કોલ કરો"</string>
+<string name="field_too_long"><xliff:g id="field">%s</xliff:g> ઘણું લાંબું છે </string>
+<string name="email_format_fail">કૃપા કરીને સાચુ ઇમેઇલ એડ્રેસ ઇનપુટ કરો!</string>
+<string name="only_fixed_number_type">"કોઈ નામ અથવા ફોન નંબરનો પ્રકાર નથી, કૃપા કરી ફરી-દાખલ કરો."</string>
+<string name="dup_phone_number_type">"સમાન પ્રકારના નંબરો સેવ કરી શકે તેમ નથી, કૃપા કરીને તેને તપાસો."</string>
+<string name="sim_capacity">"SIM ક્ષમતા"</string>
+<string name="noSimCard">"કોઇ ઉપલબ્ધ SIM કાર્ડ્સ નથી"</string>
+<string name="group_insert_error">"વર્તમાન ખાતા ઉપલબ્ધ નથી, કૃપા કરી ખાતા તપાસો"</string>
+<string name="sim_disabled">"SIM અક્ષમ છે, સંપર્કને સેવ કરી શકાય નહીં"</string>
+<string name="overGroupNameLength">જૂથ નામ ઘણું લાંબુ છે</string>
+<string name="overGroupCountLimit">જૂથ ગણતરીની મર્યાદાથી બહાર</string>
+<string name="list_contact_phone">"ફોન નંબરો સાથેનો સંપર્ક "</string>
+<string name="clearup_contacts">"સંપર્કોને ક્લિયર કરો "</string>
+<string name="menu_select_all">"દરેક સિલેક્ટ કરો"</string>
+<string name="menu_select_none">"દરેક અનસિલેક્ટ કરો"</string>
+<string name="no_duplicate_contact">"કોઇ ડુપ્લીકેટ સંપર્કો નથી "</string>
+<string name="merge_contact">"ભેળવો"</string>
+<string name="merge_inprocess">"ભેળવે છે કૃપા કરીને રાહ જુઓ "</string>
+<string name="merge_loading">"લોડીંગ"</string>
+<string name="description_contact_photo">સંપર્ક ફોટો</string>
+<string name="exporting_vcard_finished_title_storage_full">"સ્ટોરેજની જગ્યા પૂર્ણ થઈ ગઈ છે."</string>
+<string name="account_deleted">"ખાતુ નાબૂદ કરવામાં આવ્યું છે,આયાત-નિકાસ રદ્દ કરવામાં આવશે"</string>
+<string name="vcfdata_change_toast">"ડેટા બદલવામાં આવ્યો છે, કૃપા કરી તે ફરીથી કરો."</string>
+<string name="alert_maybe_lost_info">"SIM માં કોપી કરતી વખતે કેટલીક માહિતી ગુમાવી શકાય છે."</string>
+<string name="fail_occurred_during_export">"નિકાસ કરતી વખતે ખામી સર્જાય છે"</string>
+<string name="vcard_file_temp_name">"Vકાર્ડ ફાઇલ"</string>
+<string name="voice_mail_permission_request">"ફોન અંગેની કામગીરીના ફંક્શનનો ઉપયોગ કરવા તમે ઈચ્છતા હોય તો કૃપા કરી સૌ પ્રથમ પરવાનગી સાથે ખોલો"</string>
+<string name="menu_moveGroupMember">જૂથ નંબર ખસેડો</string>
+<string name="menu_deleteAllContacts">"બધાને દૂર કરો"</string>
+<string name="menu_move">"ખસેડો"</string>
+<string name="delete_group_memeber_dialog_message">"શું તમામ સંપર્કો ગુમાવ્યા?"</string>
+<string name="moveGroupMemberDialogTitle">માં સંપર્કોને ખસેડો</string>
+<string name="editing_group_done">જૂથ સંશોધિતતા પૂર્ણ</string>
+<string name="working_editing_group">"સમૂહ બદલે છે"</string>
+<string name="editing_group_failed">જુથ સંશોધિતતા નિષ્ફળ</string>
+<string name="delete">"ભૂંસો"</string>
+<string name="close">"બંધ"</string>
+<string name="selectAll">"બધા પસંદ કરો"</string>
+<string name="insert">"ઉમેરો"</string>
+<string name="aasfull">"આસ ક્ષમતા સંપૂર્ણ"</string>
+<string name="aas_maxlength">"પર આસ મહત્તમ લંબાઈ"</string>
+<string name="aas_in_contacts">"સંપર્ક આસ ધરાવે છે(<xliff:g id="aas_str">%1$s</xliff:g>), કૃપા કરી સંપર્કો દુર કરો અને થોડી વાર પછી ફરી પ્રયાસ કરો".</string>
+<string name="editing_aas">"કૃપા કરીને પ્રતીક્ષા કરો..."</string>
+<string name="copy">"કોપી કરો"</string>
+<string name="sim_is_full">સિમ ભરાઇ ગયું છે</string>
+<string name="replaceSelected">"ક્યો બદલવો છો તે કૃપા કરીને સિલેક્ટ કરો "</string>
+<string name="replace_data_error">"સંપર્ક ડેટા ફેરબદલી ખામી"</string>
+<string name="groupCreatedErrorToast">"કાર્ડમાં ખામીને લીધે લેબલ સર્જાન કરવા માટે અક્ષમ"</string>
+<string name="settings_accounts_category">ખાતા</string>
+<string name="settings_general_category">સામાન્ય</string>
+<string name="no_contact_can_be_linked">"આ સાથે કોઈ સંપર્ક જોડી શકાય નહીં"</string>
+<string name="beyond_query_character_limit">" શોધ વાક્ય ખૂબ જ લાંબુ છે, 100 સુધી મર્યાદિત રહેશે."</string>
+<string name="listFoundAllCallLogZero">"કોઈ કોલ ઈતિહાસ નહીં"</string>
+<string name="groupUndoErrorToast">"કાર્ડમાં ખામીને લીધે અન્ડુ કરવા અક્ષમ"</string>
+<string name="struct_name_length_max">"પ્રથમ નામ અને અંતિમ નાની કુલ લંબાઈલ મર્યાદિત હોવી જોઈએ！"</string>
+<string name="sim_loading">"SIM લોડીંગ થઈ રહ્યું છે, કૃપા કરી બાદમાં SIM સંપર્ક દાખલ કરો ！"</string>
+<string name="warn_location_title">ચેતવણી </string>
+<string name="warn_location_message">"શું સ્થાનિક સેવાને ચાલુ કરવા પરવાનગી આપવામાં આવી છે?"</string>
+</resources>

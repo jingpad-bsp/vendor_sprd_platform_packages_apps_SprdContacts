@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applicationLabel">"Xiriiradda"</string>
+<string name="contactsList">"Xiriiradda"</string>
+<string name="shortcut_add_contact">"Kudar Contact-ga"</string>
+<string name="shortcutContact">"Contactga"</string>
+<string name="shortcutDialContact">"Wicitaanka tooska ah"</string>
+<string name="shortcutMessageContact">"Fariinta tooska ah"</string>
+<string name="shortcutActivityTitle">"Dooro contact-ga"</string>
+<string name="contactInsertOrEditActivityTitle">"Kudar xiriirka"</string>
+<string name="contactPickerActivityTitle">"Dooro xiriirka"</string>
+<string name="groupMemberPickerActivityTitle">"Calaamadi"</string>
+<string name="header_entry_contact_list_adapter_header_title">"Samay xiriir cusub"</string>
+<string name="searchHint">"Baar xiriirada"</string>
+<string name="menu_addStar">"Kudar la jeclahay"</string>
+<string name="menu_removeStar">"Kasaar la jeclahay"</string>
+<string name="description_action_menu_remove_star">"Laga saaray la jeclahay"</string>
+<string name="description_action_menu_add_star">"Lagu daray la jeclahay"</string>
+<string name="menu_editContact">"Waxkabadal"</string>
+<string name="menu_deleteContact">"tirtir"</string>
+<string name="menu_change_photo">"Bedel sawirka"</string>
+<string name="menu_create_contact_shortcut">"Abuur soodhawayn"</string>
+<string name="menu_splitAggregate">"Kajar"</string>
+<string name="menu_editGroup">"Siib contact-yada"</string>
+<string name="menu_renameGroup">"Heerka magaca kabadal"</string>
+<string name="menu_deleteGroup">"Tirtir heerka"</string>
+<string name="menu_addToGroup">"Kudar Contact-ga"</string>
+<string name="menu_selectForGroup">"Dooro contact-yada"</string>
+<string name="menu_addContactsToGroup">"Kudar Xiriirada"</string>
+<string name="menu_removeFromGroup">"Kasaar heerka"</string>
+<string name="menu_new_group_action_bar">"Abuur heerka"</string>
+<string name="splitConfirmation">"Kjar contact-gaan kuna xir contact-yo badan?"</string>
+<string name="splitConfirmation_positive_button">"Kajar"</string>
+<string name="splitConfirmationWithPendingChanges">"Madoonaysaa inaad badasho isbadalda aad horay usamaysay aadna ubadasho contact-gaan contacts-yo badan?"</string>
+<string name="splitConfirmationWithPendingChanges_positive_button">"Kaydi oo kajar"</string>
+<string name="joinConfirmation">"Madoonaysaa inaad badasho isbadalda aad horay usamaysay aadna kuxariiriso contact-ga ladoortay?"</string>
+<string name="joinConfirmation_positive_button">"Kaydi kuna xir"</string>
+<string name="contacts_linking_progress_bar">"Kuxiraaya"</string>
+<string name="contacts_unlinking_progress_bar">"Kajaraaya"</string>
+<string name="menu_joinAggregate">"linkga"</string>
+<string name="menu_linkedContacts">"Fiiri contact-yada kuxiran"</string>
+<string name="menu_save">"Keydi"</string>
+<string name="titleJoinContactDataWith">"Contact-yada kuxir"</string>
+<string name="blurbJoinContactDataWith">"Dooro contact-ga aad rabto inaad kaxariirisid <xliff:g id="name">%s</xliff:g>:"</string>
+<string name="separatorJoinAggregateSuggestions">"Xiriirada lasoo jeediyay"</string>
+<string name="separatorJoinAggregateAll">"Dhammaan xiriirada"</string>
+<string name="contactsJoinedNamedMessage">"<xliff:g id="name">%s</xliff:g> waa lagu xiray"</string>
+<string name="contactsJoinedMessage">"Contact-yada lagu xiray"</string>
+<string name="contacts_deleted_one_named_toast">"<xliff:g id="name">%1$s</xliff:g> waa tirtiray"</string>
+<string name="contacts_deleted_two_named_toast">"<xliff:g id="name">%1$s</xliff:g> iyo <xliff:g id="name">%2$s</xliff:g> latirtiray"</string>
+<string name="contacts_deleted_many_named_toast">"<xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>\u2026 latirtiray"</string>
+<plurals name="contacts_deleted_toast">
+<item quantity="one">"Xiriirka wala tirtiray"</item>
+<item quantity="other">"Xiriirada wala tirtiray"</item>
+</plurals>
+<plurals name="contacts_count">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> Contactga"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> xiriiradda"</item>
+</plurals>
+<plurals name="contacts_count_with_account">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> contact-ga · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> contact-yada · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<plurals name="contacts_count_match">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> isku ekaanshaha contact-ga"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> isku ekaanshaha contact-yada"</item>
+</plurals>
+<plurals name="contacts_count_with_account_match">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> isku ekaanshaha contact-ga · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> isku ekaanshaha contact-yada · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<string name="title_from_google">"Katimid Google"</string>
+<string name="title_from_custom">"Katimid Qaybta macmiilka"</string>
+<string name="title_from_other_accounts">"Kayimid <xliff:g id="account">%s</xliff:g>"</string>
+<string name="menu_set_ring_tone">"Kuxir Codka soo dhicista"</string>
+<string name="menu_redirect_calls_to_vm">"Jidka fariin codeedka"</string>
+<string name="menu_unredirect_calls_to_vm">"Kaleexi farii codeedka"</string>
+<string name="readOnlyContactWarning">"Contact-gaan waxaa loogu talagalay kaliya akhrin Lama tirtiri karo, laakiin waad qarin kartaa."</string>
+<string name="readOnlyContactWarning_positive_button">"Qari Contact-ga"</string>
+<string name="readOnlyContactDeleteConfirmation">"Akoonada akhri kaliya ee contact-gaan kujira waa laqarinayaa, lama tirtiraayo."</string>
+<string name="single_delete_confirmation">"Tirtir contact-gaan?"</string>
+<string name="batch_delete_confirmation">"Tirtir contact-gaan ladoortay?"</string>
+<string name="batch_delete_read_only_contact_confirmation">"Contactyada akoontoyinkaaga akhri kaliya lama tirtiri karo, laakiin waa laqarin karaa."</string>
+<string name="batch_delete_multiple_accounts_confirmation">"Contact-yada latirtiraayo waxaa macluumaad ugu jiraa akono kaladuwan. Macluumaadka kayimaada akoonada akhri kaliya waa laqarinayaa, lama tirtiraayo."</string>
+<string name="multipleContactDeleteConfirmation">"Tirtirida contact-gaan waxay tiraysaa macluumaadka kujira akoono badan."</string>
+<string name="deleteConfirmation">"Tirtir contact-gaan?"</string>
+<string name="deleteConfirmation_positive_button">"tirtir"</string>
+<string name="invalidContactMessage">"Xiriirkan majirto."</string>
+<string name="createContactShortcutSuccessful_NoName">"Contact-ga waxaa lagu daray shaashada gudaha."</string>
+<string name="createContactShortcutSuccessful">"<xliff:g id="name">%s</xliff:g> waxaa lagu daray shaashada Gudaha."</string>
+<string name="photoPickerNotFoundText">"Wax sawiro ah kuma jiraan aalada."</string>
+<string name="attach_photo_dialog_title">"Sawirka xiriirka"</string>
+<string name="customLabelPickerTitle">"Magaca calaamadda caadiga ah"</string>
+<string name="removePhoto">"Ka saar sawirka"</string>
+<string name="noContacts">"Liiska contact-yadaada waa faaruq"</string>
+<string name="emptyGroup">"Majiraan contact-yo heerkaan ah"</string>
+<string name="emptyAccount">"Wax contact-yo ah kuma jiraan akoonkaan"</string>
+<string name="emptyMainList">"Liiska contact-yadaada waa faaruq"</string>
+<string name="contactSavedNamedToast">"<xliff:g id="display_name">%s</xliff:g> waa lakaydshay"</string>
+<string name="contactSavedToast">"Contact-ga waa lakaydshay"</string>
+<string name="contactUnlinkedToast">"Contact-yada waa lasiibay"</string>
+<string name="contactSavedErrorToast">"Lama kaydin karo isbadalada contact-ga"</string>
+<string name="contactUnlinkErrorToast">"Lagama saari karo contact-ga"</string>
+<string name="contactJoinErrorToast">"Laguma xiri karo contact-ga"</string>
+<string name="contactGenericErrorToast">"Cilad ayaa kajirta kaydinta contact-ga"</string>
+<string name="contactPhotoSavedErrorToast">"Lama kaydinkaro isbadalada sawirka contact-ga"</string>
+<string name="groupLoadErrorToast">"Waa lagu guuldaraystay in heerka lakiciyo"</string>
+<string name="groupDeletedToast">"Heerka waa latiray"</string>
+<string name="groupCreatedToast">"Heerka waa la abuuray"</string>
+<string name="groupCreateFailedToast">"Lama abuuri karo heer"</string>
+<string name="groupUpdatedToast">"Heerka waa lacusboonaysiiyay"</string>
+<string name="groupMembersRemovedToast">"Waa laga saaray heerka"</string>
+<string name="groupMembersAddedToast">"Waxaa lagu daray heerka"</string>
+<string name="groupSavedErrorToast">"Lama kaydin karo isbadalada heerka"</string>
+<string name="groupExistsErrorMessage">"Heerkaas horay ayuu ujiray"</string>
+<string name="groupSomeContactsNoEmailsToast">"Contact-yada qaar malaha email-lo."</string>
+<string name="groupSomeContactsNoPhonesToast">"Contact-yada qaar malaha nambarada taleefanka."</string>
+<string name="menu_sendEmailOption">"Udir email"</string>
+<string name="menu_sendMessageOption">"Dir fariin"</string>
+<string name="pickerSelectContactsActivityTitle">"Dooro Xiriiradda"</string>
+<string name="send_to_selection">"Dir"</string>
+<string name="listFoundAllContactsZero">"Majirto xiriir"</string>
+<string name="add_contact_dlg_message_fmt">"Kudar \"<xliff:g id="email">%s</xliff:g>\" xiriirada?"</string>
+<string name="search_settings_description">"Magacyada xiriiradaada"</string>
+<string name="quickcontact_transparent_view_description">"Ku dhufo si aad dib ugu noqotid shaashadda hore"</string>
+<string name="quickcontact_add_phone_number">"Kudar nambar teleefoon"</string>
+<string name="quickcontact_add_email">"Kudar iimaylka"</string>
+<string name="missing_app">"Majirto barnamiij maarayn karaa talabadan oo la helay."</string>
+<string name="menu_share">"Wadaag"</string>
+<string name="menu_add_contact">"Kudar xiriirada"</string>
+<string name="menu_add_contacts">"Kudar"</string>
+<plurals name="title_share_via">
+<item quantity="one">"Xiriirka ku wadaag"</item>
+<item quantity="other">"Kula wadaag contact-yada"</item>
+</plurals>
+<string name="dialog_new_group_account">"Dooro koontada"</string>
+<string name="group_name_dialog_insert_title">"Abuur heerka"</string>
+<string name="group_name_dialog_update_title">"Heerka magaca kabadal"</string>
+<string name="group_name_dialog_hint">"Magaca heerka"</string>
+<string name="label_name_dialog_hint">"Magaca heerka"</string>
+<string name="audio_chat">"Codka wadahadalka"</string>
+<string name="video_chat">"Fiidyowga wadahadalka"</string>
+<string name="account_type_format">"<xliff:g id="source" example="Gmail">%1$s</xliff:g> Contactga"</string>
+<string name="google_account_type_format">"<xliff:g id="source" example="Google">%1$s</xliff:g> Koontada"</string>
+<string name="take_photo">"Qaad sawir"</string>
+<string name="take_new_photo">"Qaad sawir cusub"</string>
+<string name="pick_photo">"Dooro sawir"</string>
+<string name="pick_new_photo">"Dooro sawir cusub"</string>
+<string name="search_results_searching">"Baarid\u2026"</string>
+<string name="event_edit_field_hint_text">"Taariikhda"</string>
+<string name="group_edit_field_hint_text">"Simid"</string>
+<string name="cancel_button_content_description">"Jooji"</string>
+<string name="back_arrow_content_description">"Noqo"</string>
+<string name="action_menu_back_from_edit_select">"Xir"</string>
+<string name="aggregation_suggestion_edit_dialog_message">"Ku wareeji bedelidda xiriirka la calaamadiyay? Macluumaadka aad hore ugalisay nuqul baa laga samaynayn doona. "</string>
+<string name="contact_directory_description">"Tusaha <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g>"</string>
+<string name="activity_title_settings">"Qaabaynada"</string>
+<string name="menu_settings">"Qaabaynada"</string>
+<string name="menu_help">"Jawaabta &amp; caawimadda"</string>
+<string name="organization_company_and_title">"<xliff:g id="company" example="Technical Program Manager">%2$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%1$s</xliff:g>"</string>
+<string name="non_phone_caption">"Nambarka teleefoonka"</string>
+<string name="non_phone_add_to_contacts">"Kudar xiriirada"</string>
+<string name="non_phone_close">"Xir"</string>
+<string name="date_year_toggle">"Uuna kujiro sanadka"</string>
+<string name="contacts_unavailable_add_account">"Kudar akoonka"</string>
+<string name="contacts_unavailable_import_contacts">"Kushubid"</string>
+<string name="create_group_item_label">"Abuur mid cusub&#8230;"</string>
+<string name="delete_group_dialog_message">"Tirtir heerka \"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\"? (Xiriirada quudhooda lama tirtiri doono.) "</string>
+<string name="toast_join_with_empty_contact">"Qor magaca contact-ga intaadan mid kale kuxirin. "</string>
+<string name="copy_text">"Nuqul ka sameey qoraal haye"</string>
+<string name="set_default">"Kuxir asal ahaan"</string>
+<string name="clear_default">"Tirtir asal ahaan"</string>
+<string name="toast_text_copied">"Qoraalka nuqul baa laga samayay"</string>
+<string name="cancel_confirmation_dialog_message">"Istuur isbadalada?"</string>
+<string name="cancel_confirmation_dialog_cancel_editing_button">"Tuur"</string>
+<string name="cancel_confirmation_dialog_keep_editing_button">"Jooji"</string>
+<string name="leave_customize_confirmation_dialog_message">"Kanoqo habaynta?"</string>
+<string name="enter_contact_name">"Baar xiriirada"</string>
+<string name="title_edit_group">"Siib contact-yada"</string>
+<string name="local_profile_title">"Astaantayda gudaha"</string>
+<string name="external_profile_title">"Astaantayda <xliff:g id="external_source">%1$s</xliff:g>"</string>
+<string name="contact_editor_prompt_zero_accounts">"Xiriirkaaga cusub lama keydin doono. Kudar akoon oo si toos ah u keydisa xiriirada?"</string>
+<string name="contact_editor_prompt_one_account">"Contact cusun ayaa lagu kaydinayaa <xliff:g id="account_name">%1$s</xliff:g>."</string>
+<string name="contact_editor_prompt_multiple_accounts">"Dooro akoonka aasaaska u ah contact-yada cusub:"</string>
+<string name="contact_editor_title_new_contact">"Samay xiriir cusub"</string>
+<string name="contact_editor_title_existing_contact">"Bedel xiriirka"</string>
+<string name="contact_editor_title_read_only_contact">"Fiiri kaliya"</string>
+<string name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Dooro contact-ga si aad wax uga badasho"</string>
+<string name="contact_editor_pick_linked_contact_dialog_title">"Contact-yada kuxiran"</string>
+<string name="contact_editor_add_linked_contact">"Kudar"</string>
+<string name="contact_editor_unlink_contacts">"Kajar"</string>
+<string name="add_account">"Kudar akoonka"</string>
+<string name="add_new_account">"Kudar akoon cusub"</string>
+<string name="menu_export_database">"Soodeji faylaasha xogta macluumaadka"</string>
+<string name="action_menu_add_new_contact_button">"Samay xiriir cusub"</string>
+<string name="expanding_entry_card_view_see_more">"Wax badan eeg"</string>
+<string name="expanding_entry_card_view_see_less">"Wax yar eeg"</string>
+<string name="recent_card_title">"Dhawaa"</string>
+<string name="about_card_title">"Ku saabsan"</string>
+<string name="toast_making_personal_copy">"Abuurista nuqul shaqsi ah&#8230;"</string>
+<string name="tomorrow">"Bari\'"</string>
+<string name="today">"Maanta"</string>
+<string name="untitled_event">"(Dhacdada aan la magacabin)"</string>
+<string name="date_time_set">"Sax"</string>
+<string name="header_im_entry">"IM-ka"</string>
+<string name="header_organization_entry">"Ururka"</string>
+<string name="header_nickname_entry">"Naanays"</string>
+<string name="header_note_entry">"Ogsoonow"</string>
+<string name="header_website_entry">"Website-ka"</string>
+<string name="header_event_entry">"Dhacdo"</string>
+<string name="header_relation_entry">"Xiriirka"</string>
+<string name="header_name_entry">"Magaca"</string>
+<string name="header_email_entry">"Iimayl"</string>
+<string name="header_phone_entry">"Teleefoon"</string>
+<string name="content_description_directions">"tilmaamaha goobta"</string>
+<string name="editor_more_fields">"Qaybaha Dheeraad ah"</string>
+<string name="editor_change_photo_content_description">"Badal sawirka contact-ga"</string>
+<string name="editor_add_photo_content_description">"Kudar sawirka contact-ga"</string>
+<string name="editor_contact_photo_content_description">"Sawirka xiriirka"</string>
+<string name="editor_failed_to_load">"Waa lagu fashilmay in lafuro waxbadalaha."</string>
+<string name="editor_account_selector_title">"Kukaydinta"</string>
+<string name="editor_account_selector_read_only_title">"Macluumaadka xariirka ee ka imaanaaya <xliff:g id="account">%s</xliff:g> wax lagama badali karo"</string>
+<string name="quickcontact_suggestion_link_button">"Contact-yada kuxir"</string>
+<string name="quickcontact_suggestion_cancel_button">"Jooji"</string>
+<string name="suggestion_card_this_contact_title">"Contact-gaan"</string>
+<string name="suggestion_card_duplicates_title">"Nuqulada macquulka ah"</string>
+<string name="suggestion_card_help_message">"Contact-yadaa waxay noqon karaan isku qof. Waxaad iskugu xiri kartaa dhamaantood sida isku hal qof."</string>
+<string name="editor_delete_view_description">"Tirtir <xliff:g id="data_type">%1$s </xliff:g><xliff:g id="data_kind">%2$s</xliff:g>"</string>
+<string name="editor_delete_view_description_short">"Tiritr <xliff:g id="data_kind">%s</xliff:g>"</string>
+<string name="menu_assistant">"Soojeedinada"</string>
+<string name="menu_assistant_new_badge">"cusub"</string>
+<string name="navigation_drawer_open">"Fur badmaax sawirah"</string>
+<string name="navigation_drawer_close">"Xir badmaax sawirah"</string>
+<string name="navigation_drawer_label">"<xliff:g id="label_name">%s</xliff:g> heerka"</string>
+<string name="menu_title_groups">"Heerarka"</string>
+<string name="menu_title_filters">"Akoomadda"</string>
+<string name="permission_explanation_header">"Si wadajir ufiiri taariikhdaada"</string>
+<string name="permission_explanation_subheader_calendar_and_SMS">"Munaasabadaha iyo fariimaha"</string>
+<string name="permission_explanation_subheader_calendar">"Munaasabado"</string>
+<string name="permission_explanation_subheader_SMS">"fariimo"</string>
+<string name="hamburger_feature_highlight_header">"Soojeedinada"</string>
+<string name="hamburger_feature_highlight_body">"Kadhig contacts-kaaga kuwo iskuxiran oo muhiim ah"</string>
+<string name="undo">"DIB UGU NOQO"</string>
+<string name="call_custom">"Wac <xliff:g id="custom_label" example="business">%s</xliff:g> "</string>
+<string name="call_home">"Wac teleefoonka guriga"</string>
+<string name="call_mobile">"Wac teleefoonka gacanta"</string>
+<string name="call_work">"Wac goobta shaqada"</string>
+<string name="call_fax_work">"Wac fakiska shaqada"</string>
+<string name="call_fax_home">"Wac fakiska guriga"</string>
+<string name="call_pager">"Wac fariin diraha"</string>
+<string name="call_other">"Wac"</string>
+<string name="call_callback">"Wac nambarada kusoowacay"</string>
+<string name="call_car">"Wac teleefoonka gaariga"</string>
+<string name="call_company_main">"Wac nambarka ugu muhiimsan shirkadda"</string>
+<string name="call_isdn">"Wac ISDN"</string>
+<string name="call_main">"Wac nambarka ugu muhiimsan"</string>
+<string name="call_other_fax">"Wac fakiska"</string>
+<string name="call_radio">"Wac raadiyaha"</string>
+<string name="call_telex">"Wac telekis"</string>
+<string name="call_tty_tdd">"Wac TTY/TDD"</string>
+<string name="call_work_mobile">"Wac teleefoonka shaqada"</string>
+<string name="call_work_pager">"Wac fariin diraha shaqada"</string>
+<string name="call_assistant">"Wac <xliff:g id="custom_label" example="assistant">%s</xliff:g> "</string>
+<string name="call_mms">"Wac MMS"</string>
+<string name="call_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (wac)"</string>
+<string name="sms_custom">"Qoraal udir <xliff:g id="custom_label" example="business">%s</xliff:g> "</string>
+<string name="sms_home">"Fariin udir teleefoonka guriga"</string>
+<string name="sms_mobile">"Fariin udir teleefoonka gacanta"</string>
+<string name="sms_work">"Fariin udir teleefoonka shaqada"</string>
+<string name="sms_fax_work">"Fariin udir fakiska shaqada"</string>
+<string name="sms_fax_home">"Fariin udir fakiska guriga"</string>
+<string name="sms_pager">"Fariin udir fariin diraha"</string>
+<string name="sms_other">"Fariin udir"</string>
+<string name="sms_callback">"Fariin udir nambarada kusoowacay"</string>
+<string name="sms_car">"Fariin udir teleefoonka gaariga"</string>
+<string name="sms_company_main">"Fariin udir nambarka shirkadda ugu wayn"</string>
+<string name="sms_isdn">"Fariin udir ISDN"</string>
+<string name="sms_main">"Fariin udir nambarka ugu wayn"</string>
+<string name="sms_other_fax">"Fariin udir fakiska"</string>
+<string name="sms_radio">"Fariin udir raadiyaha"</string>
+<string name="sms_telex">"Fariin udir telekis"</string>
+<string name="sms_tty_tdd">"Fariin udir TTY/TDD"</string>
+<string name="sms_work_mobile">"Fariin udir nambarka shaqada"</string>
+<string name="sms_work_pager">"Fariin udir fariin diraha shaqada"</string>
+<string name="sms_assistant">"Fariin udir <xliff:g id="assistant">%s</xliff:g> "</string>
+<string name="sms_mms">"Fariin udir MMS"</string>
+<string name="sms_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (fariin)"</string>
+<string name="description_video_call">"Samay wicitaanka fiidyowga"</string>
+<string name="clearFrequentsConfirmation_title">"Masax nambarada had iyo jeer kusoowacay?"</string>
+<string name="clearFrequentsConfirmation">"Waxaad tirtiri doonta liistiga nambarada had iyo jeer kusoowacay kujira Xiriiradda iyo barnamiijyada Teleefoonka, iyo barnamiijyada iimaylka ku shaqeeya si aad u baratid ikhtiyaaraha ciwaannada laga bilaawaya meeshi ugu horeeysa.  "</string>
+<string name="clearFrequentsProgress_title">"Masaxaya nambarada had iyo jeer kusoowacay\u2026"</string>
+<string name="status_available">"La heli karo"</string>
+<string name="status_away">"Maqan"</string>
+<string name="status_busy">"Mashquul ah"</string>
+<string name="local_invisible_directory">"Midkale"</string>
+<string name="directory_search_label">"Tusaha"</string>
+<string name="directory_search_label_work">"Kaydka shaqada"</string>
+<string name="local_search_label">"Dhammaan xiriirada"</string>
+<string name="description_quick_contact_for">"Xiriirada dhaqsaha lagu talagalay <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="missing_name">"(Malahan magaca)"</string>
+<string name="favoritesFrequentContacted">"Nambarada had iyo jeer lala sooxiriiray"</string>
+<string name="list_filter_phones">"Dhammaan xiriiradda wata nambarada teleefoonka"</string>
+<string name="list_filter_phones_work">"Contact_yada shaqada"</string>
+<string name="view_updates_from_group">"Eeg ogaysiisyada"</string>
+<string name="account_phone">"Aaalad"</string>
+<string name="account_sim">"SIMka"</string>
+<string name="nameLabelsGroup">"Magaca"</string>
+<string name="nicknameLabelsGroup">"Naanays"</string>
+<string name="name_given">"Magaca koowad"</string>
+<string name="name_family">"Magac dambe"</string>
+<string name="name_prefix">"Magaca horgalaha"</string>
+<string name="name_middle">"Magaca dhexe"</string>
+<string name="name_suffix">"Magaca daba-galaha"</string>
+<string name="name_phonetic">"Dhawaaqa magaca"</string>
+<string name="name_phonetic_given">"Dhawaaqa magaca koowad"</string>
+<string name="name_phonetic_middle">"Dhawaaqa magaca labaad"</string>
+<string name="name_phonetic_family">"Dhawaaqa magaca dambe"</string>
+<string name="phoneLabelsGroup">"Teleefoon"</string>
+<string name="emailLabelsGroup">"Iimayl"</string>
+<string name="postalLabelsGroup">"Ciwaanka"</string>
+<string name="imLabelsGroup">"IM-ka"</string>
+<string name="organizationLabelsGroup">"Ururka"</string>
+<string name="relationLabelsGroup">"Xiriirka"</string>
+<string name="eventLabelsGroup">"Taariikh gaar ah"</string>
+<string name="sms">"Fariin qoraal"</string>
+<string name="postal_address">"Ciwaanka"</string>
+<string name="ghostData_company">"Shirkadda"</string>
+<string name="ghostData_title">"Magaca"</string>
+<string name="label_notes">"Qoraaladda"</string>
+<string name="label_custom_field">"Maamule"</string>
+<string name="websiteLabelsGroup">"Website-ka"</string>
+<string name="groupsLabel">"Heerarka"</string>
+<string name="email_home">"Iimayl udir guriga"</string>
+<string name="email_mobile">"Iimayl udir teleefoonka gacanta"</string>
+<string name="email_work">"Iimayl udir shaqada"</string>
+<string name="email_other">"Iimayl"</string>
+<string name="email_custom">"Email udir <xliff:g id="custom_label" example="business">%s</xliff:g>"</string>
+<string name="email">"Iimayl"</string>
+<string name="postal_street">"Wadada"</string>
+<string name="postal_city">"Magaalada"</string>
+<string name="postal_region">"Gobalka"</string>
+<string name="postal_postcode">"Koodhka ZIPka"</string>
+<string name="postal_country">"Waddanka"</string>
+<string name="map_home">"Eeg ciwaanka guriga"</string>
+<string name="map_work">"Eeg ciwaanka shaqada"</string>
+<string name="map_other">"Eeg ciwaanka"</string>
+<string name="map_custom">"Fiiri <xliff:g id="custom_label" example="vacation">%s</xliff:g> ciwaanka"</string>
+<string name="chat_aim">"Ku sheekeeyso AIM"</string>
+<string name="chat_msn">"Ku sheekeeyso Windows Live"</string>
+<string name="chat_yahoo">"Ku sheekeeyso adigo isticmaalaya Yahoo"</string>
+<string name="chat_skype">"Ku sheekeeyso adigo isticmaalaya Skype"</string>
+<string name="chat_qq">"Ku sheekeeyso adigo isticmaalaya QQ"</string>
+<string name="chat_gtalk">"Ku sheekeeyso adigo isticmaalaya Google Talk"</string>
+<string name="chat_icq">"Ku sheekeeyso adigo isticmaalaya ICQ"</string>
+<string name="chat_jabber">"Ku sheekeeyso adigo isticmaalaya Jabber"</string>
+<string name="chat">"Ku sheekeeyso"</string>
+<string name="description_minus_button">"tirtir"</string>
+<string name="expand_name_fields_description">"Muuji meelo badan oo magaca lagu qoro"</string>
+<string name="collapse_name_fields_description">"Burburi meelaha magaca lagu qoro"</string>
+<string name="expand_phonetic_name_fields_description">"Muuji meelo badan oo magaca nambarada ah lagu qoro"</string>
+<string name="collapse_phonetic_name_fields_description">"Burburi meelaha magac nambarada aha lagu qoro"</string>
+<string name="expand_fields_description">"Balaari"</string>
+<string name="collapse_fields_description">"Hoos u daji"</string>
+<string name="announce_expanded_fields">"Labaraariyay"</string>
+<string name="announce_collapsed_fields">"Laburburiyay"</string>
+<string name="list_filter_all_accounts">"Dhammaan xiriirada"</string>
+<string name="list_filter_all_starred">"La calaamadiyay"</string>
+<string name="list_filter_customize">"Astaysto"</string>
+<string name="list_filter_single">"Contactga"</string>
+<string name="display_ungrouped">"Dhammaan xiriiradda kale"</string>
+<string name="display_all_contacts">"Dhammaan xiriirada"</string>
+<string name="menu_sync_remove">"Kasaar kooxda waafajinta"</string>
+<string name="dialog_sync_add">"Kudar kooxda waafajinta"</string>
+<string name="display_more_groups">"Kooxyada badan\u2026"</string>
+<string name="display_warn_remove_ungrouped">"Ka saarida \"<xliff:g id="group" example="Starred">%s</xliff:g>\" waafajinta waxay sido kale waafajinta ka saari doonta xiriiradaha kale aan koox kujirin."</string>
+<string name="savingDisplayGroups">"Keydinta ikhtiyaaraha muuqaalka\u2026"</string>
+<string name="listCustomView">"Fiiri lakoobay"</string>
+<string name="dialog_new_contact_account">"Kukaydi contact-yada lasoo shubay:"</string>
+<string name="import_from_sim">"SIM Kaarka"</string>
+<string name="import_from_sim_summary_fmt">"SIM <xliff:g id="sim_name">%1$s</xliff:g>"</string>
+<plurals name="import_from_sim_secondary_contact_count_fmt">
+<item quantity="one">"1 xiriir"</item>
+<item quantity="other">"%1$d contact-yada"</item>
+</plurals>
+<plurals name="import_from_sim_secondary_template">
+<item quantity="one">"<xliff:g id="count">^1</xliff:g> contact-ga • <xliff:g id="phone_number">^2</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">^1</xliff:g> contact-yada • <xliff:g id="phone_number">^2</xliff:g>"</item>
+</plurals>
+<string name="import_from_vcf_file">"Ka deji faylka vcf"</string>
+<string name="copy_to">"Nuqul ku samay"</string>
+<string name="import_export_contacts">"Deji/Rar xiriiradda"</string>
+<string name="share_visible_contacts">"Wadaag xiriiradda muuqda"</string>
+<string name="dialog_import_export">"Deji/Rar xiriiradda"</string>
+<string name="dialog_import">"Soodeji xiriirada"</string>
+<string name="nothing_to_import_message">"Wax lasoo shubo maleh"</string>
+<string name="import_from_vcf_file_confirmation_message">"Kasoo shub contact-yada vCard?"</string>
+<string name="cancel_import_confirmation_message">"Iska jooji soodejinta <xliff:g id="filename" example="import.vcf">%s</xliff:g>?"</string>
+<string name="cancel_export_confirmation_message">"Iska jooji soo raridda <xliff:g id="filename" example="export.vcf">%s</xliff:g>?"</string>
+<string name="cancel_vcard_import_or_export_failed">"Iskama joojin karo soodejinta/raridda vCard"</string>
+<string name="fail_reason_unknown">"Cilad aan la aqoon."</string>
+<string name="fail_reason_could_not_open_file">"Lama furi karo \"<xliff:g id="file_name">%1$s</xliff:g>\": <xliff:g id="exact_reason">%2$s</xliff:g>."</string>
+<string name="fail_reason_could_not_initialize_exporter">"Ma kicin karo soo raraaha: \"<xliff:g id="exact_reason">%s</xliff:g>\"."</string>
+<string name="fail_reason_no_exportable_contact">"Majirto xiriir la dejin karo."</string>
+<string name="missing_required_permission">"Waxaad iskaga xirtay ogoolaansho loo baahanyahay."</string>
+<string name="fail_reason_error_occurred_during_export">"Cillad ayaa dhacay xilliga raridda: \"<xliff:g id="exact_reason">%s</xliff:g>\"."</string>
+<string name="fail_reason_io_error">"Cillada I/O"</string>
+<string name="fail_reason_low_memory_during_import">"Majirto keydka ku filan. Waxaa laga yaaba faylka inuu waynyahay."</string>
+<string name="fail_reason_not_supported">"Habka kuma shaqaynayo."</string>
+<string name="exporting_vcard_finished_title">"Dhammaystiray soo raridda <xliff:g id="filename" example="export.vcf">%s</xliff:g>."</string>
+<string name="exporting_vcard_finished_title_fallback">"Dhammaystiray soo raridda xiriirada."</string>
+<string name="exporting_vcard_finished_toast">"Dhoofinta contact-yada ee ladhamaystiray, dhagsii fariimaha ogaysiiska."</string>
+<string name="touch_to_share_contacts">"Taabo si aad uwadaagtid contact-yada."</string>
+<string name="exporting_vcard_canceled_title">"Soo raridda <xliff:g id="filename" example="export.vcf">%s</xliff:g> wala joojiyay."</string>
+<string name="exporting_contact_list_title">"Soo raridda xogta xiriirka"</string>
+<string name="exporting_contact_list_message">"Maclumaadka contact-ga waa ladhoofiyay."</string>
+<string name="composer_failed_to_get_database_infomation">"Ma heli karo macluumaadka keydka xogta."</string>
+<string name="composer_has_no_exportable_contact">"Majirto xiriiradda oo lasoo rari karo."</string>
+<string name="composer_not_initialized">"Diyaariyaha vCard-ka si wanaagsan uma sookicin."</string>
+<string name="exporting_contact_failed_title">"Lama rari karo"</string>
+<string name="exporting_contact_failed_message">"Xogta xiriirka lama soo rarin.\nSabaab: \"<xliff:g id="fail_reason">%s</xliff:g>\""</string>
+<string name="importing_vcard_description">"Dejinaya <xliff:g id="name" example="Joe Due">%s</xliff:g>"</string>
+<string name="reading_vcard_failed_title">"Ma akhrin karo xogta vCard"</string>
+<string name="importing_vcard_finished_title">"Soodejinta vCard wala dhameeyay <xliff:g id="filename" example="import.vcf">%s</xliff:g>"</string>
+<string name="importing_vcard_canceled_title">"Dejinta <xliff:g id="filename" example="import.vcf">%s</xliff:g> wala joojiyay"</string>
+<string name="vcard_import_will_start_message">"<xliff:g id="filename" example="import.vcf">%s</xliff:g> mardhaw ayaa lasoo dejinayaa."</string>
+<string name="vcard_import_will_start_message_with_default_name">"Faylka mardhaw ayaa lasoo dejinayaa."</string>
+<string name="vcard_import_request_rejected_message">"codsiga dejinta vCard wala diiday. Markale iskuday."</string>
+<string name="contacts_export_will_start_message">"Contact-yada mardhaw ayaa ladhoofinayaa."</string>
+<string name="vcard_export_request_rejected_message">"codsiga raridda vCard wala diiday. Markale iskuday."</string>
+<string name="vcard_unknown_filename">"Contactga"</string>
+<string name="caching_vcard_message">"Keydinta vCard(arka) keydka kumeelgaarka ee gudaha. Dejinta dhabta mardhaw ayay bilaawanaysa."</string>
+<string name="vcard_import_failed">"Masoo dejin karo vCard."</string>
+<string name="nfc_vcard_file_name">"Xiriirka waxaa laga helay NFC"</string>
+<string name="caching_vcard_title">"Aruurin"</string>
+<string name="progress_notifier_message">"Soo shubida <xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g>: <xliff:g id="name" example="Joe Due">%3$s</xliff:g>"</string>
+<string name="export_to_vcf_file">"Ku rar faylka .vcf"</string>
+<string name="display_options_sort_list_by">"Ku kala sooc"</string>
+<string name="display_options_phonetic_name_fields">"Dhawaaqa magaca"</string>
+<string name="editor_options_always_show_phonetic_names">"Markasta tus"</string>
+<string name="editor_options_hide_phonetic_names_if_empty">"Qari haduu maranyahay"</string>
+<string name="display_options_sort_by_given_name">"Magaca koowad"</string>
+<string name="display_options_sort_by_family_name">"Magac dambe"</string>
+<string name="display_options_view_names_as">"Habka magaca"</string>
+<string name="display_options_view_given_name_first">"Magaca koowad oo horeeya"</string>
+<string name="display_options_view_family_name_first">"Magaca dambe oo horeeya"</string>
+<string name="settings_accounts">"Akoomadda"</string>
+<string name="default_editor_account">"Koontooyinka asalka ah ee contact-yada cusub"</string>
+<string name="settings_my_info_title">"Macluumaadkayga"</string>
+<string name="set_up_profile">"Samayso astaantaada"</string>
+<string name="setting_about">"Kusaabsan contact-yada"</string>
+<string name="share_favorite_contacts">"Ladawdaag contact-yada aad jeceshahay"</string>
+<string name="share_contacts">"Ladawdaag dhamaan contact-yada"</string>
+<string name="share_contacts_failure">"Waa lagu fashilmay in aad contact-yada lawadaagto."</string>
+<string name="dialog_export">"Rar contact-yada"</string>
+<string name="share_error">"Xiriirkan lama wadaagi karo."</string>
+<string name="no_contact_to_share">"Majiraan contact-yo lawadaago."</string>
+<string name="menu_contacts_filter">"Xiriiradda lasoo bandhigo"</string>
+<string name="activity_title_contacts_filter">"Xiriiradda lasoo bandhigo"</string>
+<string name="custom_list_filter">"Fiirin lakoobay"</string>
+<string name="menu_custom_filter_save">"Keydi"</string>
+<string name="hint_findContacts">"Baar xiriirada"</string>
+<string name="contactsFavoritesLabel">"La jecelyahay"</string>
+<string name="menu_import">"Kushubid"</string>
+<string name="menu_export">"Raridda"</string>
+<string name="menu_blocked_numbers">"Nambarada laxanibay"</string>
+<string name="contact_status_update_attribution">"Soo maraya <xliff:g id="source" example="Google Talk">%1$s</xliff:g>"</string>
+<string name="contact_status_update_attribution_with_date">"<xliff:g id="date" example="3 hours ago">%1$s</xliff:g> Soo maraya <xliff:g id="source" example="Google Talk">%2$s</xliff:g>"</string>
+<string name="action_menu_back_from_search">"jooji raadinta"</string>
+<string name="description_clear_search">"Masax raadinta"</string>
+<string name="select_account_dialog_title">"Koontada"</string>
+<string name="set_default_account">"Marwalba ku isticmaal wicitaanaddan"</string>
+<string name="call_with_a_note">"Qoraal kuwac"</string>
+<string name="call_subject_hint">"Qor qoraal aad raaciso wcitaanka&#8230;"</string>
+<string name="send_and_call_button">"DIR &amp; WICITAANKA"</string>
+<string name="call_subject_limit">"<xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g>"</string>
+<string name="call_subject_type_and_number">"<xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g>"</string>
+<string name="about_build_version">"Werinka u ku dhisanyahay"</string>
+<string name="about_open_source_licenses">"Fur shaatiyada ilaha"</string>
+<string name="about_open_source_licenses_summary">"Macluumaadka shatiga ee software ga leh isha furan"</string>
+<string name="about_privacy_policy">"Siyaasada arimaha khaaska ah"</string>
+<string name="about_terms_of_service">"Shuruudaha adeegga"</string>
+<string name="activity_title_licenses">"Fur shaatiyada ilaha"</string>
+<string name="url_open_error_toast">"Laguma guulaysan furitaanka url."</string>
+<string name="account_filter_view_checked">"<xliff:g id="account_info">%s</xliff:g> lahubiyay"</string>
+<string name="account_filter_view_not_checked">"<xliff:g id="account_info">%s</xliff:g> aan lahubin"</string>
+<string name="description_search_video_call">"Dir Wicitaan muuqaal ah"</string>
+<string name="description_delete_contact">"tirtir"</string>
+<string name="description_no_name_header">"Erayada"</string>
+<string name="dynamic_shortcut_disabled_message">"Soodhawayntaan waa laxiray"</string>
+<string name="dynamic_shortcut_contact_removed_message">"Contact-ga waa lasiibay"</string>
+<string name="sim_import_button_text">"Kushubid"</string>
+<string name="sim_import_title_none_selected">"Dooro contact-yada"</string>
+<string name="sim_import_empty_message">"Wax contact-yo ah kuma jiraan SIM kaarkaaga"</string>
+<string name="sim_import_contact_exists_toast">"Contact-ga horay ayuu ugu jiray liiskaaga"</string>
+<plurals name="sim_import_success_toast_fmt">
+<item quantity="one">"Contact-ga 1 SIM ayaa lasoo shubay"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> contact-yada SIM ka waa lasoo shubay"</item>
+</plurals>
+<string name="sim_import_failed_toast">"Waa lagu fshilmay in contact-yada SIM ka lagasoo shubo"</string>
+<string name="sim_import_title">"Ka deji SIM-ka"</string>
+<string name="sim_import_cancel_content_description">"Jooji"</string>
+<string name="auto_sync_off">"Isku-waafajinta waa laxiray. Taabo si aad ushido"</string>
+<string name="dismiss_sync_alert">"Ka bixid"</string>
+<string name="account_sync_off">"Isku-waafajinta waa la damiyay. Taabo si aad ushido"</string>
+<string name="turn_auto_sync_on_dialog_title">"Daar raadinta ootomatiga ah?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Isbadalada aad kusamayso dhamaan app-yada iyo akoonnada, maaha kaliya Contact-yada Google ka, waxaa lagu haynyaaa ilaa mudadaas inta udhaxaysa webka iyo aaladahaaga."</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"Daar"</string>
+<string name="connection_error_message">"Majiro wax xiriir ah"</string>
+<string name="single_sim_display_label">"SIMka"</string>
+<string name="show_more_content_description">"Muuji dheeraad"</string>
+<string name="importing_sim_finished_title">"Waa ladhameeyay SIM kaarka"</string>
+<string name="importing_sim_failed_title">"Soo shubada waa lagu guuldaraystay"</string>
+<string name="importing_sim_failed_message">"Lama soo shubi karo contact-yada kujira SIM kaarka"</string>
+<string name="importing_sim_in_progress_title">"Soo shubida SIMkaarka"</string>
+<string name="contacts_default_notification_channel">"Ogaysiisyada"</string>
+<string name="listTotalAllContactsZeroGroup">"Kuma jirto xiriirada <xliff:g id="name" example="Friends">%s</xliff:g>"</string>
+<string name="listTotalPhoneContactsZero">"Majirto xiriir wata nambarada teleefoon"</string>
+<string name="listTotalAllContactsZeroStarred">"Majirto la jecelyahay."</string>
+<string name="listTotalAllContactsZeroCustom">"Majirto xiriiradda muuqda."</string>
+<string name="listTotalAllContactsZero">"Majirto sawirro."</string>
+<string name="foundTooManyContacts">"In kabadan <xliff:g id="count">%d</xliff:g> baa la helay"</string>
+<plurals name="searchMatchContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> isku ekaanshaha contact-yada"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> isku ekaanshaha contact-ga"</item>
+</plurals>
+<plurals name="listContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> contact-yada"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> contact-yada"</item>
+</plurals>
+<string name="contacts_select_all">"Dooro dhamaan"</string>
+<string name="contacts_cancel_all">"Jooji dhammaan"</string>
+<string name="toast_no_contact_selected">"Majiraan contact-yo ladoortay"</string>
+<string name="list_filter_emails">"Dhammaan xiriirada leh ciwaanka iimayl"</string>
+<string name="listTotalEmailContactsZero">"Majirto xiriirada leh ciwaanka iimayl"</string>
+<string name="toast_batchoperation_is_running">"Shaqada xirmada ayaa socota, fadlan markale iskuday."</string>
+<string name="contacts_selection_for_mms_limit">"Xadka tirada xiriiradda la doortay waa <xliff:g id="COUNT">%d</xliff:g>"</string>
+<string name="no_match_contact">"Contact-yada iskuma eka"</string>
+<string name="list_filter_all_in_one">"Dhammaan xiriirada leh xogta"</string>
+<string name="contacts_selection_too_more">"Tirada ugu badan ee xiriiradda la doortay waa <xliff:g id="COUNT">%d</xliff:g>"</string>
+<string name="res_name">"Magaca"</string>
+<string name="res_phone">"Teleefoon"</string>
+<string name="res_email">"Iimayl"</string>
+<string name="res_field">"Qaybta"</string>
+<plurals name="listSelectedContacts">
+<item quantity="one">"La doortay(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+<item quantity="other">"La doortay(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+</plurals>
+<string name="re_add_contact">"Maadama la bedelay ogoolaanshaha, fadlan mar kale kudar xiriir."</string>
+<string name="transaction_too_large">"Xajmiga contact-yada ladoortay way kabadan tahay xadiga loogu talagaay, fadlan dooro contact-yo katiro yar. "</string>
+<string name="menu_doNotSave">"Jooji"</string>
+<string name="menu_done">"Waa lafuliyay"</string>
+<string name="batch_delete_confim_title">"Tirtir contact-yada"</string>
+<string name="batch_delete_confim_message">"Madoonaysaa inaad tirtirto contact-yada ladoortay?"</string>
+<string name="menu_share_by_sms">"Dir xiriiradda adigo isticmaalaya Fariin diridda"</string>
+<string name="menu_batch_delete">"Dufcaddii wala tirtiray"</string>
+<string name="working_batch_delete">"Dufcaddii tirtirmaysa"</string>
+<string name="batch_operation_canceled">"Shaqada wala joojiyay"</string>
+<string name="delete_done">"Tirtiridda wala samayay"</string>
+<string name="sqlite_full">"Keydka xogta xiriirka ama cajaalada waa buuxa"</string>
+<string name="beyond_sim_card_capacity">"Waxay kabadan yihiin mugga sim kaarka, qaar kamid ah contact-yada lama kaydin doono."</string>
+<string name="working_batch_import">"Dufcaddii soodegaya"</string>
+<string name="import_failed_tmp">"<xliff:g id="count">%d</xliff:g> lagu guuleeystay, <xliff:g id="count">%d</xliff:g> waa lagu guuldaraystay"</string>
+<string name="import_done">"Soodejinta wala samayay"</string>
+<string name="violate_capacity">"Xadgudub awooda SIM-ka"</string>
+<string name="anr_is_full">"Nambarada SIM-ka oo go\'aan waa laga awood badantahay"</string>
+<string name="import_failed">"Soodejinta/Raarida xiriirka waa lagu guuldaraystay"</string>
+<string name="cancel_batch_import_confirmation">"Iska jooji soodejinta xiriirka?"</string>
+<string name="cancel_batch_delete_confirmation">"Iska jooji tirtirida xiriirka?"</string>
+<string name="menu_multi_select_contacts">"Doorashada tiro badan"</string>
+<string name="join_fail_for_usim">"Xiriiradda USIM ma ogoola isku keenida"</string>
+<string name="join_fail_for_sim">"Xiriiradda SIM-ka ma ogoola isku keenida"</string>
+<string name="over_max_join_number">"Layskuma dari karo contact-yada, waxaad dooratay in laysku daro <xliff:g id="count">%d</xliff:g> contact-yo ah, tirada ugu badan ee contact-yada layskudari karo (10)."</string>
+<string name="delete_read_only_contact">"Contact-yada akhri kaliya lama tirtiri karo!"</string>
+<string name="join_fail_for_sim_or_read_only">"Contact-yada SIM ka iyo contact-yada akhri kaliya layskuma dari karo!"</string>
+<string name="contactSavedErrorToastUsimEmailFull">"USIM kaarka Iimaylka waa buuxa"</string>
+<string name="contactSavedErrorToastNameLength">"Magaca xiriirka aad buu u dheeryahay keydinta"</string>
+<string name="over_phone_length_limit">"Nambarka aad u dheer"</string>
+<string name="contactSavedErrorToastSimEmailFull">"Sim kaarka Iimaylka waa buuxa"</string>
+<string name="contactSavedErrorToastEmailFull">"Iimaylka waa buuxa"</string>
+<string name="noGroups">"Kooxo majiraan"</string>
+<plurals name="group_list_num_contacts_in_group">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> qofka"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> dadka"</item>
+</plurals>
+<string name="contactsGroupsLabel">"Kooxyada"</string>
+<string name="people">"Dadka"</string>
+<string name="recentCallsIconLabel">"Diiwaanka wicitaanka"</string>
+<string name="contacts_in_conference_reselect">"Calaamadinta waxay kujirta wicitaanka jiraa\'iid, fadlan dib u calaamadi."</string>
+<string name="contacts_in_conference">"Waxyaabaha aad dooratay waxaa kujira nambaro lagusoo celceliyay, taasoo aan lagu dari karin."</string>
+<string name="conferenceCallPartyCountLimit">"Ugu yaraan <xliff:g id="COUNT">%d</xliff:g> kaqaybgalayaal kaladuwan ayaa loobaahanyahay si shirka wicitaanka ah loosameeyo."</string>
+<string name="label_phone">"Teleefoon"</string>
+<string name="label_sim">"SIM Kaarka"</string>
+<string name="label_usim">"SIM Kaarka"</string>
+<string name="call_fixed_number">"Wac nambarka go\'aan"</string>
+<string name="field_too_long">"<xliff:g id="field">%s</xliff:g> aad u dheer"</string>
+<string name="email_format_fail">"Fadlan gali ciwaanka Iimaylka oo saxsan!"</string>
+<string name="only_fixed_number_type">"Maleh magac ama nooc nambar taleefan ah, fadlan markale gali."</string>
+<string name="dup_phone_number_type">"Ma keydin karo nambarada isku nooca, fadlan hubi."</string>
+<string name="sim_capacity">"Awoodda SIM-ka"</string>
+<string name="noSimCard">"Majirto SIM kaaro oo la heli karo"</string>
+<string name="group_insert_error">"Akoonka hada majiro, fadlan hubi akoonka"</string>
+<string name="sim_disabled">"SIM ka waa ladamiyay, laguma kaydin karo contact-ga"</string>
+<string name="overGroupNameLength">"Magaca kooxda aad u dheer"</string>
+<string name="overGroupCountLimit">"Ka sareeya xadka tirinta Kooxda"</string>
+<string name="list_contact_phone">"Xiriir wata nambarada teleefoonka"</string>
+<string name="clearup_contacts">"Tirtir xiriiradda"</string>
+<string name="menu_select_all">"Dooro dhamaan"</string>
+<string name="menu_select_none">"Dhammaan calaamadda ka qaad"</string>
+<string name="no_duplicate_contact">"Majirto xiriiradda laba jibaarmay oo la helay"</string>
+<string name="merge_contact">"Isku keen"</string>
+<string name="merge_inprocess">"isku keenayaa fadlan sug"</string>
+<string name="merge_loading">"Raadinaya"</string>
+<string name="description_contact_photo">"Sawirka xiriirka"</string>
+<string name="exporting_vcard_finished_title_storage_full">"Xajmiga keydka waa buuxa."</string>
+<string name="account_deleted">"Akoonka waa latirtiray, sooshubida-kasaarida waa lajoojinayaa"</string>
+<string name="vcfdata_change_toast">"Xogta wala bedelay, fadlan mar kale samay."</string>
+<string name="alert_maybe_lost_info">"Ukoobiyayta SIM ka loo koobiyeeyo waxay lumin kartaa macluumaadka qaar."</string>
+<string name="fail_occurred_during_export">"Cilad ayaa dhacday intii dhoofintu socotay"</string>
+<string name="vcard_file_temp_name">"Faylka vCard ka"</string>
+<string name="voice_mail_permission_request">"Fadlan fur ogolaanshaha marka hore, hadaad rabto inaad isticmaasho qayn=bta laxariirta taleefanka."</string>
+<string name="menu_moveGroupMember">"Rar xubnaha kooxda"</string>
+<string name="menu_deleteAllContacts">"Siib dhamaan"</string>
+<string name="menu_move">"Rar"</string>
+<string name="delete_group_memeber_dialog_message">"Siib dhamaan contact-yada?"</string>
+<string name="moveGroupMemberDialogTitle">"Xiriiradda ku wareeji"</string>
+<string name="editing_group_done">"Bedelidda kooxda wala dhammeeyay"</string>
+<string name="working_editing_group">"Bedelidda kooxda"</string>
+<string name="editing_group_failed">"Bedelidda kooxda waa lagu guuldaraystay"</string>
+<string name="delete">"tirtir"</string>
+<string name="close">"Xir"</string>
+<string name="selectAll">"calaamadiDhammaan"</string>
+<string name="insert">"gali"</string>
+<string name="aasfull">"Awoodda aas waa buuxdaa"</string>
+<string name="aas_maxlength">"Ka sare-maridda dheereerka ugu dambeeya ee aas"</string>
+<string name="aas_in_contacts">"xiriiradda waxaa kujira aas(<xliff:g id="aas_str">%1$s</xliff:g>), fadlan iska saar xiriiradda oo mar kale iskuday"</string>
+<string name="editing_aas">"Fadlan sug..."</string>
+<string name="copy">"Koobi garee"</string>
+<string name="sim_is_full">"Sim-ka waa buuxa"</string>
+<string name="replaceSelected">"Fadlan calaamadi kuwaa la bedelayo"</string>
+<string name="replace_data_error">"Cilad ayaa kajirta badalida macluumaadka contact-yada"</string>
+<string name="groupCreatedErrorToast">"Lama abuuri karo nooca waayo cilad ayaa kajirta kaarka"</string>
+<string name="settings_accounts_category">"Akoomadda"</string>
+<string name="settings_general_category">"Guud"</string>
+<string name="no_contact_can_be_linked">"Majiraan contact-yo latirtiro"</string>
+<string name="beyond_query_character_limit">"Jumlada baarista aad bay udheertahay, waa inay ku ekaato 100."</string>
+<string name="listFoundAllCallLogZero">"Majirto taariikhda wicitaanka"</string>
+<string name="groupUndoErrorToast">"Lamaga noqon karo waayo cilad ayaa kajirta kaarka"</string>
+<string name="struct_name_length_max">"Dheerarka guud ee magaca koobaad iyo magaca ugu danbeeya way kabadan yihiin xadigii loogu talagalay!"</string>
+<string name="sim_loading">"SIM ka waa uu raadinayaa, fadlan gali contact-ga SIM ka hadhoow!"</string>
+<string name="warn_location_title">"Digniin"</string>
+<string name="warn_location_message">"Hadii la ogolaanaayo furitaanka adeegga goobta?"</string>
+</resources>

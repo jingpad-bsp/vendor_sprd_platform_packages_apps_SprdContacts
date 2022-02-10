@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="540dp"
+    android:height="540dp"
+    android:viewportWidth="540"
+    android:viewportHeight="540">
+  <path
+      android:pathData="M270,221m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0"
+      android:fillColor="@color/ic_person_white"/>
+  <path
+      android:pathData="M390,402c0,0 0,-26.462 0,-33.453c0,-13.985 -30.5,-58.438 -119.5,-58.438l0,0c-89,0 -120.5,44.452 -120.5,58.438c0,6.991 0,33.453 0,33.453H390z"
+      android:fillColor="@color/ic_person_white"/>
+  <path
+      android:pathData="M412.17,394.859h-5.429v-4.478h6.33V389H405v12.984h1.741v-5.743h5.429V394.859z"
+      android:fillColor="@color/ic_person_white"/>
+  <path
+      android:pathData="M419.039,401.984c1.68,0 3.031,-0.519 4.054,-1.557c1.022,-1.037 1.534,-2.385 1.534,-4.044v-1.774c0,-1.652 -0.512,-3.001 -1.534,-4.044c-1.022,-1.044 -2.374,-1.565 -4.054,-1.565h-4.049v12.984H419.039zM419.039,390.382c1.19,0 2.129,0.396 2.815,1.187s1.03,1.799 1.03,3.023v1.792c0,1.236 -0.344,2.25 -1.03,3.041s-1.625,1.187 -2.815,1.187h-2.308v-10.229H419.039z"
+      android:fillColor="@color/ic_person_white"/>
+  <path
+      android:pathData="M436.986,389h-1.742v9.89l-0.053,0.018L428.994,389h-1.742v12.984h1.742v-9.898l0.053,-0.019l6.197,9.917h1.742V389z"
+      android:fillColor="@color/ic_person_white"/>
+  <path
+      android:pathData="M433.5,343h-17L404,354.5v25c0,1.657 1.843,3.5 3.5,3.5h26c1.657,0 2.5,-1.843 2.5,-3.5v-34C436,343.843 435.157,343 433.5,343zM425,374h-4v-18.475l-4,0.045v-2.262l8,-0.804V374z"
+      android:fillColor="@color/ic_person_white"
+      android:fillType="evenOdd"/>
+</vector>

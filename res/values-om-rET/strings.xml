@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="applicationLabel">"Qunnamtoota"</string>
+<string name="contactsList">"Qunnamtoota"</string>
+<string name="shortcut_add_contact">"Qunnamaa  idaa’i"</string>
+<string name="shortcutContact">"Qunnamaa"</string>
+<string name="shortcutDialContact">"Bilbiila kallaatii"</string>
+<string name="shortcutMessageContact">"Ergaa kallaatii"</string>
+<string name="shortcutActivityTitle">"Qunnamtoota Filuuu"</string>
+<string name="contactInsertOrEditActivityTitle">"Qunnamaa idaa’u"</string>
+<string name="contactPickerActivityTitle">"Qunnamaa filadhu"</string>
+<string name="groupMemberPickerActivityTitle">"Filadhun"</string>
+<string name="header_entry_contact_list_adapter_header_title">"Qunnamaa haaaraa uumuu"</string>
+<string name="searchHint">"Qunnamaa barbaaduu"</string>
+<string name="menu_addStar">"Jaalatamaa idea’uu"</string>
+<string name="menu_removeStar">"Jaalatamaa irra haquu"</string>
+<string name="description_action_menu_remove_star">"Jaalatamaa irraa haqame"</string>
+<string name="description_action_menu_add_star">"Jaalamaa idaa’ame"</string>
+<string name="menu_editContact">"Soroorsuu"</string>
+<string name="menu_deleteContact">"balleessuu"</string>
+<string name="menu_change_photo">"Suura jijjiiruu"</string>
+<string name="menu_create_contact_shortcut">"Qunnamtii filadhu"</string>
+<string name="menu_splitAggregate">"Walhinqunnamsiisiin"</string>
+<string name="menu_editGroup">"Qunnamtii haqi"</string>
+<string name="menu_renameGroup">"Maqaa mallattoo jijjiiri"</string>
+<string name="menu_deleteGroup">"Mallattoo haqi"</string>
+<string name="menu_addToGroup">"Qunnamaa  idaa’i"</string>
+<string name="menu_selectForGroup">"Qunnamaa filuu"</string>
+<string name="menu_addContactsToGroup">"Maqaawwanitti dabali"</string>
+<string name="menu_removeFromGroup">"Walqixxeessa balleessi"</string>
+<string name="menu_new_group_action_bar">"Mallattoo uumi"</string>
+<string name="splitConfirmation">"Qunnamtiiwwan heedduu keessatti qunnamtii kana walqabsiisuu dhiisuu?"</string>
+<string name="splitConfirmation_positive_button">"Walhinqunnamsiisiin"</string>
+<string name="splitConfirmationWithPendingChanges">"Jijjiiramoota taasistan kaa\'uu fi barbaadduu Qunnamtiiwwan heedduu keessatti qunnamtii kana walqabsiisuu dhiisuu barbaadduu?"</string>
+<string name="splitConfirmationWithPendingChanges_positive_button">"Olkaa\'uu fi Bahuu"</string>
+<string name="joinConfirmation">"Jijjiirama hanga ammaa taasistan qusachu fi qunnamtii filatame wajjin walqunnamsiisuu barbaadduu?"</string>
+<string name="joinConfirmation_positive_button">"Olkaa\'uu fi seenuu"</string>
+<string name="contacts_linking_progress_bar">"walitti feenyummaauu"</string>
+<string name="contacts_unlinking_progress_bar">"Walirraa baasuu"</string>
+<string name="menu_joinAggregate">"walitti fiduu"</string>
+<string name="menu_linkedContacts">"Qunnamtiiwan walitteenyummaahufan ilaali"</string>
+<string name="menu_save">"Olkaa’I"</string>
+<string name="titleJoinContactDataWith">"Qunnamtiiwwan walitti feenyummaai"</string>
+<string name="blurbJoinContactDataWith">"Qunnamtii waliin walqabsiisuu barbaaddan filadhaa <xliff:g id="name">%s</xliff:g>:"</string>
+<string name="separatorJoinAggregateSuggestions">"Qunnamtoota yaadame"</string>
+<string name="separatorJoinAggregateAll">"Qunnamtoota hunda"</string>
+<string name="contactsJoinedNamedMessage">"<xliff:g id="name">%s</xliff:g> walqunnameera"</string>
+<string name="contactsJoinedMessage">"Qunnamtiiwwan walitteenyummaahufan"</string>
+<string name="contacts_deleted_one_named_toast">"<xliff:g id="name">%1$s</xliff:g> haqame"</string>
+<string name="contacts_deleted_two_named_toast">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="name">%2$s</xliff:g> haqame"</string>
+<string name="contacts_deleted_many_named_toast">"<xliff:g id="name">%1$s</xliff:g>, <xliff:g id="name">%2$s</xliff:g>, <xliff:g id="name">%3$s</xliff:g>\u2026 haqame"</string>
+<plurals name="contacts_deleted_toast">
+<item quantity="one">"Qunnamaa haqame"</item>
+<item quantity="other">"Qunnamtoota haqame"</item>
+</plurals>
+<plurals name="contacts_count">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> Qunnamaa"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Qunnamtoota"</item>
+</plurals>
+<plurals name="contacts_count_with_account">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> qunnamtii · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> qunnamtii · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<plurals name="contacts_count_match">
+<item quantity="one">"<xliff:g id="count">%d</xliff:g> walsimuu qunnamtii"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> walsimuu qunnamtii"</item>
+</plurals>
+<plurals name="contacts_count_with_account_match">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> walsimuu qunnamtii · <xliff:g id="account">%2$s</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> walsimuu qunnamtii · <xliff:g id="account">%2$s</xliff:g>"</item>
+</plurals>
+<string name="title_from_google">"Googilii irraa"</string>
+<string name="title_from_custom">"Kan qophaa\'e irraa"</string>
+<string name="title_from_other_accounts">"Irraa <xliff:g id="account">%s</xliff:g>"</string>
+<string name="menu_set_ring_tone">"Waamiicha sagalee guuti"</string>
+<string name="menu_redirect_calls_to_vm">"Gara imeelii sagalteetti geessi"</string>
+<string name="menu_unredirect_calls_to_vm">"Gara imeelii sagaleetti hingeessin"</string>
+<string name="readOnlyContactWarning">"Qunnamtiin kun kan dubbifamu qofa dha. Haqamuu hindanda\'u, garuu dhoksuu dandeessu"</string>
+<string name="readOnlyContactWarning_positive_button">"Qunnamtii dhoksi"</string>
+<string name="readOnlyContactDeleteConfirmation">"Galmeewwan dubisamuu qofaan qunnamtii kana keessa jiran neenyummaahokatu, hinhaqamani"</string>
+<string name="single_delete_confirmation">"Qunnamaa haquu?"</string>
+<string name="batch_delete_confirmation">"Mi\'oota filame haquu?"</string>
+<string name="batch_delete_read_only_contact_confirmation">"Qunnamtiiwwan galmee dubbifamu qofaa irraa jiran haqamuu hindanda\'ani garuu dhokachuu danda\'u"</string>
+<string name="batch_delete_multiple_accounts_confirmation">"Qunnamtiiwwan haqamuf jiran galmee heedduu irraa tarree qabu Oddeeffannoo herreegoota dubbiisuu- qofaa kan dhokaatte tartiiboota qunnamtoota kee,kan hin haqamne."</string>
+<string name="multipleContactDeleteConfirmation">"Qunnamaa kana haquun oddeeffannoo herreegoota hedduu irra."</string>
+<string name="deleteConfirmation">"Qunnamaa haquu?"</string>
+<string name="deleteConfirmation_positive_button">"balleessuu"</string>
+<string name="invalidContactMessage">"Qunnamaan kan hin jire."</string>
+<string name="createContactShortcutSuccessful_NoName">"Qunnamaa barbaadamaa gara Fuula Manaatti."</string>
+<string name="createContactShortcutSuccessful">"<xliff:g id="name">%s</xliff:g> gara iskiriinii jalqabaa tti dabalame."</string>
+<string name="photoPickerNotFoundText">"Suurawwaan taabiileetii irra hin jiraan."</string>
+<string name="attach_photo_dialog_title">"Suura qunnamaa"</string>
+<string name="customLabelPickerTitle">"Maqaa sarara qunnamaa"</string>
+<string name="removePhoto">"Suura haquu"</string>
+<string name="noContacts">"Tarreen qunnamtii keessan duwwa dha."</string>
+<string name="emptyGroup">"Qunnamtiiwan maqaa akkana hinjirani"</string>
+<string name="emptyAccount">"Qunnamtoota garee kana keessa hin jire"</string>
+<string name="emptyMainList">"Tarreen qunnamtii keessan duwwa dha."</string>
+<string name="contactSavedNamedToast">"<xliff:g id="display_name">%s</xliff:g> olkaayame"</string>
+<string name="contactSavedToast">"Qunnamaa olkaahame."</string>
+<string name="contactUnlinkedToast">"Qunnamtiiwan irraa baafaman"</string>
+<string name="contactSavedErrorToast">"Jijjiiramoota qunnamaa ol hin kahamne."</string>
+<string name="contactUnlinkErrorToast">"Qunnamtii irraa baasuu hindandeenye"</string>
+<string name="contactJoinErrorToast">"Kaardii qunnamaa fee\'uu hin dandeenye"</string>
+<string name="contactGenericErrorToast">"Qunnamtii olkaayuun dogoggora"</string>
+<string name="contactPhotoSavedErrorToast">"Suura jijjiiramoota qunnamaa ol hin kahamne."</string>
+<string name="groupLoadErrorToast">"Maxxansawwaan fee\'uu dadhaabuu."</string>
+<string name="groupDeletedToast">"Mallattoon haqameera"</string>
+<string name="groupCreatedToast">"Mallattoon uumameera"</string>
+<string name="groupCreateFailedToast">"Mallattoo uumuu hindandeenye"</string>
+<string name="groupUpdatedToast">"Mallattoon haaromfameera"</string>
+<string name="groupMembersRemovedToast">"Mallattoo keessaa baafameera"</string>
+<string name="groupMembersAddedToast">"gara mallattootti dabalameera"</string>
+<string name="groupSavedErrorToast">"Jijjiiramoota garee ol hin kaahamne."</string>
+<string name="groupExistsErrorMessage">"Mallattoon kuni duraanuu jira"</string>
+<string name="groupSomeContactsNoEmailsToast">"Qunnamtiin tokko imeelii hinqabani"</string>
+<string name="groupSomeContactsNoPhonesToast">"Qunnamtiin tokko lakk. bilbilaa hinqabani i"</string>
+<string name="menu_sendEmailOption">"Emeelii ergi"</string>
+<string name="menu_sendMessageOption">"Erga erguu"</string>
+<string name="pickerSelectContactsActivityTitle">"Qunnamtoota Filuuu"</string>
+<string name="send_to_selection">"Ergi"</string>
+<string name="listFoundAllContactsZero">"Qunnamtoota hin jire"</string>
+<string name="add_contact_dlg_message_fmt">"Qunnamtoota gara idaa’uu \"<xliff:g id="email">%s</xliff:g>\" ?"</string>
+<string name="search_settings_description">"Maqaalee qunnamtoota kee"</string>
+<string name="quickcontact_transparent_view_description">"Cuuqaasi gara isa duraatti deebi’uuf"</string>
+<string name="quickcontact_add_phone_number">"Lakkoofsa bilbiilaa idea’i"</string>
+<string name="quickcontact_add_email">"Imeelii idaa’i"</string>
+<string name="missing_app">"Appiliikeeshiniin hin ture gocha kana to’aachuuf."</string>
+<string name="menu_share">"Qooduu"</string>
+<string name="menu_add_contact">"Qunnamtoota idaa’i"</string>
+<string name="menu_add_contacts">"Dabaluu"</string>
+<plurals name="title_share_via">
+<item quantity="one">"Qunnamaa hiruu karaa"</item>
+<item quantity="other">"Qunnamaa hiruu karaa"</item>
+</plurals>
+<string name="dialog_new_group_account">"Akkawuntii filadhu"</string>
+<string name="group_name_dialog_insert_title">"Mallattoo uumi"</string>
+<string name="group_name_dialog_update_title">"Maqaa mallattoo jijjiiri"</string>
+<string name="group_name_dialog_hint">"Maqaa mallattoo"</string>
+<string name="label_name_dialog_hint">"Maqaa mallattoo"</string>
+<string name="audio_chat">"Chaatii sagalee"</string>
+<string name="video_chat">"Chaatii vidiiyoo"</string>
+<string name="account_type_format">"<xliff:g id="source" example="Gmail">%1$s</xliff:g> Qunnamaa"</string>
+<string name="google_account_type_format">"<xliff:g id="source" example="Google">%1$s</xliff:g> Herreega"</string>
+<string name="take_photo">"Suura fudhu"</string>
+<string name="take_new_photo">"Suura haaraa fudhu"</string>
+<string name="pick_photo">"Suura filachuu"</string>
+<string name="pick_new_photo">"Suura haaraa filadhu"</string>
+<string name="search_results_searching">"Barbaadaa jira\u2026"</string>
+<string name="event_edit_field_hint_text">"Gaafa guyyaa"</string>
+<string name="group_edit_field_hint_text">"Milikiteessuu"</string>
+<string name="cancel_button_content_description">"Balleessi"</string>
+<string name="back_arrow_content_description">"Duuba/booda"</string>
+<string name="action_menu_back_from_edit_select">"Cufuu"</string>
+<string name="aggregation_suggestion_edit_dialog_message">"Cufuu gara gulaaluu qunnamaa filame? Oddeeffannoo ati galchitte kana dura kooppii dha."</string>
+<string name="contact_directory_description">"Kallaatiin <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g>"</string>
+<string name="activity_title_settings">"Seetiinhiiwwan"</string>
+<string name="menu_settings">"Seetiinhiiwwan"</string>
+<string name="menu_help">"Gargaaruu &amp; deebduubee"</string>
+<string name="organization_company_and_title">"<xliff:g id="company" example="Technical Program Manager">%2$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%1$s</xliff:g>"</string>
+<string name="non_phone_caption">"Lakkoofsa bilbiilaa"</string>
+<string name="non_phone_add_to_contacts">"Qunnamtoota idaa’i"</string>
+<string name="non_phone_close">"Cufuu"</string>
+<string name="date_year_toggle">"Bara itti dabali"</string>
+<string name="contacts_unavailable_add_account">"Herreega idaa’i"</string>
+<string name="contacts_unavailable_import_contacts">"Meeshaa guutuu biroorraa kan biraatti dabarsuu"</string>
+<string name="create_group_item_label">"Haraa uumi &#8230;"</string>
+<string name="delete_group_dialog_message">"Mallattoo haqi\"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\"? (Qunnamtoonni ofii isaanii hin badaan.) "</string>
+<string name="toast_join_with_empty_contact">"Maqaa qunnamaa lamaa osoo kan biroo hin seeniin. "</string>
+<string name="copy_text">"Gara gabaateetti kooppii tahe."</string>
+<string name="set_default">"Balleesuu guuti"</string>
+<string name="clear_default">"Balleessuu haquu"</string>
+<string name="toast_text_copied">"Barreeffama koopii tahe"</string>
+<string name="cancel_confirmation_dialog_message">"Chaarjiiwwab keessaa baasuu?"</string>
+<string name="cancel_confirmation_dialog_cancel_editing_button">"Gatuu"</string>
+<string name="cancel_confirmation_dialog_keep_editing_button">"Balleessi"</string>
+<string name="leave_customize_confirmation_dialog_message">"Qopheessuu dhiisi"</string>
+<string name="enter_contact_name">"Qunnamaa barbaaduu"</string>
+<string name="title_edit_group">"Qunnamtii haqi"</string>
+<string name="local_profile_title">"Piroofaayiilii naannoo koo"</string>
+<string name="external_profile_title">"Piroofaayiilii <xliff:g id="external_source">%1$s</xliff:g> koo"</string>
+<string name="contact_editor_prompt_zero_accounts">"Qunnamaan haaraan kee duubaatti deebi’eera. Herreega idaa’I kan qunnamtoota sarara irraa duubaatti deebisu"</string>
+<string name="contact_editor_prompt_one_account">"Qunnamtii haaraan gara tti olkaayamu <xliff:g id="account_name">%1$s</xliff:g>."</string>
+<string name="contact_editor_prompt_multiple_accounts">"Qunnamtiiwwan haaraatiif galmee kan mataa isaa filadhu."</string>
+<string name="contact_editor_title_new_contact">"Qunnamaa haaaraa uumuu"</string>
+<string name="contact_editor_title_existing_contact">"Qunnamaa gulaaluu"</string>
+<string name="contact_editor_title_read_only_contact">"Ilaaluu qofa"</string>
+<string name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Qunnamtii gulaalamu filadhu"</string>
+<string name="contact_editor_pick_linked_contact_dialog_title">"Qunnamtiwwan walitti feenyummaaaman"</string>
+<string name="contact_editor_add_linked_contact">"Dabaluu"</string>
+<string name="contact_editor_unlink_contacts">"Walhinqunnamsiisiin"</string>
+<string name="add_account">"Herreega idaa’i"</string>
+<string name="add_new_account">"Herreega haaraa idaa’i"</string>
+<string name="menu_export_database">"Faayiiloota bu’uura oddeeffannoo alatti ergi"</string>
+<string name="action_menu_add_new_contact_button">"Qunnamaa haaaraa uumuu"</string>
+<string name="expanding_entry_card_view_see_more">"Ilaali baay’ee"</string>
+<string name="expanding_entry_card_view_see_less">"Ilaalii xiqqoo"</string>
+<string name="recent_card_title">"Ammayyaa"</string>
+<string name="about_card_title">"Waa’ee"</string>
+<string name="toast_making_personal_copy">"Kooppii dhuunfaaa uumuu&#8230;"</string>
+<string name="tomorrow">"Boru"</string>
+<string name="today">"Har’a"</string>
+<string name="untitled_event">"(Ragaa mataduree hin qabne)"</string>
+<string name="date_time_set">"Guuti"</string>
+<string name="header_im_entry">"IM"</string>
+<string name="header_organization_entry">"Dhaabbata"</string>
+<string name="header_nickname_entry">"Maqaa maasoo"</string>
+<string name="header_note_entry">"Hubadhu"</string>
+<string name="header_website_entry">"Weebsaayiiti"</string>
+<string name="header_event_entry">"Taatee"</string>
+<string name="header_relation_entry">"Firummaa/walitti dhufeenya"</string>
+<string name="header_name_entry">"Maqaa"</string>
+<string name="header_email_entry">"Imeelii"</string>
+<string name="header_phone_entry">"Bilbiila"</string>
+<string name="content_description_directions">"Karaawwaa kallaatti"</string>
+<string name="editor_more_fields">"Dirreewwaan Bilbiila"</string>
+<string name="editor_change_photo_content_description">"Suura jijjiiruu"</string>
+<string name="editor_add_photo_content_description">"Qunnamaa eenyummaaaa\'i"</string>
+<string name="editor_contact_photo_content_description">"Suura qunnamaa"</string>
+<string name="editor_failed_to_load">"gulaaltuu banuu hindandeenye"</string>
+<string name="editor_account_selector_title">"Olkaa\'I gara"</string>
+<string name="editor_account_selector_read_only_title">"Odeeffannoo qunnamtii <xliff:g id="account">%s</xliff:g> irraa kan gulaalamuu danda\'u miti."</string>
+<string name="quickcontact_suggestion_link_button">"Qunnamtiiwwan walitti feenyummaai"</string>
+<string name="quickcontact_suggestion_cancel_button">"Balleessi"</string>
+<string name="suggestion_card_this_contact_title">"Qunnamtii kana"</string>
+<string name="suggestion_card_duplicates_title">"Galagalcha jiraachuu danda\'u"</string>
+<string name="suggestion_card_help_message">"Qunnamtiiwwan kun nama tokko ta\'uu malu Akka qunnamtii tokkootti walitti feenyummaauu dandeessu"</string>
+<string name="editor_delete_view_description">"Haqi <xliff:g id="data_type">%1$s </xliff:g><xliff:g id="data_kind">%2$s</xliff:g>"</string>
+<string name="editor_delete_view_description_short">"Haqi <xliff:g id="data_kind">%s</xliff:g>"</string>
+<string name="menu_assistant">"Yaada"</string>
+<string name="menu_assistant_new_badge">"Haaraa"</string>
+<string name="navigation_drawer_open">"Baasaa  kallattii bani"</string>
+<string name="navigation_drawer_close">"Baasaa  kallattii cufi"</string>
+<string name="navigation_drawer_label">"<xliff:g id="label_name">%s</xliff:g> mallattoo"</string>
+<string name="menu_title_groups">"Milikiteessuu"</string>
+<string name="menu_title_filters">"Herrreeguu"</string>
+<string name="permission_explanation_header">"Seenaa keessan walduukaa ilaalaa"</string>
+<string name="permission_explanation_subheader_calendar_and_SMS">"Mudannowani fi ergaawwan"</string>
+<string name="permission_explanation_subheader_calendar">"Taateewwan"</string>
+<string name="permission_explanation_subheader_SMS">"Ergaawwan"</string>
+<string name="hamburger_feature_highlight_header">"Yaada"</string>
+<string name="hamburger_feature_highlight_body">"Qunnamtiiwwan keessan qindaa\'oo fi fayeenyummaaa qabeeyyi taasisaa qabadhaa"</string>
+<string name="undo">"DEEBISI"</string>
+<string name="call_custom">"Waamicha <xliff:g id="custom_label" example="business">%s</xliff:g> "</string>
+<string name="call_home">"Bilbiila manaa"</string>
+<string name="call_mobile">"Bilbiila moobaayiilii"</string>
+<string name="call_work">"Bilbiila hojii"</string>
+<string name="call_fax_work">"Bilbiila faaksii hojii"</string>
+<string name="call_fax_home">"Bilbiila faaksii manaa"</string>
+<string name="call_pager">"Bilbiila fuuleesaa"</string>
+<string name="call_other">"Waamiicha"</string>
+<string name="call_callback">"Bilbiila booda bilbiluu"</string>
+<string name="call_car">"Bilbiila konkolaataa"</string>
+<string name="call_company_main">"Bilbiila kaampaanii guddaa"</string>
+<string name="call_isdn">"Bilbiila ISDN"</string>
+<string name="call_main">"Bilbiila guddaa"</string>
+<string name="call_other_fax">"Bilbiila faaksii"</string>
+<string name="call_radio">"Bilbiila raadiiyoo"</string>
+<string name="call_telex">"Bilbiila teeleeksii"</string>
+<string name="call_tty_tdd">"Bilbiila TTY/TDD"</string>
+<string name="call_work_mobile">"Bilbiila hojii moobaayiilii"</string>
+<string name="call_work_pager">"Bilbiila hojii fuuleesaa"</string>
+<string name="call_assistant">"Waamicha <xliff:g id="custom_label" example="assistant">%s</xliff:g> "</string>
+<string name="call_mms">"Bilbiiluu MMS"</string>
+<string name="call_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (Waamicha)"</string>
+<string name="sms_custom">"Ergaa barruu <xliff:g id="custom_label" example="business">%s</xliff:g> "</string>
+<string name="sms_home">"Bareeffama manaa"</string>
+<string name="sms_mobile">"Bareeffama bilbiilaa"</string>
+<string name="sms_work">"Bareeffama hojii"</string>
+<string name="sms_fax_work">"Bareeffama hojii faaksii"</string>
+<string name="sms_fax_home">"Bareeffama faaksii manaa"</string>
+<string name="sms_pager">"Bareeffama fuuleesaa"</string>
+<string name="sms_other">"Ergaa"</string>
+<string name="sms_callback">"Bareeffama booda bilbiiluu"</string>
+<string name="sms_car">"Bareeffama konkolaataa"</string>
+<string name="sms_company_main">"Bareeffama kaampaanii guddaa"</string>
+<string name="sms_isdn">"Bareeffama ISDN"</string>
+<string name="sms_main">"Bareeffama guddaa"</string>
+<string name="sms_other_fax">"Bareeffama faaksii"</string>
+<string name="sms_radio">"Bareeffama raadiiyoo"</string>
+<string name="sms_telex">"Bareeffama teeleeksii"</string>
+<string name="sms_tty_tdd">"Bareeffama TTY/TDD"</string>
+<string name="sms_work_mobile">"Bareeffama moobaayiilii"</string>
+<string name="sms_work_pager">"Hojii bareeffama fuuleesaa"</string>
+<string name="sms_assistant">"Ergaa <xliff:g id="assistant">%s</xliff:g> "</string>
+<string name="sms_mms">"Bareeffama MMS"</string>
+<string name="sms_by_shortcut">"<xliff:g id="contact_name">%s</xliff:g> (Ergaa)"</string>
+<string name="description_video_call">"Bilbiila vidiiyoo godhi"</string>
+<string name="clearFrequentsConfirmation_title">"Yeroo mara qunname haquu?"</string>
+<string name="clearFrequentsConfirmation">"Yeroo mara qunname haq\xa galmee qunnamtoota irraa fi appilikeeshiinii bilbiilaa,fi appilikeeshiini imeelii dirqiisiisuu akka baratu filannoowwaan tessoo kee kotootu irraa. "</string>
+<string name="clearFrequentsProgress_title">"Yeroo mara qunname haquu\u2026"</string>
+<string name="status_available">"Jira"</string>
+<string name="status_away">"Achii"</string>
+<string name="status_busy">"Hojiin baay’achuu"</string>
+<string name="local_invisible_directory">"Biroo"</string>
+<string name="directory_search_label">"Kallaatiin"</string>
+<string name="directory_search_label_work">"Kallachuma hojjechuu"</string>
+<string name="local_search_label">"Qunnamtoota hunda"</string>
+<string name="description_quick_contact_for">"Qunnamtii saffiisaatiif <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="missing_name">"(maqaa hin jire)"</string>
+<string name="favoritesFrequentContacted">"Yeroo mara qunname"</string>
+<string name="list_filter_phones">"Qunnamtoota hunda lakkoofsa bilbiila waliin"</string>
+<string name="list_filter_phones_work">"Maqaa Profaayilii hojii"</string>
+<string name="view_updates_from_group">"Haaroomsuu ilaaluu"</string>
+<string name="account_phone">"meeshaa"</string>
+<string name="account_sim">"SIIMII"</string>
+<string name="nameLabelsGroup">"Maqaa"</string>
+<string name="nicknameLabelsGroup">"Maqaa maasoo"</string>
+<string name="name_given">"Maqaa jalqabaa"</string>
+<string name="name_family">"Maqaa dhumaa"</string>
+<string name="name_prefix">"Maqaa maxxantuu"</string>
+<string name="name_middle">"Maqaa gidduu"</string>
+<string name="name_suffix">"Maqaa maxxantuu boodaa"</string>
+<string name="name_phonetic">"Qooqa maqaa"</string>
+<string name="name_phonetic_given">"Qooqa maqaa jalqabaa"</string>
+<string name="name_phonetic_middle">"Qooqa maqaa gidduu"</string>
+<string name="name_phonetic_family">"Qooqa maqaa dhumaa"</string>
+<string name="phoneLabelsGroup">"Bilbiila"</string>
+<string name="emailLabelsGroup">"Imeelii"</string>
+<string name="postalLabelsGroup">"Argama"</string>
+<string name="imLabelsGroup">"IM"</string>
+<string name="organizationLabelsGroup">"Dhaabbata"</string>
+<string name="relationLabelsGroup">"Hariiroo"</string>
+<string name="eventLabelsGroup">"Guyyoota filatamoo"</string>
+<string name="sms">"Ergaa barreeffamaa"</string>
+<string name="postal_address">"Argama"</string>
+<string name="ghostData_company">"Kaampaanii"</string>
+<string name="ghostData_title">"Mata duree"</string>
+<string name="label_notes">"Yaadannoowwaan"</string>
+<string name="label_custom_field">"Maamiila"</string>
+<string name="websiteLabelsGroup">"Weebsaayiiti"</string>
+<string name="groupsLabel">"Milikiteessuu"</string>
+<string name="email_home">"Imeelii manaa"</string>
+<string name="email_mobile">"Imeelii moobaayiilii"</string>
+<string name="email_work">"Imeelii hojii"</string>
+<string name="email_other">"Imeelii"</string>
+<string name="email_custom">"Imeelii <xliff:g id="custom_label" example="business">%s</xliff:g>"</string>
+<string name="email">"Imeelii"</string>
+<string name="postal_street">"Daandii"</string>
+<string name="postal_city">"Magaala"</string>
+<string name="postal_region">"Mootummaa"</string>
+<string name="postal_postcode">"Koodii ZIP"</string>
+<string name="postal_country">"Biyya"</string>
+<string name="map_home">"Teessoo manaa ilaaluu"</string>
+<string name="map_work">"Teessoo hojii ilaaluu"</string>
+<string name="map_other">"Teessoo ilaaluu"</string>
+<string name="map_custom">"Ilaali <xliff:g id="custom_label" example="vacation">%s</xliff:g> teessoo"</string>
+<string name="chat_aim">"Chaatii godhi AIM fayyaadamuun"</string>
+<string name="chat_msn">"Chaatii godhi Gabaatee jiru fayyaadamuun"</string>
+<string name="chat_yahoo">"Chaatii godhi Yaahoo fayyaadamuun"</string>
+<string name="chat_skype">"Chaatii godhi Iskaayiipii fayyaadamuun"</string>
+<string name="chat_qq">"Chaatii godhi QQ fayyaadamuun"</string>
+<string name="chat_gtalk">"Chaatii godhi Dubbii Googilii fayyaadamuun"</string>
+<string name="chat_icq">"Chaatii godhi ICQ fayyaadamuun"</string>
+<string name="chat_jabber">"Chaatii godhi fayyaadamuun"</string>
+<string name="chat">"Chaatii"</string>
+<string name="description_minus_button">"balleessuu"</string>
+<string name="expand_name_fields_description">"Garee maqaa dabalataa agarsiisi"</string>
+<string name="collapse_name_fields_description">"Maqaa dirreewwaan dhiphisi"</string>
+<string name="expand_phonetic_name_fields_description">"Garee maqaa afaanii dabalataa agarsiisi"</string>
+<string name="collapse_phonetic_name_fields_description">"Garee maqaa afaanii balleessi"</string>
+<string name="expand_fields_description">"Bal’isi"</string>
+<string name="collapse_fields_description">"Kottoonfaachiisi"</string>
+<string name="announce_expanded_fields">"Bal\'isi"</string>
+<string name="announce_collapsed_fields">"Kottoonfaachiisi"</string>
+<string name="list_filter_all_accounts">"Qunnamtoota hunda"</string>
+<string name="list_filter_all_starred">"Amaleeffame"</string>
+<string name="list_filter_customize">"Maamiileessi"</string>
+<string name="list_filter_single">"Qunnamaa"</string>
+<string name="display_ungrouped">"Qunnamtoota biroo hunda"</string>
+<string name="display_all_contacts">"Qunnamtoota hunda"</string>
+<string name="menu_sync_remove">"Garee syc haquu"</string>
+<string name="dialog_sync_add">"Garee sync idaa’I"</string>
+<string name="display_more_groups">"Gareewwaan hedduu\u2026"</string>
+<string name="display_warn_remove_ungrouped">"Haquu \"<xliff:g id="group" example="Starred">%s</xliff:g>\" sync irraa kan haquu kan hingaroomne kamuu qunnamtoota sync irraa."</string>
+<string name="savingDisplayGroups">"Carrawwwaan qusaachuu agarsiisuu\u2026"</string>
+<string name="listCustomView">"Ilaalcha qopheessi"</string>
+<string name="dialog_new_contact_account">"Maqaa walitti-dhufeegnotaa fayidaa qabaan kuusi :"</string>
+<string name="import_from_sim">"SIM kaaardii"</string>
+<string name="import_from_sim_summary_fmt">"SIIMII <xliff:g id="sim_name">%1$s</xliff:g>"</string>
+<plurals name="import_from_sim_secondary_contact_count_fmt">
+<item quantity="one">"Qunnamaa 1"</item>
+<item quantity="other">"%1$d Qunnamtoota"</item>
+</plurals>
+<plurals name="import_from_sim_secondary_template">
+<item quantity="one">"<xliff:g id="count">^1</xliff:g> qunnamtii • <xliff:g id="phone_number">^2</xliff:g>"</item>
+<item quantity="other">"<xliff:g id="count">^1</xliff:g> qunnamtoota • <xliff:g id="phone_number">^2</xliff:g>"</item>
+</plurals>
+<string name="import_from_vcf_file">"Keessaatti .vc faayiilii irra"</string>
+<string name="copy_to">"Kooppii godhi gara"</string>
+<string name="import_export_contacts">"Galchuu/baasuu qunnamtootaa"</string>
+<string name="share_visible_contacts">"Qunnamtoota mul’aattu hiruu"</string>
+<string name="dialog_import_export">"Galchuu/baasuu qunnamtootaa"</string>
+<string name="dialog_import">"Qunnamtoota keessaatti fiduu"</string>
+<string name="nothing_to_import_message">"Kan feenyummaaamu hinjiru"</string>
+<string name="import_from_vcf_file_confirmation_message">"Qunnamtoota Vkaardii keessaatti galchi?"</string>
+<string name="cancel_import_confirmation_message">"Keessaatti fiduu haquu <xliff:g id="filename" example="import.vcf">%s</xliff:g>?"</string>
+<string name="cancel_export_confirmation_message">"Alattii erguu haquu <xliff:g id="filename" example="export.vcf">%s</xliff:g>?"</string>
+<string name="cancel_vcard_import_or_export_failed">"Balleessuu hi\n dandeenye v kaardii eerguu/fudhaachuu"</string>
+<string name="fail_reason_unknown">"Dogoggora hin beekamne."</string>
+<string name="fail_reason_could_not_open_file">"Banuu hindandeenye \"<xliff:g id="file_name">%1$s</xliff:g>\": <xliff:g id="exact_reason">%2$s</xliff:g>."</string>
+<string name="fail_reason_could_not_initialize_exporter">"Alattii eerguu jalqabuu hi\n dandeenye \"<xliff:g id="exact_reason">%s</xliff:g>\"."</string>
+<string name="fail_reason_no_exportable_contact">"Qunnamtii alaattii ergaamu hin jiru."</string>
+<string name="missing_required_permission">"Ati eyyaama barbaadame dalaga ala gooteeta."</string>
+<string name="fail_reason_error_occurred_during_export">"Dogoggoori umaame yeroo alatti erguu: \"<xliff:g id="exact_reason">%s</xliff:g>\"."</string>
+<string name="fail_reason_io_error">"Dogoggoora I/O"</string>
+<string name="fail_reason_low_memory_during_import">"Kuusaan oddeeeffannoo kan hin geenye. Faayiiliin tarii baay’ee guddaa dha."</string>
+<string name="fail_reason_not_supported">"Balleessuun kan hi\n deegaaramne."</string>
+<string name="exporting_vcard_finished_title">"Alatti erguu xumuraame <xliff:g id="filename" example="export.vcf">%s</xliff:g>."</string>
+<string name="exporting_vcard_finished_title_fallback">"Qunnamtoota alaatti erguu xumuraame."</string>
+<string name="exporting_vcard_finished_toast">"Maqaa Walitti dhufeegnota xumuraman, walitti dhufeegnota hiruudhaaf beeksisoota Kilikii godhuu."</string>
+<string name="touch_to_share_contacts">"Qunnamtoota mul\'aattu gara hiruu kufe."</string>
+<string name="exporting_vcard_canceled_title">"Alaatti erguun balleeffame <xliff:g id="filename" example="export.vcf">%s</xliff:g>"</string>
+<string name="exporting_contact_list_title">"Oddeeffannoo qunnamuu alatti erguu."</string>
+<string name="exporting_contact_list_message">"Oddeeffannoo qunnamu kee kan alatti ergame dha."</string>
+<string name="composer_failed_to_get_database_infomation">"Oddeeffannoo bu’uuraa kan hi\n argaanne."</string>
+<string name="composer_has_no_exportable_contact">"Qunnamtoota alaatti ergamu hin jiru."</string>
+<string name="composer_not_initialized">"V kaardii erguun kan hi\n dandeeenye seeraan."</string>
+<string name="exporting_contact_failed_title">"Alaatti erguu hi\n danda’u"</string>
+<string name="exporting_contact_failed_message">"Qunnamuu oddeeffannoo kan hi\n ture alatti. \nSababa: \"<xliff:g id="fail_reason">%s</xliff:g>\""</string>
+<string name="importing_vcard_description">"Keessatti galchuu <xliff:g id="name" example="Joe Due">%s</xliff:g>"</string>
+<string name="reading_vcard_failed_title">"Dubbiisuu kan hi\n dandeenye oddeeffannoo v kaardii"</string>
+<string name="importing_vcard_finished_title">"Keessaatti galchuu v kaardii <xliff:g id="filename" example="import.vcf">%s</xliff:g>"</string>
+<string name="importing_vcard_canceled_title">"Keessaatti galchuu balleeffame <xliff:g id="filename" example="import.vcf">%s</xliff:g>"</string>
+<string name="vcard_import_will_start_message">"<xliff:g id="filename" example="import.vcf">%s</xliff:g> Kan keessatti galu gabaabaan."</string>
+<string name="vcard_import_will_start_message_with_default_name">"Faayiiliin kan keessaatti gabaabaan."</string>
+<string name="vcard_import_request_rejected_message">"Gaaffii V kaardii kan haqame. Booda irra deebiin yaali."</string>
+<string name="contacts_export_will_start_message">"Walitti dhufeegnonni gabaabbinaan Alatti ergamu."</string>
+<string name="vcard_export_request_rejected_message">"Gaaffi v kaardii alaa kan haqame. Booda irra deebiin yaali."</string>
+<string name="vcard_unknown_filename">"Qunnamaa"</string>
+<string name="caching_vcard_message">"Dhoksuu v kaardii (s) gara kuusaa naannoo yeroo. Keesatti galchuun amma jalqabuu."</string>
+<string name="vcard_import_failed">"V kaardii kan hi\n galchinne keesaatti."</string>
+<string name="nfc_vcard_file_name">"Qunnamaa fudhaatame NFC irraa"</string>
+<string name="caching_vcard_title">"Dhoksuu"</string>
+<string name="progress_notifier_message">"Ol-galchuu <xliff:g id="current_number">%1$s</xliff:g>/<xliff:g id="total_number">%2$s</xliff:g>: <xliff:g id="name" example="Joe Due">%3$s</xliff:g>"</string>
+<string name="export_to_vcf_file">"alaatti.gara vcf faayiilii"</string>
+<string name="display_options_sort_list_by">"Foo’i kara"</string>
+<string name="display_options_phonetic_name_fields">"Qooqa maqaa"</string>
+<string name="editor_options_always_show_phonetic_names">"Yeroo mara agarsiisi"</string>
+<string name="editor_options_hide_phonetic_names_if_empty">"Yoo duwwaa ta\'e dhoksi"</string>
+<string name="display_options_sort_by_given_name">"Maqaa jalqabaa"</string>
+<string name="display_options_sort_by_family_name">"Maqaa dhumaa"</string>
+<string name="display_options_view_names_as">"Maqaa haquu"</string>
+<string name="display_options_view_given_name_first">"Maqaa jalqabaa dura"</string>
+<string name="display_options_view_family_name_first">"Maqaa dhumaa dura t"</string>
+<string name="settings_accounts">"Herrreeguu"</string>
+<string name="default_editor_account">"Akkountii hunda\'aa walitti dhufeegnota haraa ta\'aniitiif"</string>
+<string name="settings_my_info_title">"Odeeffannoo kiyya"</string>
+<string name="set_up_profile">"Piroofaayiilii kee olguutuu"</string>
+<string name="setting_about">"Waa\'ee walitti dhufeegnotaa"</string>
+<string name="share_favorite_contacts">"Qunnamtoota amaleefataman hiruu"</string>
+<string name="share_contacts">"Qunnamtoota hundaa hiruu"</string>
+<string name="share_contacts_failure">"Qunnamtoota hiruun kufee."</string>
+<string name="dialog_export">"Qunnamtoota alaatti erguu?"</string>
+<string name="share_error">"Qunnamtiin kun hi\n danda’u hiruu."</string>
+<string name="no_contact_to_share">"hiruudhaaf qunnamtootiin hin jirani."</string>
+<string name="menu_contacts_filter">"Qunnamtoota gara agarsiisuu"</string>
+<string name="activity_title_contacts_filter">"Qunnamtoota gara agarsiisuu"</string>
+<string name="custom_list_filter">"Maamiila ilaaluu ibsuu"</string>
+<string name="menu_custom_filter_save">"Olkaa’I"</string>
+<string name="hint_findContacts">"Qunnamaa barbaaduu"</string>
+<string name="contactsFavoritesLabel">"Jaalatamaawwan"</string>
+<string name="menu_import">"Meeshaa guutuu biroorraa kan biraatti dabarsuu"</string>
+<string name="menu_export">"Alatti ergi"</string>
+<string name="menu_blocked_numbers">"Lakkofsota Balalefataman"</string>
+<string name="contact_status_update_attribution">"Keessaan <xliff:g id="source" example="Google Talk">%1$s</xliff:g>"</string>
+<string name="contact_status_update_attribution_with_date">"<xliff:g id="date" example="3 hours ago">%1$s</xliff:g> Keessaan <xliff:g id="source" example="Google Talk">%2$s</xliff:g>"</string>
+<string name="action_menu_back_from_search">"Barbaaduu dhaabi"</string>
+<string name="description_clear_search">"Barbaadi haquu"</string>
+<string name="select_account_dialog_title">"Herreega"</string>
+<string name="set_default_account">"Yeroo mara fayyaadami bilbiilota kana"</string>
+<string name="call_with_a_note">"Yaadanno waliin waami"</string>
+<string name="call_subject_hint">"Waamicha waliin erguudhaaf yaadanno barreessi&#8230;"</string>
+<string name="send_and_call_button">"ERGI &amp; EAAMI"</string>
+<string name="call_subject_limit">"<xliff:g id="count" example="4">%1$s</xliff:g> / <xliff:g id="limit" example="64">%2$s</xliff:g>"</string>
+<string name="call_subject_type_and_number">"<xliff:g id="type" example="Mobile">%1$s</xliff:g> • <xliff:g id="number" example="(650) 555-1212">%2$s</xliff:g>"</string>
+<string name="about_build_version">"Gosa ijaaruu"</string>
+<string name="about_open_source_licenses">"Madda laayiiseensii banuu"</string>
+<string name="about_open_source_licenses_summary">"Softweerii burqaa banaa ta\'eetiif ibsaa heeyyamaa"</string>
+<string name="about_privacy_policy">"Amaammata dhuunfaa"</string>
+<string name="about_terms_of_service">"Hiika Tajaajilaa"</string>
+<string name="activity_title_licenses">"Madda laayiiseensii banuu"</string>
+<string name="url_open_error_toast">"url banuun hindandaahamne."</string>
+<string name="account_filter_view_checked">"<xliff:g id="account_info">%s</xliff:g> tohatame"</string>
+<string name="account_filter_view_not_checked">"<xliff:g id="account_info">%s</xliff:g> hinsakatta\'amne"</string>
+<string name="description_search_video_call">"Waamicha viidiyoo iddoo"</string>
+<string name="description_delete_contact">"balleessuu"</string>
+<string name="description_no_name_header">"Elipsiis"</string>
+<string name="dynamic_shortcut_disabled_message">"Karaan kutaa hinhojjetu"</string>
+<string name="dynamic_shortcut_contact_removed_message">"qunnamtiin keessa baafameera"</string>
+<string name="sim_import_button_text">"Meeshaa guutuu biroorraa kan biraatti dabarsuu"</string>
+<string name="sim_import_title_none_selected">"Qunnamaa filuu"</string>
+<string name="sim_import_empty_message">"SIIMII card kee irra qunnamtiiwwan hin jiran."</string>
+<string name="sim_import_contact_exists_toast">"SIIMII Kaardii keessan irra qunnamtiin hinjiru"</string>
+<plurals name="sim_import_success_toast_fmt">
+<item quantity="one">"Qunnamtiin duraanuu tarree keessan keessa jira"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Qunnamtoonni SIIMII fichisiifamani"</item>
+</plurals>
+<string name="sim_import_failed_toast">"Qunnamtiiwwan SIIMII hin galchine"</string>
+<string name="sim_import_title">"SIIMII keessaatti feenyummaauu"</string>
+<string name="sim_import_cancel_content_description">"Balleessi"</string>
+<string name="auto_sync_off">"Qindeessaan awutoo cufaadha. Banuuf xuqi."</string>
+<string name="dismiss_sync_alert">"Dhaabuu"</string>
+<string name="account_sync_off">"Qindeessan toora ittiin beekamaa cufaadha. Banuuf xuqi."</string>
+<string name="turn_auto_sync_on_dialog_title">"Qindeessaa awutoo sirressuu?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Qunnamtoota google irratti utuu hinta\'iin jijjiramni isin appilikeeshinoota fi galmeewwan hunda irratti taasistan meeshaa keessani fi dirree interneetii giddutti haaromfama jiraachisa."</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"Irra godhi"</string>
+<string name="connection_error_message">"Sararri hin jiru"</string>
+<string name="single_sim_display_label">"SIIMII"</string>
+<string name="show_more_content_description">"Dabalataan agarsiisi"</string>
+<string name="importing_sim_finished_title">"Keessaatti galchuu v kaardii"</string>
+<string name="importing_sim_failed_title">"ol-galchuun kufee jira"</string>
+<string name="importing_sim_failed_message">"SIIMII kaardii fichisiisuun xumurameera"</string>
+<string name="importing_sim_in_progress_title">"qunnamtiiwwan SIIMII galchaa jira"</string>
+<string name="contacts_default_notification_channel">"Beeksiisoota"</string>
+<string name="listTotalAllContactsZeroGroup">"Qunnamtoota keessa hin jire <xliff:g id="name" example="Friends">%s</xliff:g>"</string>
+<string name="listTotalPhoneContactsZero">"Qunnamtoota hin jire lakkoofsoota bilbiila waliin"</string>
+<string name="listTotalAllContactsZeroStarred">"Jaalatamtoonni hin jiraan."</string>
+<string name="listTotalAllContactsZeroCustom">"Qunnamtoota hin mul’aane hin jiru"</string>
+<string name="listTotalAllContactsZero">"Qunnamtoota hin jire."</string>
+<string name="foundTooManyContacts">"<xliff:g id="count">%d</xliff:g> oliitu argame"</string>
+<plurals name="searchMatchContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> walsimuu qunnamtii"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> walsimuu qunnamtii"</item>
+</plurals>
+<plurals name="listContacts">
+<item quantity="other">"<xliff:g id="COUNT_1">%d</xliff:g> qunnamtoota"</item>
+<item quantity="one">"<xliff:g id="COUNT_0">%d</xliff:g> qunnamtoota"</item>
+</plurals>
+<string name="contacts_select_all">"Hunda filii"</string>
+<string name="contacts_cancel_all">"Hunda balleesi"</string>
+<string name="toast_no_contact_selected">"Quunnamtoota hin filamne"</string>
+<string name="list_filter_emails">"Qunnamtoota hunda teessoo imeelii"</string>
+<string name="listTotalEmailContactsZero">"Qunnamtoota teessoo imeelii malee"</string>
+<string name="toast_batchoperation_is_running">"Raawwii garee tokkoo dalagu.maaloo irra deebii yaalii."</string>
+<string name="contacts_selection_for_mms_limit">"Daangeessi lakkoofsa mi’oota filaame dha <xliff:g id="COUNT">%d</xliff:g>"</string>
+<string name="no_match_contact">"Qunnamtiin walsimu hinjiru"</string>
+<string name="list_filter_all_in_one">"Qunnamtoota hunda oddeeffannoo"</string>
+<string name="contacts_selection_too_more">"Lakkoofsa guddaa qunnamtoota filaame dha <xliff:g id="COUNT">%d</xliff:g>"</string>
+<string name="res_name">"Maqaa"</string>
+<string name="res_phone">"Bilbiila"</string>
+<string name="res_email">"Imeelii"</string>
+<string name="res_field">"Dirree"</string>
+<plurals name="listSelectedContacts">
+<item quantity="one">"Filaame(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+<item quantity="other">"Filaame(<xliff:g id="COUNT">%d</xliff:g>)"</item>
+</plurals>
+<string name="re_add_contact">"Akka eeyyaamni jijjiirameeni dha, maaloo qunnamaa irra deebii idaa’i."</string>
+<string name="transaction_too_large">"Hammi qunnamtoota filame daangaa oli,maaloo qunnamtoota muraasa filadhu "</string>
+<string name="menu_doNotSave">"Balleessi"</string>
+<string name="menu_done">"Hojjeeteera/dalageera"</string>
+<string name="batch_delete_confim_title">"Qunnamtii/maqaa balleessi"</string>
+<string name="batch_delete_confim_message">"Ati dhugaa dha qunnamtoo(ta) filame haquu feetaa?"</string>
+<string name="menu_share_by_sms">"Qunnamtoota erguuu karaa ergaa"</string>
+<string name="menu_batch_delete">"Garee tokko haquu"</string>
+<string name="working_batch_delete">"Haquu garee tokko"</string>
+<string name="batch_operation_canceled">"Raawwii haqame."</string>
+<string name="delete_done">"Dalagaame haquu"</string>
+<string name="sqlite_full">"Qunnamaa bu’uura oddeefannoo yookiin diiskii guutuu dha."</string>
+<string name="beyond_sim_card_capacity">"Sim dandeetti olii,qunnamtoonni muraasni kan ol hin kaa\'amne"</string>
+<string name="working_batch_import">"Garee took galchuu"</string>
+<string name="import_failed_tmp">"<xliff:g id="count">%d</xliff:g> Milkoome, <xliff:g id="count">%d</xliff:g> kufe"</string>
+<string name="import_done">"Galchuu dalagame"</string>
+<string name="violate_capacity">"Cunqursuu dandeettii SIM"</string>
+<string name="anr_is_full">"Lakkoofsoota SIM murtaa’e hamman oli"</string>
+<string name="import_failed">"Galchuu/baasuu qunnamaa kufe"</string>
+<string name="cancel_batch_import_confirmation">"Qunnamaa galuu haquu?"</string>
+<string name="cancel_batch_delete_confirmation">"Qunnamaa balleesuu haquu?"</string>
+<string name="menu_multi_select_contacts">"Filannoo heedduu"</string>
+<string name="join_fail_for_usim">"Qunnamtoonni USIM walitti dhufu hin deegaraan"</string>
+<string name="join_fail_for_sim">"Qunnamtoonni SIM walitti dhufu hin deegaraan"</string>
+<string name="over_max_join_number">"Qunnamtoota isin itti makamuuf filattan itti makamuu hindandeenye <xliff:g id="count">%d</xliff:g> qunnamtoota lakkoofsa itti makamu olaanaan (10)."</string>
+<string name="delete_read_only_contact">"Qunnamtoonni dubbisuu qofaa haqamuu hindanda\'ani"</string>
+<string name="join_fail_for_sim_or_read_only">"Qunnamtoonni SIIMII fi dubbisuu qofaa itti makamuu hindeggerani"</string>
+<string name="contactSavedErrorToastUsimEmailFull">"USIM kaardiii Imeelii guutuu dha"</string>
+<string name="contactSavedErrorToastNameLength">"Maqaa qunnamaa dheeraa olkaa’uuf dha"</string>
+<string name="over_phone_length_limit">"Lakkoofsa baay’ee dheeraa"</string>
+<string name="contactSavedErrorToastSimEmailFull">"SIM kaardiin imeelii guutuu dha"</string>
+<string name="contactSavedErrorToastEmailFull">"Imeeliin guutuu dha"</string>
+<string name="noGroups">"Gareewwaan hin jire."</string>
+<plurals name="group_list_num_contacts_in_group">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nama dhuunfaa"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Namoota"</item>
+</plurals>
+<string name="contactsGroupsLabel">"Gareewwaan"</string>
+<string name="people">"Namoota"</string>
+<string name="recentCallsIconLabel">"Warrabbii bilbiila"</string>
+<string name="contacts_in_conference_reselect">"Filannoon koonfireensii bilbiila keessa,maaloo irradeebii fili."</string>
+<string name="contacts_in_conference">"Filannoon kan qabaatu lakkoofsoota irra deedebii\'ame,kan eenyummaaea\'amuu hin dandeenye"</string>
+<string name="conferenceCallPartyCountLimit">"Yoo xiqqaate <xliff:g id="COUNT">%d</xliff:g> waamicha konferaansii dhaaf hirmaattonni graagaraa nibarbaachisu."</string>
+<string name="label_phone">"Bilbiila"</string>
+<string name="label_sim">"SIM kaaardii"</string>
+<string name="label_usim">"SIM kaaardii"</string>
+<string name="call_fixed_number">"lakkoofsa bilbiiluu daangeefame"</string>
+<string name="field_too_long">"<xliff:g id="field">%s</xliff:g> Baay’ee dheeraa"</string>
+<string name="email_format_fail">"Maaloo mi’a sirriiteessoo Imeelii!"</string>
+<string name="only_fixed_number_type">"Maqaan ykn gosni lakk. bilbilaa hinjiru, maaloo galchaa"</string>
+<string name="dup_phone_number_type">"Lakkoofsoota wal fakkaatu olkaa’u hin danda’u, maaloo mirkanneesi isa."</string>
+<string name="sim_capacity">"Dandeettii SIM"</string>
+<string name="noSimCard">"SIM kaardiin hin jiru"</string>
+<string name="group_insert_error">"Qunnamtiin ammaa hinjiru, maaloo galmee sakatta\'a"</string>
+<string name="sim_disabled">"SIIMII hinhojjetu, qunnamtii olkaayuu hindanda\'u"</string>
+<string name="overGroupNameLength">"Maqaa garee hedduu dheeraa"</string>
+<string name="overGroupCountLimit">"Garee lakkoofsa daangaa oli"</string>
+<string name="list_contact_phone">"Lakkoofsoota bilbiilaa waliin qunami"</string>
+<string name="clearup_contacts">"Qunnamtoota haqi"</string>
+<string name="menu_select_all">"Hunda filii"</string>
+<string name="menu_select_none">"Hunda hin filamne"</string>
+<string name="no_duplicate_contact">"Qunnamtoota hin baay’iifamne"</string>
+<string name="merge_contact">"Makuu"</string>
+<string name="merge_inprocess">"makuu maaloo eegi"</string>
+<string name="merge_loading">"Fee’uu"</string>
+<string name="description_contact_photo">"Suura qunnamaa"</string>
+<string name="exporting_vcard_finished_title_storage_full">"Bakki kuusaa guutuu dha."</string>
+<string name="account_deleted">"Galmeen haqameera, fichisiisuu fi ala ergiin hafeera"</string>
+<string name="vcfdata_change_toast">"Oddeefannoon jijiiraamera, maaloo irra deebii dalagi."</string>
+<string name="alert_maybe_lost_info">"Gara SIIMII tti galagalchuun odeeffannoo ta\'e balleessuu danda\'a"</string>
+<string name="fail_occurred_during_export">"Dogoggoori umaame yeroo alatti erguu:"</string>
+<string name="vcard_file_temp_name">"Galmee Vkaardii"</string>
+<string name="voice_mail_permission_request">"Maaloo dura hayyama banaa, yoo waa\'ee akkaataa fayyadama bilblichaa fayyadamuu barbaaddan."</string>
+<string name="menu_moveGroupMember">"Miseensoota gareewwaanii sochoosi"</string>
+<string name="menu_deleteAllContacts">"Hunda baasi"</string>
+<string name="menu_move">"Sochoosi"</string>
+<string name="delete_group_memeber_dialog_message">"Qunnamtii hunda baasuu?"</string>
+<string name="moveGroupMemberDialogTitle">"Qunnamtoota sochoosi"</string>
+<string name="editing_group_done">"Fooyyaa’iinni garee dalagameera"</string>
+<string name="working_editing_group">"Garee jijjiiruu"</string>
+<string name="editing_group_failed">"Fooyyaa’iinni garee hin dalagamne"</string>
+<string name="delete">"balleessuu"</string>
+<string name="close">"Cufuu"</string>
+<string name="selectAll">"HUNDAfiluu"</string>
+<string name="insert">"Galchi"</string>
+<string name="aasfull">"dandeettiin aas guutuu dha"</string>
+<string name="aas_maxlength">"dheeriina gudd aas olii"</string>
+<string name="aas_in_contacts">"Qunnamtootni kan qabaatu aas (<xliff:g id="aas_str">%1$s</xliff:g>),maaloo haqi qunnamtoota irra deebiin yaalii"</string>
+<string name="editing_aas">"Maaloo eeguu…"</string>
+<string name="copy">"Koopii"</string>
+<string name="sim_is_full">"Sim guutuu dha"</string>
+<string name="replaceSelected">"Maaloo kamtu akka bakka buusaamu fiadhu"</string>
+<string name="replace_data_error">"Daataa qunnamtootaa bakka buusuun doggogore"</string>
+<string name="groupCreatedErrorToast">"Sababa dogogora kaardii tiin mallattoo uumuu hindandeenye"</string>
+<string name="settings_accounts_category">"Herrreeguu"</string>
+<string name="settings_general_category">"Waliigala"</string>
+<string name="no_contact_can_be_linked">"Qunnamtiin walitti makamu hin jire"</string>
+<string name="beyond_query_character_limit">"Hima barbaaduu hedduu dheeraa dha, kan daangeefame gara 100."</string>
+<string name="listFoundAllCallLogZero">"Seenaa bilbiilaa"</string>
+<string name="groupUndoErrorToast">"Sababa dogogora kaardii tiin duubatti deebisuu hindandeenye"</string>
+<string name="struct_name_length_max">"Dheerinni maqaa jalqabaa fi maqaa dhumaa daangeffamadha!"</string>
+<string name="sim_loading">"SIIMII fe\'aa jira, maaloo qunnamtii SIIMII booda galchaa!"</string>
+<string name="warn_location_title">"Akkeekkachiisuu"</string>
+<string name="warn_location_message">"Tajaajila teessoo akkka banamu hayyamuu barbaaddu?"</string>
+</resources>
